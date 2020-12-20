@@ -8,4 +8,4 @@ Hello there. I'm a 1st year Ph.D. candidate in Physics at [IQC Waterloo](https:/
 
 ### Contact me
 
-[email@domain.com](mailto:sriramgk98@gmail.com)
+[sriramgk98@gmail.com](mailto:sriramgk98@gmail.com)
