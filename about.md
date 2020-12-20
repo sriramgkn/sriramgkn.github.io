@@ -4,12 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+Hello there. I'm a 1st year Ph.D. candidate in Physics at [IQC Waterloo](https://uwaterloo.ca/institute-for-quantum-computing/). I recently graduated from [IIT Madras](https://www.iitm.ac.in/) with an undergrad degree in Engineering Physics.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[email@domain.com](mailto:sriramgk98@gmail.com)
