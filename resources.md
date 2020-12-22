@@ -21,15 +21,8 @@ permalink: /resources/
 
 I greatly appreciate massive efforts to make digital knowledge and multimedia freely accessible to the whole world on the internet. Even more so when such content is available in secure [https](https://en.wikipedia.org/wiki/HTTPS) sites with an ad-free experience (although it's generally good to use [adblock-plus](https://chrome.google.com/webstore/detail/adblock-plus-free-ad-bloc/cfhdojbkjhnklbpkdaibdccddilifddb) at all times)
 
-Here are some of my favorites:
-- Books: [Z library](https://b-ok.asia/)
-- Scientific Papers: [Sci-Hub](https://sci-hub.se/)
-- Movies: [TinyZone](https://tinyzonetv.to/)
-- Comics: [GetComics](https://getcomics.info/)
+Here are some of my favorites: [Z library](https://b-ok.asia/), [Sci-Hub](https://sci-hub.se/), [TinyZone](https://tinyzonetv.to/), [GetComics](https://getcomics.info/)
 
-Some useful YouTube playlists:
-- MIT courses: [MIT-OCW](https://www.youtube.com/c/mitocw/playlists?view=1&sort=dd&flow=grid)
-- Stanford courses: [Stanford-Online](https://www.youtube.com/user/stanfordonline/playlists)
-- Useful MOOCs: [Intrigano](https://www.youtube.com/user/intrigano/playlists)
+Some useful YouTube playlists: [MIT-OCW](https://www.youtube.com/c/mitocw/playlists?view=1&sort=dd&flow=grid), [Stanford-Online](https://www.youtube.com/user/stanfordonline/playlists), [Useful MOOCs](https://www.youtube.com/user/intrigano/playlists)
 
 PS: Views in this page are purely my own, and **not** representative of any academic affiliations.
