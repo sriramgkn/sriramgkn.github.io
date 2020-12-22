@@ -1,6 +1,6 @@
 ---
 layout: page
-title:
+title: Resources
 permalink: /resources/
 ---
 
@@ -19,8 +19,6 @@ permalink: /resources/
 - Circular Bus architecture for superconducting qubits (27-06-2019 @ TIFR) \[[slides](https://sriramgkn.github.io/reports/VSRP_presentation_Sriram.pdf)\] \[[report](https://sriramgkn.github.io/reports/VSRP_report_Sriram.pdf)\]
 - Quantum Capacity of channels with small environment (26-04-2019 @ IITM) \[[slides](https://sriramgkn.github.io/reports/Adv_QCQI_pres.pdf)\]
 
-Disclaimer: The following views are purely my own, and NOT representative of any academic affiliations.
-
 I greatly appreciate massive efforts to make digital knowledge and multimedia freely accessible to the whole world on the internet. Even more so when such content is available in secure [https](https://en.wikipedia.org/wiki/HTTPS) sites with an ad-free experience (although it's generally good to use [adblock-plus](https://chrome.google.com/webstore/detail/adblock-plus-free-ad-bloc/cfhdojbkjhnklbpkdaibdccddilifddb) at all times)
 
 Here are some of my favorites:
@@ -33,3 +31,5 @@ Some useful YouTube playlists:
 - MIT courses: [MIT-OCW](https://www.youtube.com/c/mitocw/playlists?view=1&sort=dd&flow=grid)
 - Stanford courses: [Stanford-Online](https://www.youtube.com/user/stanfordonline/playlists)
 - Useful MOOCs: [Intrigano](https://www.youtube.com/user/intrigano/playlists)
+
+PS: Views in this page are purely my own, and **not** representative of any academic affiliations.
