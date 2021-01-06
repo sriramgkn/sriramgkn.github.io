@@ -19,6 +19,13 @@ Good food deserves appreciation!
 - Curries/Gravies: Cauliflower, GreenBeans, Carrot, Paneer, Okra, Cabbage, Spinach - with Chapati
 - Breakfast: All types of Dosas, Rava Idli, Upma, Pongal, Poha - with Chutney
 
+### Free Knowledge
+I greatly appreciate massive efforts to make digital knowledge and multimedia freely accessible to the world. Even more so when such content is available in secure [https](https://en.wikipedia.org/wiki/HTTPS) sites with an ad-free experience (although it's generally good to use [adblock-plus](https://chrome.google.com/webstore/detail/adblock-plus-free-ad-bloc/cfhdojbkjhnklbpkdaibdccddilifddb) at all times)
+
+Here are some of my favorites: [Z library](https://b-ok.asia/), [Sci-Hub](https://sci-hub.se/), [TinyZone](https://tinyzonetv.to/), [GetComics](https://getcomics.info/)
+
+Some useful YouTube playlists: [MIT-OCW](https://www.youtube.com/c/mitocw/playlists?view=1&sort=dd&flow=grid), [Stanford-Online](https://www.youtube.com/user/stanfordonline/playlists), [Useful MOOCs](https://www.youtube.com/user/intrigano/playlists)
+
 ### 1998 - 2020
 I was born in the year 1998 in Thane, India. I have very little memory of Thane, since we soon moved to Hyderabad in 2000, where I stayed till 2005. This was where I first watched Tom & Jerry, Pokemon, live Cricket, colored everything I possibly could, and cycled at top speed on awesome slopes in the colony roads. But this was also where my innocent mind first pondered about the idea of death, and I asked my mother: what happens after death? This was when I first felt the sorrow reality of people leaving the world. Although I got over the sorrow quickly, I still retain a distinct mental picture of the moment, as it continues to be a profound question to this day.
 
@@ -33,3 +40,5 @@ I joined the Engineering Physics program at IITM, where students get a chance to
 Around mid-March 2020, we got a sudden notice to leave campus in a week due to COVID spreading in India. On 19th March 2020, I took a train back home to Bangalore. Little did I know that 19th March would be my last official day on campus, and the batch of 2020 would graduate without a real convocation. The first two months of lockdown were some of the most dreadful days of my life. I was juggling some extremely technical courses, a thesis project, and Ph.D. interviews at the same time. Thankfully, I managed to get a Ph.D. admit from IQC Waterloo in April. That was a huge relief, and allowed to me to focus on my courses and research a lot more peacefully. The last semester ended online in June, although I continued "virtual research" for much longer. Meanwhile, graduate school began online in September, and has been fairly smooth so far.
 
 So that brings me to today, Jan 6th 2021! Looking forward to writing more.
+
+PS: Views in this page are purely my own, and **not** representative of any academic affiliations.

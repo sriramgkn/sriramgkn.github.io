@@ -28,13 +28,3 @@ permalink: /resources/
 - The Tent Map (23-04-2019 @ IITM) \[[slides](https://sriramgkn.github.io/reports/Tent_map_pres.pdf)\] \[[report](https://sriramgkn.github.io/reports/Tent_map_report.pdf)\]
 
 - A survey of Quantum many-body theory \[[report](https://sriramgkn.github.io/reports/Many_body_theory.pdf)\]
-
-
-
-I greatly appreciate massive efforts to make digital knowledge and multimedia freely accessible to the world. Even more so when such content is available in secure [https](https://en.wikipedia.org/wiki/HTTPS) sites with an ad-free experience (although it's generally good to use [adblock-plus](https://chrome.google.com/webstore/detail/adblock-plus-free-ad-bloc/cfhdojbkjhnklbpkdaibdccddilifddb) at all times)
-
-Here are some of my favorites: [Z library](https://b-ok.asia/), [Sci-Hub](https://sci-hub.se/), [TinyZone](https://tinyzonetv.to/), [GetComics](https://getcomics.info/)
-
-Some useful YouTube playlists: [MIT-OCW](https://www.youtube.com/c/mitocw/playlists?view=1&sort=dd&flow=grid), [Stanford-Online](https://www.youtube.com/user/stanfordonline/playlists), [Useful MOOCs](https://www.youtube.com/user/intrigano/playlists)
-
-PS: Views in this page are purely my own, and **not** representative of any academic affiliations.
