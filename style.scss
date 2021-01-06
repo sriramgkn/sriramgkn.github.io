@@ -14,25 +14,40 @@
 /**************/
 
 html {
-  font-size: 60%;
+    --bg: #fff;
+    --bg-secondary: #fcfcfc;
+    --headings: #07f;
+    --text: #333;
 }
 
+html[data-theme='dark'] {
+    --bg: #333;
+    --bg-secondary: #444;
+    --headings: #39f;
+    --text: #bbb;
+}
+
+// html {
+//   font-size: 60%;
+// }
+
 body {
-	background: $white;
+	background-color: var(--bg);//$white;
   font: 18px/1.4 $helvetica;
-  color: $darkGray;
+  //color: $darkGray;
 }
 
 .container {
+  background-color: var(--bg-secondary);
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1100px;
   padding: 0 10px;
   width: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: $darkerGray;
+  color: var(--headings); //$darkerGray;
   font-weight: bold;
 
   line-height: 1.7;
@@ -61,10 +76,11 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: $gray;
+  color: var(--headings);//$gray;
 }
 
 p {
+  color: var(--text);
   margin: 15px 0;
 }
 
@@ -142,7 +158,7 @@ img {
 
 .date {
   font-style: italic;
-  color: $gray;
+  color: var(--text);//$gray;
 }
 
 // Specify the color of the selection
@@ -151,7 +167,7 @@ img {
   background: $lightGray;
 }
 ::selection {
-  color: $black;
+  color: var(--text);//$black;
   background: $lightGray;
 }
 
@@ -217,7 +233,7 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: var(--headings);//$darkGray;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
@@ -227,7 +243,7 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
+  color: var(--text);//$gray;
   font-size: 16px;
 
   @include mobile {
@@ -250,7 +266,7 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $darkGray;
+    color: var(--text);//$darkGray;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
@@ -281,7 +297,7 @@ nav {
     margin: 1.8em .8em;
     border-left: 2px solid $gray;
     padding: 0.1em 1em;
-    color: $gray;
+    color: var(--text);//$gray;
     font-size: 22px;
     font-style: italic;
   }
@@ -300,7 +316,7 @@ nav {
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  background-color: var(--bg);//$lightGray;
 }
 
 footer {
