@@ -5,10 +5,9 @@ permalink: /projects/
 ---
 
 ## Publications
-- **Landau Quantization of a circular Quantum Dot using the BenDaniel-Duke boundary condition** \[[pdf](https://sriramgkn.github.io/reports/BDD_published.pdf)\]\\
+- **Landau Quantization of a circular Quantum Dot using the BenDaniel-Duke boundary condition** \[[DOI](https://doi.org/10.1016/j.spmi.2020.106693)\] \[[pdf](https://sriramgkn.github.io/reports/BDD_published.pdf)\] \\
   Sriram Gopalakrishnan, Sayak Biswas, Shivam Handa\\
-  *Superlattices and Microstructures* (Nov 2020)\\
-  DOI: [10.1016/j.spmi.2020.106693](https://doi.org/10.1016/j.spmi.2020.106693)
+  *Superlattices and Microstructures* (2020)
 
 ## Talks/Reports
 - The 2D Hidden Linear Function problem (17-12-2020 @ IQC, virtual) \[[slides](https://sriramgkn.github.io/reports/2D_HLF.pdf)\]
