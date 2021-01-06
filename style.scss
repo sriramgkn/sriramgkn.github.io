@@ -20,11 +20,13 @@ html {
     --text: #333;
 }
 
-html[data-theme='dark'] {
+@media (prefers-color-scheme: dark) {
+html  {
     --bg: #262626;
     --bg-secondary: #444;
     --headings: #39f;
     --text: #e6e6e6;
+}
 }
 
 // html {
@@ -167,12 +169,12 @@ img {
 
 // Specify the color of the selection
 ::-moz-selection {
-  color: $black;
-  background: $blue;
+  color: var(--text);//$black;
+  background: #4da6ff;
 }
 ::selection {
-  color: $black;
-  background: $blue;
+  color: var(--text);//$black;
+  background: #4da6ff;
 }
 
 // Nicolas Gallagher's micro clearfix hack
