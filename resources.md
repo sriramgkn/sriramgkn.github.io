@@ -29,6 +29,8 @@ permalink: /resources/
 
 - A survey of Quantum many-body theory \[[report](https://sriramgkn.github.io/reports/Many_body_theory.pdf)\]
 
+
+
 I greatly appreciate massive efforts to make digital knowledge and multimedia freely accessible to the world. Even more so when such content is available in secure [https](https://en.wikipedia.org/wiki/HTTPS) sites with an ad-free experience (although it's generally good to use [adblock-plus](https://chrome.google.com/webstore/detail/adblock-plus-free-ad-bloc/cfhdojbkjhnklbpkdaibdccddilifddb) at all times)
 
 Here are some of my favorites: [Z library](https://b-ok.asia/), [Sci-Hub](https://sci-hub.se/), [TinyZone](https://tinyzonetv.to/), [GetComics](https://getcomics.info/)
