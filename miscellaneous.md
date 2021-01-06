@@ -6,6 +6,8 @@ permalink: /miscellaneous/
 
 This page is dedicated to my personal opinions, thoughts, and random things I find cool in the real and virtual world!
 
+If there's one thing I've appreciated about science all the way since high school, it is the power of geometric intuition. Geometric intuition underlies not just physics and mathematics, but practically everything humans can imagine and create. While I couldn't prioritize Machine Learning as an undergrad, I'm quite excited about teaching it to myself! I'm currently going through [these](https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU) wonderful lectures rigorously.
+
 ### Movie suggestions
 - 2020: Tenet, WW84, Enola Holmes, Extraction, Greyhound, The Outpost, The Gentlemen, Jojo Rabbit, 1917, Parasite, Knives Out.
 
@@ -13,7 +15,7 @@ This page is dedicated to my personal opinions, thoughts, and random things I fi
 - Immortals of Meluha, Amish Tripathi
 - The subtle art of not giving a f*ck, Mark Manson
 
-### Some good Indian food
+### Indian food
 Good food deserves appreciation! I'm used to eating the following as an Indian
 - Basics: Sambar, Rasam, Masoor Dal - with Cooked Rice
 - Curries/Gravies: Cauliflower, GreenBeans, Carrot, Paneer, Okra, Cabbage, Spinach - with Chapati
