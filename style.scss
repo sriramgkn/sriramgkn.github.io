@@ -14,18 +14,18 @@
 /**************/
 
 html {
-  font-size: 100%;
+  font-size: 10%;
 }
 
 body {
 	background: $white;
-  font: 8px/1.4 $helvetica;
+  font: 18px/1.4 $helvetica;
   color: $darkGray;
 }
 
 .container {
   margin: 0 auto;
-  max-width: 1500px;
+  max-width: 1200px;
   padding: 0 10px;
   width: 100%;
 }
@@ -109,6 +109,31 @@ strong, b {
 img {
   max-width: 100%;
 }
+
+table {
+  padding: 0; }
+  table tr {
+    border-top: 1px solid #cccccc;
+    background-color: white;
+    margin: 0;
+    padding: 0; }
+    table tr:nth-child(2n) {
+      background-color: #f8f8f8; }
+    table tr th {
+      font-weight: bold;
+      border: 1px solid #cccccc;
+      text-align: left;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr td {
+      border: 1px solid #cccccc;
+      text-align: left;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr th :first-child, table tr td :first-child {
+      margin-top: 0; }
+    table tr th :last-child, table tr td :last-child {
+      margin-bottom: 0; }
 
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
