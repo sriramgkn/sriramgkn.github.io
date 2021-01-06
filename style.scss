@@ -59,6 +59,10 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+p, strong, b, em, span, code, small {
+    color: var(--text);
+}
+
 h1 {
   font-size: 30px;
   a {
@@ -164,11 +168,11 @@ img {
 // Specify the color of the selection
 ::-moz-selection {
   color: $black;
-  background: $lightBlue;
+  background: $blue;
 }
 ::selection {
   color: $black;
-  background: $lightBlue;
+  background: $blue;
 }
 
 // Nicolas Gallagher's micro clearfix hack
