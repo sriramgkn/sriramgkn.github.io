@@ -4,17 +4,17 @@ title: Miscellaneous
 permalink: /miscellaneous/
 ---
 
-This page is dedicated to all miscellaneous things I find cool!
+This page is dedicated to my personal opinions, thoughts, and random things I find cool in the real and virtual world!
 
 ### Movie suggestions
 - 2020: Tenet, WW84, Enola Holmes, Extraction, Greyhound, The Outpost, The Gentlemen, Jojo Rabbit, 1917, Parasite, Knives Out.
 
-### Book suggestions
-- The subtle art of not giving a f*ck, Mark Manson
+### Recent book-reads
 - Immortals of Meluha, Amish Tripathi
+- The subtle art of not giving a f*ck, Mark Manson
 
 ### Some good Indian food
-Good food deserves appreciation!
+Good food deserves appreciation! I'm used to eating the following as an Indian
 - Basics: Sambar, Rasam, Masoor Dal - with Cooked Rice
 - Curries/Gravies: Cauliflower, GreenBeans, Carrot, Paneer, Okra, Cabbage, Spinach - with Chapati
 - Breakfast: All types of Dosas, Rava Idli, Upma, Pongal, Poha - with Chutney
