@@ -3,7 +3,7 @@ My site is [here](https://sriramgkn.github.io)
 Many thanks to [Jekyll](https://jekyllrb.com/) for this clean, free template.
 
 To make your own github blog with the same template:
-- Fork [this](https://github.com/barryclark/jekyll-now/) repository, not mine
+- Fork [this](https://github.com/barryclark/jekyll-now/) repository, not mine.
 - In the repo settings, rename the repo as **username.github.io**
 - Wait for a minute or two. Your site will be hosted by GitHub for free!
 - Now to edit the template:

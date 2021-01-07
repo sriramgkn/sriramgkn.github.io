@@ -4,7 +4,7 @@ title: Miscellaneous
 permalink: /miscellaneous/
 ---
 
-This page is dedicated to my personal opinions, thoughts, and random things I find cool in the real and virtual world!
+This page is reserved for my personal opinions, thoughts, and random things I find cool in the real and virtual world!
 
 If there's one thing I've appreciated about science all the way since high school, it is the power of geometric intuition. Geometric intuition underlies not just physics and mathematics, but practically everything humans can imagine and create. While I couldn't prioritize Machine Learning as an undergrad, I'm quite excited about teaching it to myself! I'm currently going through [these](https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU) wonderful lectures rigorously.
 
