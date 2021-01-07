@@ -15,7 +15,7 @@
 
 html {
     --bg: #fff;
-    --bg-secondary: #fcfcfc;
+    //--bg-secondary: #fcfcfc;
     --headings: $black;
     --text: #333;
     --text2: $lightGray;
@@ -23,7 +23,7 @@ html {
 }
 html[data-theme='dark'] {
     --bg: #262626;
-    --bg-secondary: #444;
+    //--bg-secondary: #444;
     --headings: #00b3b3;
     --text: #e6e6e6;
     --text2: #e6e6e6;
@@ -32,7 +32,7 @@ html[data-theme='dark'] {
 @media (prefers-color-scheme: dark) {
 html  {
     --bg: #262626;
-    --bg-secondary: #444;
+    //--bg-secondary: #444;
     --headings: #00b3b3;
     --text: #e6e6e6;
     --text2: #e6e6e6;
@@ -79,7 +79,7 @@ p, strong, b, em, span, code, small {
 h1 {
   font-size: 30px;
   a {
-    color: var(--text);
+    color: var(--links);
   }
 }
 
@@ -102,11 +102,11 @@ p {
 }
 
 a {
-  color: var(--links);
+  color: var(--links);//$blue;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: var(--links);
+    color: var(--links);//$blue;
   }
 }
 
