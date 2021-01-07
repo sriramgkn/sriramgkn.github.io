@@ -15,28 +15,17 @@
 
 html {
     --bg: #fff;
-    //--bg-secondary: #fcfcfc;
-    --headings: $blue;
+    --bg-secondary: #fcfcfc;
+    --headings: #4183C4;
     --text: #333;
-    --text2: $Gray;
-    --links: $blue;
 }
-html[data-theme='dark'] {
-    --bg: #262626;
-    //--bg-secondary: #444;
-    --headings: #00b3b3;
-    --text: #e6e6e6;
-    --text2: #e6e6e6;
-    --links: #00b3b3;
-}
+
 @media (prefers-color-scheme: dark) {
 html  {
     --bg: #262626;
-    //--bg-secondary: #444;
+    --bg-secondary: #444;
     --headings: #00b3b3;
     --text: #e6e6e6;
-    --text2: #e6e6e6;
-    --links: #00b3b3;
 }
 }
 
@@ -53,7 +42,7 @@ body {
 .container {
   background-color: var(--bg);
   margin: 0 auto;
-  max-width: 1050px;
+  max-width: 1100px;
   padding: 0 10px;
   width: 100%;
 }
@@ -79,7 +68,7 @@ p, strong, b, em, span, code, small {
 h1 {
   font-size: 30px;
   a {
-    color: var(--links);
+    color: var(--text);
   }
 }
 
@@ -93,7 +82,7 @@ h3 {
 
 h4 {
   font-size: 18px;
-  //color: var(--headings);//$gray;
+  color: var(--headings);//$gray;
 }
 
 p {
@@ -102,11 +91,11 @@ p {
 }
 
 a {
-  color: var(--links);//$blue;
+  color: var(--headings);
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: var(--links);//$blue;
+    color: var(--headings);
   }
 }
 
@@ -181,11 +170,11 @@ img {
 // Specify the color of the selection
 ::-moz-selection {
   color: var(--text);//$black;
-  background: #b3d9ff;
+  background: #4da6ff;
 }
 ::selection {
   color: var(--text);//$black;
-  background: #b3d9ff;
+  background: #4da6ff;
 }
 
 // Nicolas Gallagher's micro clearfix hack
@@ -260,7 +249,7 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: var(--text2);//$gray;
+  color: var(--text);//$gray;
   font-size: 16px;
 
   @include mobile {
@@ -283,14 +272,14 @@ nav {
 
   a {
     margin-left: 20px;
-    color: var(--links);//var(--text);//$darkGray;
+    color: var(--text);//$darkGray;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
 
     @include mobile {
       margin: 0 10px;
-      color: var(--links);//var(--headings);
+      color: var(--headings);
     }
   }
 }
