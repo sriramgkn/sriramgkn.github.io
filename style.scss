@@ -18,7 +18,8 @@ html {
     --bg-secondary: #fcfcfc;
     --headings: $black;
     --text: #333;
-    --text2: $gray;
+    --text2: $lightGray;
+    --links: $blue;
 }
 html[data-theme='dark'] {
     --bg: #262626;
@@ -26,6 +27,7 @@ html[data-theme='dark'] {
     --headings: #00b3b3;
     --text: #e6e6e6;
     --text2: #e6e6e6;
+    --links: #00b3b3;
 }
 @media (prefers-color-scheme: dark) {
 html  {
@@ -34,6 +36,7 @@ html  {
     --headings: #00b3b3;
     --text: #e6e6e6;
     --text2: #e6e6e6;
+    --links: #00b3b3;
 }
 }
 
@@ -99,11 +102,11 @@ p {
 }
 
 a {
-  color: var(--headings);
+  color: var(--links);
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: var(--headings);
+    color: var(--links);
   }
 }
 
