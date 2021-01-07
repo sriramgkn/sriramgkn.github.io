@@ -19,7 +19,12 @@ html {
     --headings: #4183C4;
     --text: #333;
 }
-
+html[data-theme='dark'] {
+    --bg: #262626;
+    --bg-secondary: #444;
+    --headings: #00b3b3;
+    --text: #e6e6e6;
+}
 @media (prefers-color-scheme: dark) {
 html  {
     --bg: #262626;
