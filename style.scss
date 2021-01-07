@@ -16,14 +16,16 @@
 html {
     --bg: #fff;
     --bg-secondary: #fcfcfc;
-    --headings: #4183C4;
+    --headings: $black;
     --text: #333;
+    --text2: $gray;
 }
 html[data-theme='dark'] {
     --bg: #262626;
     --bg-secondary: #444;
     --headings: #00b3b3;
     --text: #e6e6e6;
+    --text2: #e6e6e6;
 }
 @media (prefers-color-scheme: dark) {
 html  {
@@ -31,6 +33,7 @@ html  {
     --bg-secondary: #444;
     --headings: #00b3b3;
     --text: #e6e6e6;
+    --text2: #e6e6e6;
 }
 }
 
@@ -47,7 +50,7 @@ body {
 .container {
   background-color: var(--bg);
   margin: 0 auto;
-  max-width: 1000px;
+  max-width: 1050px;
   padding: 0 10px;
   width: 100%;
 }
@@ -175,11 +178,11 @@ img {
 // Specify the color of the selection
 ::-moz-selection {
   color: var(--text);//$black;
-  background: #4da6ff;
+  background: #b3d9ff;
 }
 ::selection {
   color: var(--text);//$black;
-  background: #4da6ff;
+  background: #b3d9ff;
 }
 
 // Nicolas Gallagher's micro clearfix hack
@@ -254,7 +257,7 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: var(--text);//$gray;
+  color: var(--text2);//$gray;
   font-size: 16px;
 
   @include mobile {
