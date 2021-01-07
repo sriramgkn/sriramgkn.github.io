@@ -18,7 +18,7 @@ html {
     //--bg-secondary: #fcfcfc;
     --headings: $black;
     --text: #333;
-    --text2: $lightGray;
+    --text2: $Gray;
     --links: $blue;
 }
 html[data-theme='dark'] {
@@ -93,7 +93,7 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: var(--headings);//$gray;
+  //color: var(--headings);//$gray;
 }
 
 p {
@@ -283,14 +283,14 @@ nav {
 
   a {
     margin-left: 20px;
-    color: var(--text);//$darkGray;
+    color: var(--links);//var(--text);//$darkGray;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
 
     @include mobile {
       margin: 0 10px;
-      color: var(--headings);
+      color: var(--links);//var(--headings);
     }
   }
 }
