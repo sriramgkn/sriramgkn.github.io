@@ -17,6 +17,7 @@ html {
     --bg: #fff;
     --bg-secondary: #fcfcfc;
     --headings: #4183C4;
+    --headings2: $darkerGray;
     --text: #333;
 }
 
@@ -25,6 +26,7 @@ html  {
     --bg: #262626;
     --bg-secondary: #444;
     --headings: #00b3b3;
+    --headings2: #00b3b3;
     --text: #e6e6e6;
 }
 }
@@ -49,7 +51,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: var(--headings); //$darkerGray;
+  color: var(--headings2); //$darkerGray;
   font-weight: bold;
 
   line-height: 1.7;
@@ -82,7 +84,7 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: var(--headings);//$gray;
+  //color: var(--headings);//$gray;
 }
 
 p {
