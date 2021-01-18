@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: //
 ---
 
 Hello there. I'm a first year Ph.D. student in Physics at [IQC Waterloo](https://uwaterloo.ca/institute-for-quantum-computing/). I recently graduated from [IIT Madras](https://www.iitm.ac.in/) with an undergraduate degree in Engineering Physics.
