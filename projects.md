@@ -7,7 +7,7 @@ permalink: /projects/
 ## Publications
 - **Long-range connectivity in a superconducting quantum processor using a ring resonator** \[[arXiv](https://arxiv.org/abs/2012.09463)\]\\
   Sumeru Hazra, Anirban Bhattacharjee, Madhavi Chand, Kishor Salunkhe, Sriram Gopalakrishnan, Meghan Patankar, R. Vijay\\
-  Under peer review in PRX Quantum
+  Bulletin of the APS
 
 - **Landau Quantization of a circular Quantum Dot using the BenDaniel-Duke boundary condition** \[[DOI](https://doi.org/10.1016/j.spmi.2020.106693)\] \[[pdf](https://sriramgkn.github.io/reports/BDD_published.pdf)\] \\
   Sriram Gopalakrishnan, Sayak Biswas, Shivam Handa\\
