@@ -6,7 +6,7 @@ permalink: /about/
 
 Hello there. I'm a first year Ph.D. student in Physics at [IQC Waterloo](https://uwaterloo.ca/institute-for-quantum-computing/). I recently graduated from [IIT Madras](https://www.iitm.ac.in/) with an undergraduate degree in Engineering Physics.
 
-Broadly, I'm interested in Quantum Information and its realization using Superconducting Circuits. Alongside, I've also developed a keen interest in the theories of Dynamical Systems, Random Processes, Optimization, and Statistical Physics.
+Broadly, I'm interested in both the physics and math of Quantum Information. Alongside, I share a keen interest in the theories of Convex Optimization, Dynamical Systems, and Stochastic Processes. 
 
 Links to: [Google Scholar](https://scholar.google.com/citations?user=d9-T--sAAAAJ&hl=en), [brief CV](https://sriramgkn.github.io/docs/CV_ram.pdf) <!--, [detailed CV](https://sriramgkn.github.io/docs/CV_detailed_ram.pdf)-->
 
