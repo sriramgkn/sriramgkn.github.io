@@ -22,7 +22,7 @@ permalink: /projects/
 
 <!-- - International Economics (Spring 2020, IITM) \[[report-1](https://sriramgkn.github.io/reports/East_Asian_Miracle.pdf)\] \[[report-2](https://sriramgkn.github.io/reports/International_Economics.pdf)\] -->
 
-- The Adjoint Method in design (24-12-2019 @ [NEMO](http://www.ee.iitm.ac.in/uday/group.html)) \[[slides](https://sriramgkn.github.io/reports/Adjoint_method.pdf)\]
+- The Adjoint Method in design (24-12-2019 @ [NEMO](http://www.ee.iitm.ac.in/~uday/nemo.html)) \[[slides](https://sriramgkn.github.io/reports/Adjoint_method.pdf)\]
 
 - Imaging RADAR and Ground Ice on Ceres (Fall 2019 @ NEMO) \[[slides](https://sriramgkn.github.io/reports/Ceres.pdf)\]
 
