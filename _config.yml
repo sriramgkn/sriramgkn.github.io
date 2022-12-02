@@ -6,10 +6,10 @@
 name: Sriram Gopalakrishnan
 
 # Short bio or description (displayed in the header)
-description: Quantum Information and Applied Math
+description: quantum blog
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/SriramGkn/sriramgkn.github.io/master/images/Outside_Godav2.jpeg
+avatar: https://raw.githubusercontent.com/SriramGkn/sriramgkn.github.io/master/images/museum.jpeg
 
 #
 # Flags below are optional
@@ -26,7 +26,7 @@ footer-links:
   linkedin: sriram-gkn
   pinterest:
   rss: # just type anything here for a working RSS icon
-  twitter: QuantumRam
+  twitter: sriramgkn
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
