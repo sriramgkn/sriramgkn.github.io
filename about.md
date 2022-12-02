@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /
+permalink: //
 ---
 
 Hi, I'm Sriram, a grad student in physics researching quantum information theory at [UWaterloo](https://uwaterloo.ca), [IQC](https://uwaterloo.ca/institute-for-quantum-computing/), and [Perimeter](https://perimeterinstitute.ca) in Waterloo, Canada. Previously, I spent four formative years (2016-20) at [IIT Madras](https://www.iitm.ac.in/), India culminating in an undergrad degree in engineering physics.
