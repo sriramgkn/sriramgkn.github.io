@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 ---
 
-## Publications
+## Papers
 - **Long-range connectivity in a superconducting quantum processor using a ring resonator** \[[DOI](https://journals.aps.org/prapplied/abstract/10.1103/PhysRevApplied.16.024018?ft=1)\] \[[arXiv](https://arxiv.org/abs/2012.09463)\]\\
   Sumeru Hazra, Anirban Bhattacharjee, Madhavi Chand, Kishor Salunkhe, Sriram Gopalakrishnan, Meghan Patankar, R. Vijay\\
   *Physical Review Applied* (2021) (*Nature* "In Brief" \[[doi](https://www.nature.com/articles/s41578-021-00373-1)\])
@@ -13,7 +13,7 @@ permalink: /projects/
   Sriram Gopalakrishnan, Sayak Biswas, Shivam Handa\\
   *Superlattices and Microstructures* (2020)
 
-## O2ther good experiences (talks, course projects, internships etc)
+## Other good experiences (talks, course projects, internships etc)
 - A Quantum Algorithm for Gibbs Sampling (05-08-2021 @ IQC, virtual) \[[slides](https://sriramgkn.github.io/reports/Gibbs_pres.pdf)\] \[[report](https://sriramgkn.github.io/reports/Gibbs_report.pdf)\]
 
 - The 2D Hidden Linear Function problem (17-12-2020 @ IQC, virtual) \[[slides](https://sriramgkn.github.io/reports/2D_HLF.pdf)\]
