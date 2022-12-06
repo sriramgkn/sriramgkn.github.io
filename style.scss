@@ -36,9 +36,9 @@ html  {
 // }
 
 body {
-	background-color: var(--bg);//$white;
+	background-color: $white; //var(--bg);
   font: 18px/1.4 $helvetica;
-  color: var(--text)//$darkGray;
+  color: $darkGray; //var(--text)
 }
 
 .container {

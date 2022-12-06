@@ -11,9 +11,9 @@ If there's one thing I've appreciated about science all the way since high schoo
 ### movies
 - 2020: Tenet, WW84, Enola Holmes, Extraction, Greyhound, The Outpost, The Gentlemen, Jojo Rabbit, 1917, Parasite, Knives Out.
 
-### book-reads
+### nice book-reads
 - Immortals of Meluha, Amish Tripathi
-- The subtle art of not giving a f*ck, Mark Manson
+- The subtle art of not giving a *, Mark Manson
 
 ### free knowledge
 I greatly appreciate massive efforts to make digital knowledge and multimedia freely accessible to the world. Even more so when such content is available in secure [https](https://en.wikipedia.org/wiki/HTTPS) sites with an ad-free experience (although it's generally good to use [adblock-plus](https://chrome.google.com/webstore/detail/adblock-plus-free-ad-bloc/cfhdojbkjhnklbpkdaibdccddilifddb) at all times)
