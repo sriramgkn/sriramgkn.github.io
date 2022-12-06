@@ -13,7 +13,7 @@ permalink: /projects/
   Sriram Gopalakrishnan, Sayak Biswas, Shivam Handa\\
   *Superlattices and Microstructures* (2020)
 
-## Other nice experiences (talks, course projects, internships etc)
+## other good experiences (talks, course projects, internships etc)
 - A Quantum Algorithm for Gibbs Sampling (05-08-2021 @ IQC, virtual) \[[slides](https://sriramgkn.github.io/reports/Gibbs_pres.pdf)\] \[[report](https://sriramgkn.github.io/reports/Gibbs_report.pdf)\]
 
 - The 2D Hidden Linear Function problem (17-12-2020 @ IQC, virtual) \[[slides](https://sriramgkn.github.io/reports/2D_HLF.pdf)\]
