@@ -205,7 +205,7 @@ img {
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid var(--bg);//$lightGray;
+  border-bottom: 1px solid var(--bg); //$lightGray;
 
   @include mobile {
     text-align: center;
