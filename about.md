@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I'm a PhD student in Physics at [UWaterloo](https://uwaterloo.ca), [IQC](https://uwaterloo.ca/institute-for-quantum-computing/), and [Perimeter Institute](https://perimeterinstitute.ca) in Waterloo, Canada. Earlier, I received an undergraduate degree in Engineering Physics from [IIT Madras](https://www.iitm.ac.in/), India.
+I'm a Physics PhD student at [Perimeter Institute](https://perimeterinstitute.ca), [UWaterloo](https://uwaterloo.ca), and [IQC](https://uwaterloo.ca/institute-for-quantum-computing/) in Waterloo, Canada. Earlier, I received an undergraduate degree in Engineering Physics from [IIT Madras](https://www.iitm.ac.in/), India.
 
 I'm very broadly interested in the field of quantum information science. I like to view research from a basic mathematical lens rooted in geometry & computation. When away from a computer screen, I try my best to explore the natural outdoor world we live in.
 
