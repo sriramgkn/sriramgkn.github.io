@@ -1,6 +1,6 @@
 My site is [here](https://sriramgkn.github.io)
 
-[This](https://github.com/barryclark/jekyll-now/) is the template I use (with some of my own edits).
+[This](https://github.com/barryclark/jekyll-now/) is the template I use (with some edits).
 
 <!-- ## Credits
 Many thanks to [Jekyll](https://jekyllrb.com/) for this clean, free template.
