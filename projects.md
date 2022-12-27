@@ -19,7 +19,7 @@ permalink: /projects/
 
 - The 2D Hidden Linear Function problem (17-12-2020 @ IQC, virtual) \[[slides](https://sriramgkn.github.io/reports/2D_HLF.pdf)\]
 
-- My B.Tech. thesis \[[pdf](https://sriramgkn.github.io/reports/Sriram_thesis_final.pdf)\]
+- My B.Tech. project \[[pdf](https://sriramgkn.github.io/reports/Sriram_thesis_final.pdf)\]
 
 <!-- - International Economics (Spring 2020, IITM) \[[report-1](https://sriramgkn.github.io/reports/East_Asian_Miracle.pdf)\] \[[report-2](https://sriramgkn.github.io/reports/International_Economics.pdf)\] -->
 
