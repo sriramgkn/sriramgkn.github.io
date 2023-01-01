@@ -4,9 +4,9 @@ title: About
 permalink: /about/
 ---
 
-I'm a Physics PhD student at [Perimeter Institute](https://perimeterinstitute.ca), [UWaterloo](https://uwaterloo.ca), and [IQC](https://uwaterloo.ca/institute-for-quantum-computing/) in Waterloo, Canada. Earlier, I got an undergrad degree in Engineering Physics from [IIT Madras](https://www.iitm.ac.in/), India.
+I am a Physics PhD student at [Perimeter Institute](https://perimeterinstitute.ca), [UWaterloo](https://uwaterloo.ca), and [IQC](https://uwaterloo.ca/institute-for-quantum-computing/) in Waterloo, Canada. Earlier, I got an undergrad degree in Engineering Physics from [IIT Madras](https://www.iitm.ac.in/), India.
 
-I'm very broadly interested in the area of quantum information science. I like to view research from a basic mathematical lens rooted in geometry & computation. When away from a computer screen, I try my best to explore the natural outdoor world we live in.
+I am currently interested in bridging [quantum information science](https://en.wikipedia.org/wiki/Quantum_information_science) with [statistical learning theory](https://en.wikipedia.org/wiki/Statistical_learning_theory). I like to view research from a basic mathematical lens rooted in geometry & computation. When away from a computer screen, I like playing sports and exploring the natural outdoor world around us.
 
 If you like discussing quantum computing, physics or math generally, reach out at: [sriramgk98@gmail.com](mailto:sriramgk98@gmail.com)
 
