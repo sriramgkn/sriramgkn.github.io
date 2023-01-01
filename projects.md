@@ -5,32 +5,32 @@ permalink: /projects/
 ---
 
 ## Papers
-- **Ring-Resonator-Based Coupling Architecture for Enhanced Connectivity in a Superconducting Multiqubit Network** \[[doi](https://journals.aps.org/prapplied/abstract/10.1103/PhysRevApplied.16.024018?ft=1)\] \[[arXiv](https://arxiv.org/abs/2012.09463)\]\\
+- **Ring-Resonator-Based Coupling Architecture for Enhanced Connectivity in a Superconducting Multiqubit Network** \[[doi](https://journals.aps.org/prapplied/abstract/10.1103/PhysRevApplied.16.024018?ft=1)\]\\
   Sumeru Hazra, Anirban Bhattacharjee, Madhavi Chand, Kishor Salunkhe, Sriram Gopalakrishnan, Meghan Patankar, R. Vijay\\
   *Physical Review Applied* (2021)\\
   Coverage: *Nature* "In Brief" \[[doi](https://www.nature.com/articles/s41578-021-00373-1)\]
 
-- **Landau Quantization of a circular Quantum Dot using the BenDaniel-Duke boundary condition** \[[doi](https://doi.org/10.1016/j.spmi.2020.106693)\] \[[pdf](https://sriramgkn.github.io/reports/BDD_published.pdf)\] \\
+- **Landau Quantization of a circular Quantum Dot using the BenDaniel-Duke boundary condition** \[[doi](https://doi.org/10.1016/j.spmi.2020.106693)\] \\
   Sriram Gopalakrishnan, Sayak Biswas, Shivam Handa\\
   *Superlattices and Microstructures* (2020)
 
-## Other nice experiences (talks, course projects, internships etc)
-- A Quantum Algorithm for Gibbs Sampling (05-08-2021 @ IQC, virtual) \[[slides](https://sriramgkn.github.io/reports/Gibbs_pres.pdf)\] \[[report](https://sriramgkn.github.io/reports/Gibbs_report.pdf)\]
+## Other nice experiences (reading, interns, course projects etc)
+- Quantum algorithm for gibbs sampling (05-08-2021 @ IQC, virtual) \[[slides](https://sriramgkn.github.io/reports/Gibbs_pres.pdf)\]
 
 - The 2D Hidden Linear Function problem (17-12-2020 @ IQC, virtual) \[[slides](https://sriramgkn.github.io/reports/2D_HLF.pdf)\]
 
-- My B.Tech. project \[[pdf](https://sriramgkn.github.io/reports/Sriram_thesis_final.pdf)\]
+- Vector FEM for electromagnetic scattering \[[pdf](https://sriramgkn.github.io/reports/Sriram_thesis_final.pdf)\]
 
 <!-- - International Economics (Spring 2020, IITM) \[[report-1](https://sriramgkn.github.io/reports/East_Asian_Miracle.pdf)\] \[[report-2](https://sriramgkn.github.io/reports/International_Economics.pdf)\] -->
 
-- The Adjoint Method in design (24-12-2019 @ [NEMO](http://www.ee.iitm.ac.in/~uday/nemo.html)) \[[slides](https://sriramgkn.github.io/reports/Adjoint_method.pdf)\]
+- Adjoint method in design (24-12-2019 @ [NEMO](http://www.ee.iitm.ac.in/~uday/nemo.html)) \[[slides](https://sriramgkn.github.io/reports/Adjoint_method.pdf)\]
 
-- Imaging RADAR and Ground Ice on Ceres (Fall 2019 @ NEMO) \[[slides](https://sriramgkn.github.io/reports/Ceres.pdf)\]
+- Imaging RADAR and ground ice on Ceres (Fall 2019 @ NEMO) \[[slides](https://sriramgkn.github.io/reports/Ceres.pdf)\]
 
-- Circular Bus architecture for superconducting qubits (27-06-2019 @ TIFR) \[[slides](https://sriramgkn.github.io/reports/VSRP_presentation_Sriram.pdf)\] \[[report](https://sriramgkn.github.io/reports/VSRP_report_Sriram.pdf)\]
+- Circular bus architecture for superconducting qubits (27-06-2019 @ TIFR) \[[slides](https://sriramgkn.github.io/reports/VSRP_presentation_Sriram.pdf)\]
 
-- Quantum Capacity of channels with small environment (26-04-2019 @ IITM) \[[slides](https://sriramgkn.github.io/reports/Adv_QCQI_pres.pdf)\] \[[report](https://sriramgkn.github.io/reports/Adv_QCQI_report.pdf)\]
+- Quantum capacity of channels with small environment (26-04-2019 @ IITM) \[[slides](https://sriramgkn.github.io/reports/Adv_QCQI_pres.pdf)\]
 
-- The Tent Map (23-04-2019 @ IITM) \[[slides](https://sriramgkn.github.io/reports/Tent_map_pres.pdf)\] \[[report](https://sriramgkn.github.io/reports/Tent_map_report.pdf)\]
+- Tent map (23-04-2019 @ IITM) \[[slides](https://sriramgkn.github.io/reports/Tent_map_pres.pdf)\]
 
-- A survey of Quantum many-body theory \[[report](https://sriramgkn.github.io/reports/Many_body_theory.pdf)\]
+- Survey of quantum many-body theory \[[pdf](https://sriramgkn.github.io/reports/Many_body_theory.pdf)\]
