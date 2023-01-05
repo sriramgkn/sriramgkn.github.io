@@ -21,7 +21,7 @@ permalink: /projects/
 
 - Vector FEM for electromagnetic scattering \[[pdf](https://sriramgkn.github.io/reports/Sriram_thesis_final.pdf)\]
 
-- International Economics (Spring 2020, IITM): East Asian Miracle \[pdf](https://sriramgkn.github.io/reports/East_Asian_Miracle.pdf)\], Exchange Rates \[[pdf](https://sriramgkn.github.io/reports/International_Economics.pdf)\]
+- International Economics (Spring 2020, IITM): East Asian Miracle \[[pdf](https://sriramgkn.github.io/reports/East_Asian_Miracle.pdf)\], Exchange Rates \[[pdf](https://sriramgkn.github.io/reports/International_Economics.pdf)\]
 
 - Adjoint method in design (24-12-2019 @ [NEMO](http://www.ee.iitm.ac.in/~uday/nemo.html)) \[[slides](https://sriramgkn.github.io/reports/Adjoint_method.pdf)\]
 
