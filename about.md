@@ -8,7 +8,7 @@ I am a grad student with [Perimeter Institute](https://perimeterinstitute.ca), [
 
 I am currently interested in bridging [quantum information science](https://en.wikipedia.org/wiki/Quantum_information_science) with [statistical learning theory](https://en.wikipedia.org/wiki/Statistical_learning_theory). I like to view research from a basic mathematical lens rooted in geometry & computation. When away from a computer screen, I like playing sports and exploring the natural outdoor world around us.
 
-If you like discussing quantum computing, physics or math generally, reach out at: [sriramgk98@gmail.com](mailto:sriramgk98@gmail.com)
+If you like discussing quantum computing, physics, economics, or math generally, do not hesitate to reach out at: [sriramgk98@gmail.com](mailto:sriramgk98@gmail.com)
 
 links to: [google scholar](https://scholar.google.com/citations?user=d9-T--sAAAAJ&hl=en), [cv](https://sriramgkn.github.io/docs/CV_ram.pdf)
 
