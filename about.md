@@ -4,13 +4,16 @@ title: About
 permalink: /about/
 ---
 
-I am a grad student with [Perimeter Institute](https://perimeterinstitute.ca), [IQC](https://uwaterloo.ca/institute-for-quantum-computing/), and [UWaterloo](https://uwaterloo.ca) in Canada. Earlier, I got an undergrad degree in Engineering Physics from [IIT Madras](https://www.iitm.ac.in/), India.
+I am a physics graduate student at [UWaterloo](https://uwaterloo.ca) and [Perimeter Institute](https://perimeterinstitute.ca), and earlier an engineering physics undergrad at [IITM](https://www.iitm.ac.in) in India.
 
-I am currently interested in bridging [quantum information science](https://en.wikipedia.org/wiki/Quantum_information_science) and [statistical inference](https://en.wikipedia.org/wiki/Statistical_inference). Besides quantum information, I've enjoyed some specialized learning in applied math, electromagnetics, and device physics in the past. When away from a PC screen, I like playing sports and visiting nature preserves.
+check out the projects section for past work. currently in research, I am into the subject of "quantum learning theory", where the central question is - what is the complexity of learning to fixed precision the properties of a chosen quantum many-body state prepared in an experiment? the task also goes by the name "tomography" for its conceptual similarity to imaging technology.
 
-If you like discussing quantum computing, physics, economics, or math generally, do not hesitate to reach out at: [sriramgk98@gmail.com](mailto:sriramgk98@gmail.com)
+also currently, I am looking for opportunities to build tech-industry experience in Canada, with a special interest in data science roles - production and deployment of ML models in real-world settings.
 
-links to: [google scholar](https://scholar.google.com/citations?user=d9-T--sAAAAJ&hl=en), [cv](https://sriramgkn.github.io/docs/CV_ram.pdf)
+please feel free to reach out at: [sriramgk98@gmail.com](mailto:sriramgk98@gmail.com)
+
+links to: [google scholar](https://scholar.google.com/citations?user=d9-T--sAAAAJ&hl=en), [linkedin](https://www.linkedin.com/in/sriram-gkn/)
+
 
 
 
