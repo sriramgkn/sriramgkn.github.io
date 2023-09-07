@@ -9,8 +9,8 @@ Hi, I'm a physics graduate student at [UWaterloo](https://uwaterloo.ca) and [Per
 Currently into the subject of "quantum learning theory", where a central question is - what is the complexity of learning properties of a many-body quantum state prepared in an experiment? the problem also goes by the name "tomography" for its conceptual similarity to imaging technology.
 
 Also currently - seeking opportunities to build experience in production and deployment of ML models in real-world settings.
-Please do not hesitate to reach out at: [sriramgk98@gmail.com](mailto:sriramgk98@gmail.com)
-Links to: [google scholar](https://scholar.google.com/citations?user=d9-T--sAAAAJ&hl=en), resume
+Please do not hesitate to reach out at: [sriramgk98@gmail.com](mailto:sriramgk98@gmail.com)\\
+Links to: [google scholar](https://scholar.google.com/citations?user=d9-T--sAAAAJ&hl=en), [resume](https://sriramgkn.github.io/docs/resume_ram.pdf)
 
 
 
