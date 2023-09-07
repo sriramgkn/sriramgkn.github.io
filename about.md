@@ -10,7 +10,7 @@ Currently into the subject of "quantum learning theory", where a central questio
 
 Also currently - seeking opportunities to build experience in production and deployment of ML models in real-world settings.
 Please do not hesitate to reach out at: [sriramgk98@gmail.com](mailto:sriramgk98@gmail.com)\\
-Links to: [google scholar](https://scholar.google.com/citations?user=d9-T--sAAAAJ&hl=en), [resume](https://sriramgkn.github.io/docs/resume_ram.pdf)
+Links to: [google scholar](https://scholar.google.com/citations?user=d9-T--sAAAAJ&hl=en), [resume](https://sriramgkn.github.io/docs/res/resume_ram.pdf)
 
 
 
