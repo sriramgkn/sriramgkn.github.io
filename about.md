@@ -4,15 +4,15 @@ title: About
 permalink: /about/
 ---
 
-Hi, I'm a physics graduate student at [UWaterloo](https://uwaterloo.ca) and [Perimeter Institute](https://perimeterinstitute.ca), and earlier an engineering physics undergrad at [IIT Madras](https://www.iitm.ac.in) in India. Check out the projects section for past work.
+Hi, I'm a physics graduate student at [UWaterloo](https://uwaterloo.ca) and [Perimeter Institute](https://perimeterinstitute.ca), and earlier an engineering physics undergrad at [IIT Madras](https://www.iitm.ac.in) in India. check out the projects section for past work.
 
-Currently into the subject of "quantum learning theory", central question being - what is the complexity of learning properties of a quantum state prepared in an experiment? The problem also goes by the name "tomography" for its conceptual similarity to imaging technology.
+currently into the subject of "quantum learning theory", central question being - what is the complexity of learning properties of a quantum state prepared in an experiment? the problem also goes by the name "tomography" for its conceptual similarity to imaging technology.
 
-Also currently - seeking opportunities to build experience in production and deployment of ML models in real-world settings.
+also currently - seeking opportunities to build experience in production and deployment of ML models in real-world settings.
 
 please do not hesitate to reach out at: [sriramgk98@gmail.com](mailto:sriramgk98@gmail.com)
 
-links to: [google scholar](https://scholar.google.com/citations?user=d9-T--sAAAAJ&hl=en), [linkedin](https://www.linkedin.com/in/sriram-gkn/)
+links to: [google scholar](https://scholar.google.com/citations?user=d9-T--sAAAAJ&hl=en), resume
 
 
 
