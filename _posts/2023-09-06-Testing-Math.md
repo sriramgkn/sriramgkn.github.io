@@ -3,8 +3,8 @@ layout: post
 title: Numerical methods class
 ---
 
-This term I am taking a grad class on numerical methods in physics. I look forward to it, and hopefully sharing some nice things I learn!
+This term, I am taking a graduate class on numerical methods in physics. I look forward to it, and hopefully sharing some nice things I learn!
 
-Okay, so first class just got over. Very cool prof, he's written his own book for the subject and also a website for it! Do check out: [https://numphyspy.org](https://numphyspy.org). Also, I will *not* be sharing assignments publicly as it is a university course.
+Okay, so first class just got over. Cool prof, he's written his own book on the subject and also a website for it. Do check out: [https://numphyspy.org](https://numphyspy.org). Also, I will not be sharing assignments publicly for obvious reasons.
 
-What I do think would be cool is exploring the textbook together as I read it. let's see how it goes!
+What I do think would be cool is exploring the textbook together as I read it. Also probably a good excuse to test mathjax on this blog.
