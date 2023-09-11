@@ -33,4 +33,4 @@ permalink: /projects/
 
 - Tent map (23-04-2019 @ IITM) \[[slides](https://sriramgkn.github.io/reports/Tent_map_pres.pdf)\]
 
-- Survey of quantum many-body theory \[[pdf](https://sriramgkn.github.io/reports/Many_body_theory.pdf)\]
+- A survey of quantum many-body theory \[[pdf](https://sriramgkn.github.io/reports/Many_body_theory.pdf)\]
