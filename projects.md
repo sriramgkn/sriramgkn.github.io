@@ -5,12 +5,12 @@ permalink: /projects/
 ---
 
 ## Papers
-- **Ring-Resonator-Based Coupling Architecture for Enhanced Connectivity in a Superconducting Multiqubit Network** \[[doi](https://journals.aps.org/prapplied/abstract/10.1103/PhysRevApplied.16.024018?ft=1)\]\\
+- **Ring-resonator-based coupling architecture for enhanced connectivity in a superconducting multiqubit network** \[[doi](https://journals.aps.org/prapplied/abstract/10.1103/PhysRevApplied.16.024018?ft=1)\]\\
   Sumeru Hazra, Anirban Bhattacharjee, Madhavi Chand, Kishor Salunkhe, Sriram Gopalakrishnan, Meghan Patankar, R. Vijay\\
   *Physical Review Applied* (2021)\\
   Coverage: [Nature in-brief](https://www.nature.com/articles/s41578-021-00373-1)
 
-- **Landau Quantization of a circular Quantum Dot using the BenDaniel-Duke boundary condition** \[[doi](https://doi.org/10.1016/j.spmi.2020.106693)\] \\
+- **Landau quantization of a circular quantum dot using the BenDaniel-Duke boundary condition** \[[doi](https://doi.org/10.1016/j.spmi.2020.106693)\] \\
   Sriram Gopalakrishnan, Sayak Biswas, Shivam Handa\\
   *Superlattices and Microstructures* (2020)
 
@@ -21,7 +21,7 @@ permalink: /projects/
 
 - Vector FEM for electromagnetic scattering \[[pdf](https://sriramgkn.github.io/reports/Sriram_thesis_final.pdf)\]
 
-- International Economics (Spring 2020, IITM): East Asian Miracle \[[pdf](https://sriramgkn.github.io/reports/East_Asian_Miracle.pdf)\], Exchange Rates \[[pdf](https://sriramgkn.github.io/reports/International_Economics.pdf)\]
+- International economics (Spring 2020, IITM): east asian miracle \[[pdf](https://sriramgkn.github.io/reports/East_Asian_Miracle.pdf)\], exchange rates \[[pdf](https://sriramgkn.github.io/reports/International_Economics.pdf)\]
 
 - Adjoint method in design (24-12-2019 @ [NEMO](http://www.ee.iitm.ac.in/~uday/nemo.html)) \[[slides](https://sriramgkn.github.io/reports/Adjoint_method.pdf)\]
 
