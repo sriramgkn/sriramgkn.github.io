@@ -5,6 +5,7 @@ permalink: /projects/
 ---
 
 ## Papers
+
 - **Ring-resonator-based coupling architecture for enhanced connectivity in a superconducting multiqubit network** \[[doi](https://journals.aps.org/prapplied/abstract/10.1103/PhysRevApplied.16.024018?ft=1)\]\\
   Sumeru Hazra, Anirban Bhattacharjee, Madhavi Chand, Kishor Salunkhe, Sriram Gopalakrishnan, Meghan Patankar, R. Vijay\\
   *Physical Review Applied* (2021)\\
@@ -15,6 +16,7 @@ permalink: /projects/
   *Superlattices and Microstructures* (2020)
 
 ## Other nice experiences (reading, interns, course projects etc)
+
 - Quantum algorithm for gibbs sampling (05-08-2021 @ IQC, virtual) \[[slides](https://sriramgkn.github.io/reports/Gibbs_pres.pdf)\]
 
 - The 2D Hidden Linear Function problem (17-12-2020 @ IQC, virtual) \[[slides](https://sriramgkn.github.io/reports/2D_HLF.pdf)\]
