@@ -9,7 +9,7 @@ permalink: /projects/
 - **Ring-resonator-based coupling architecture for enhanced connectivity in a superconducting multiqubit network** \[[doi](https://journals.aps.org/prapplied/abstract/10.1103/PhysRevApplied.16.024018?ft=1)\]\\
   Sumeru Hazra, Anirban Bhattacharjee, Madhavi Chand, Kishor Salunkhe, Sriram Gopalakrishnan, Meghan Patankar, R. Vijay\\
   *Physical Review Applied* (2021)\\
-  Coverage: [Nature in-brief](https://www.nature.com/articles/s41578-021-00373-1)
+  Coverage: [*Nature* in-brief](https://www.nature.com/articles/s41578-021-00373-1)
 
 - **Landau quantization of a circular quantum dot using the BenDaniel-Duke boundary condition** \[[doi](https://doi.org/10.1016/j.spmi.2020.106693)\] \\
   Sriram Gopalakrishnan, Sayak Biswas, Shivam Handa\\
