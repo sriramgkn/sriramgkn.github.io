@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I am a physics graduate student at [UWaterloo](https://uwaterloo.ca) and [Perimeter Institute](https://perimeterinstitute.ca), and was earlier an engineering physics undergrad at [IIT Madras](https://www.iitm.ac.in).
+I am a Physics graduate student at [UWaterloo](https://uwaterloo.ca) and [Perimeter Institute](https://perimeterinstitute.ca), and was earlier an Engineering Physics undergrad at [IIT Madras](https://www.iitm.ac.in).
 
 Currently into "quantum learning theory", where a central question is - what is the complexity of learning properties of a many-body quantum state prepared in an experiment? The problem also goes by the name "tomography" for its conceptual similarity to imaging technology.
 
