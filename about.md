@@ -10,4 +10,4 @@ Currently into "quantum learning theory", where a central question is - what is 
 
 Also currently - open to tech industry opportunities in Toronto and Waterloo\\
 Please feel free to reach out at: [sriramgk98@gmail.com](mailto:sriramgk98@gmail.com)\\
-Links to: [linkedin](https://www.linkedin.com/in/sriram-gkn/), [google scholar](https://scholar.google.com/citations?user=d9-T--sAAAAJ&hl=en), [resume](https://sriramgkn.github.io/docs/res/resume_ram.pdf)
+Links to: [google scholar](https://scholar.google.com/citations?user=d9-T--sAAAAJ&hl=en), [resume](https://sriramgkn.github.io/docs/res/resume_ram.pdf)
