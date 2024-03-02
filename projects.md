@@ -15,7 +15,9 @@ permalink: /projects/
   Sriram Gopalakrishnan, Sayak Biswas, Shivam Handa\\
   *Superlattices and Microstructures* (2020)
 
-## Other nice experiences (reading, interns, course projects etc)
+## Other experience
+
+- Marginal thermal trajectory reconstruction as an initial value problem \[[pdf](https://sriramgkn.github.io/reports/Report_ram_revision1.pdf)\]
 
 - Quantum algorithm for gibbs sampling (05-08-2021 @ IQC, virtual) \[[slides](https://sriramgkn.github.io/reports/Gibbs_pres.pdf)\]
 
