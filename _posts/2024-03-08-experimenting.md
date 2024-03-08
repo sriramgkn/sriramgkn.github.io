@@ -3,7 +3,7 @@ layout: post
 title: Understanding backpropogation
 ---
 
-In this notebook, we understand backpropogation using elementary arithmetic operations following [Andrej Karpathy's lecture](https://www.youtube.com/watch?v=VMj-3S1tku0). We recommend visiting [micrograd](https://github.com/karpathy/micrograd) on github. We used $\texttt{nbconvert}$ on our notebook available [here](https://github.com/sriramgkn/micrograd-sri).
+In this notebook, we understand backpropogation using elementary arithmetic operations following [[1]](#ref-1). We recommend visiting [micrograd](https://github.com/karpathy/micrograd) on github. We used $\texttt{nbconvert}$ on our notebook available [here](https://github.com/sriramgkn/micrograd-sri).
 
 We start with a few basic imports:
 
@@ -319,4 +319,8 @@ a = Value(2.0)
 
     Value(data=4.0)
 
+---
 
+## References
+
+1. <a id="ref-1"></a> [Andrej Karpathy's lecture](https://www.youtube.com/watch?v=VMj-3S1tku0)
