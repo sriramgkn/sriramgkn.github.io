@@ -3,7 +3,7 @@ layout: post
 title: Understanding backpropogation
 ---
 
-In this notebook, we understand backpropogation using elementary arithmetic operations following [[1]](#ref-1). We recommend visiting [micrograd](https://github.com/karpathy/micrograd) on github. We used $\texttt{nbconvert}$ on our notebook available [here](https://github.com/sriramgkn/micrograd-sri).
+In this notebook, we understand backpropogation using elementary arithmetic operations following [[1]](#ref-1). We recommend visiting micrograd on github [[2]](#ref-2). We used $\texttt{nbconvert}$ on our notebook also on github [[3]](#ref-3).
 
 We start with a few basic imports:
 
@@ -147,7 +147,9 @@ def draw_dot(root, format='svg', rankdir='LR'):
     return dot
 ```
 
-The code above can basically draw the entire graph, and indicate label, data, & gradient information at each node. The gradient at each node $j$ (as computed in value class) is the partial derivative of its weight $w_j$ w.r.t. the output loss function $L(o)$, so that's $\frac{\partial w_j}{\partial L}$. As such the NN output is just $o(\textbf{x}_{in},\textbf{w})$. The loss function is an additional step computing a function of output and supervised output labels of training data, as a simple example $\lVert o(\textbf{x}_{in},\textbf{w}) - l \rVert_{2}$, where weight vector $\textbf{w}$ is known to produce a scalar output $l$, and the 2-norm (mean squared loss) is only really sensible in the limit of multiple outputs (so that $\textbf{o}$ and $\textbf{l}$ become vectors)
+The code above can basically draw the entire graph, and indicate label, data, & gradient information at each node. The gradient at each node $j$ (as computed in value class) is the partial derivative of its weight $w_j$ w.r.t. the output loss function $L(o)$, so that's ${\frac{\partial w_j}{\partial L}}$.
+
+As such, the neural network output is simply $o(\textbf{x}_{in},\textbf{w})$. The loss function is an additional step computing a metric function on the output and supervised output labels of the training data. The mean-squared loss (2-norm) is a simple example: $\lVert o(\textbf{x}_{in},\textbf{w}) - l \rVert_{2}$, where weight vector $\textbf{w}$ is known to produce a scalar output $l$, and the 2-norm (mean squared loss) is only really sensible in the limit of multiple outputs (so that $\textbf{o}$ and $\textbf{l}$ become vectors)
 
 Just out of curiosity, the hyperbolic tangent is plotted to visualize its nonlinearity:
 
@@ -323,4 +325,6 @@ a = Value(2.0)
 
 ## References
 
-1. <a id="ref-1"></a> [Andrej Karpathy's lecture](https://www.youtube.com/watch?v=VMj-3S1tku0)
+1. <a id="ref-1"></a> [Andrej Karpathy Lecture](https://www.youtube.com/watch?v=VMj-3S1tku0)
+2. <a id="ref-1"></a> [Micrograd Repository](https://github.com/karpathy/micrograd)
+3. <a id="ref-1"></a> [Our Jupyter notebook in this post](https://github.com/sriramgkn/micrograd-sri)
