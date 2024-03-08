@@ -3,14 +3,14 @@ layout: post
 title: Understanding backpropogation
 ---
 
-<script type="text/x-mathjax-config">
+<!-- <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
     tex2jax: {
         skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
         inlineMath: [['$','$']]
     }
     });
-</script>
+</script> -->
 
 In this notebook, we understand backpropogation using elementary arithmetic operations following [Andrej Karpathy's tutorial](https://www.youtube.com/watch?v=VMj-3S1tku0). We recommend visiting [micrograd](https://github.com/karpathy/micrograd) on github. We used $\texttt{nbconvert}$ on our notebook available [here](https://github.com/sriramgkn/micrograd-sri).
 
