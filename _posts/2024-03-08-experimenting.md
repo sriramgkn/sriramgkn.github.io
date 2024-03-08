@@ -193,7 +193,7 @@ draw_dot(o)
 
 <!-- ![svg](experimenting_files/experimenting_15_0.svg) -->
 <figure style="text-align: center; width:100%;">
-    <img src="{{site.baseurl}}/images/experimenting_files/experimenting_15_0.svg" alt="computational graphs" style="width:70%; height: 300px; margin:3% auto; display:block;">
+    <img src="{{site.baseurl}}/images/experimenting_files/experimenting_15_0.svg" alt="computational graphs" style="max-width:70%; height: auto; margin:3% auto; display:block;">
     <figcaption>computational graph for a single two-input neuron with tanh activation</figcaption>
 </figure>
     
@@ -229,7 +229,7 @@ draw_dot(o)
     Value(data=5.828427042920401)
     
 <figure style="text-align: center; width:100%;">
-    <img src="{{site.baseurl}}/images/experimenting_files/experimenting_18_1.svg" alt="computational graphs" style="width:70%; height: 400px; margin:3% auto; display:block;">
+    <img src="{{site.baseurl}}/images/experimenting_files/experimenting_18_1.svg" alt="computational graphs" style="max-width:70%; height: auto; margin:3% auto; display:block;">
     <figcaption>bigger computational graph for the same neuron</figcaption>
 </figure>
 
