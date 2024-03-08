@@ -322,8 +322,6 @@ a = Value(2.0)
 
 ## References
 
-[1] <a id="ref-1"></a> [Andrej Karpathy Lecture](https://www.youtube.com/watch?v=VMj-3S1tku0)
-
-[2] <a id="ref-2"></a> [Micrograd Repository](https://github.com/karpathy/micrograd)
-
-[3] <a id="ref-3"></a> [Our Jupyter notebook in this post](https://github.com/sriramgkn/micrograd-sri)
+[1] <a id="ref-1"></a> [Andrej Karpathy Lecture](https://www.youtube.com/watch?v=VMj-3S1tku0)  
+[2] <a id="ref-2"></a> [Micrograd Repository](https://github.com/karpathy/micrograd)  
+[3] <a id="ref-3"></a> [Our Jupyter notebook in this post](https://github.com/sriramgkn/micrograd-sri)  
