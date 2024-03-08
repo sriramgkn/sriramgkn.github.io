@@ -229,7 +229,7 @@ draw_dot(o)
     Value(data=5.828427042920401)
     
 <figure style="text-align: center; width:100%;">
-    <img src="{{site.baseurl}}/images/experimenting_files/experimenting_18_1.svg" alt="computational graphs" style="max-width:70%; height: auto; margin:3% auto; display:block;">
+    <img src="{{site.baseurl}}/images/experimenting_files/experimenting_18_1.svg" alt="computational graphs" style="max-width:90%; height: auto; margin:3% auto; display:block;">
     <figcaption>bigger computational graph for the same neuron</figcaption>
 </figure>
 
