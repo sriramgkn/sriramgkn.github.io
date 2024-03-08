@@ -3,7 +3,7 @@ layout: post
 title: Understanding backpropogation
 ---
 
-In this blog post, we will implement backpropogation using elementary arithmetic operations following [[1]](#ref-1). We recommend visiting micrograd on github [[2]](#ref-2). Our notebook is also available on github [[3]](#ref-3).
+In this blog post, we will implement backpropogation using elementary arithmetic operations following [[1](#ref-1)]. We recommend visiting micrograd on github [[2](#ref-2)]. Our notebook is also available on github [[3](#ref-3)].
 
 We start with a few basic imports:
 
