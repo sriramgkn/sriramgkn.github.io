@@ -3,19 +3,9 @@ layout: post
 title: Understanding backpropogation
 ---
 
-<!-- <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-    tex2jax: {
-        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-        inlineMath: [['$','$']]
-    }
-    });
-</script> -->
-
 In this notebook, we understand backpropogation using elementary arithmetic operations following [Andrej Karpathy's tutorial](https://www.youtube.com/watch?v=VMj-3S1tku0). We recommend visiting [micrograd](https://github.com/karpathy/micrograd) on github. We used $\texttt{nbconvert}$ on our notebook available [here](https://github.com/sriramgkn/micrograd-sri).
 
 We start with a few basic imports:
-
 
 ```python
 import math
@@ -24,7 +14,6 @@ import matplotlib.pyplot as plt
 ```
 
 We now define the Value class which forms the heart of micrograd:
-
 
 ```python
 class Value:
@@ -124,7 +113,6 @@ Basically, the Value class defines python's elementary arithmetic operations (li
 
 We now include a graphviz code like Andrej does, that is capable of visualizing such a computational graph diagrammatically
 
-
 ```python
 from graphviz import Digraph
 def trace(root):
@@ -159,27 +147,21 @@ def draw_dot(root, format='svg', rankdir='LR'):
     return dot
 ```
 
-The code above can basically draw the entire graph, and indicate label, data, \& gradient information at each node. The gradient at each node $j$ (as computed in value class) is the partial derivative of its weight $w_j$ w.r.t. the output loss function $L(o)$, so that's $\frac{\partial w_j}{\partial L}$. As such the NN output is just $o(\textbf{x}_{in},\textbf{w})$; the loss function is an additional step computing a function of output and supervised output labels of training data, as a simple example $\lVert o(\textbf{x}_{in},\textbf{w}) - l \rVert_{2}$, where weight vector $\textbf{w}$ is known to produce a scalar output $l$, and the 2-norm (mean squared loss) is only really sensible in the limit of multiple outputs (so that $\textbf{o}$ and $\textbf{l}$ become vectors)
+The code above can basically draw the entire graph, and indicate label, data, & gradient information at each node. The gradient at each node $j$ (as computed in value class) is the partial derivative of its weight $w_j$ w.r.t. the output loss function $L(o)$, so that's $\frac{\partial w_j}{\partial L}$. As such the NN output is just $o(\textbf{x}_{in},\textbf{w})$. The loss function is an additional step computing a function of output and supervised output labels of training data, as a simple example $\lVert o(\textbf{x}_{in},\textbf{w}) - l \rVert_{2}$, where weight vector $\textbf{w}$ is known to produce a scalar output $l$, and the 2-norm (mean squared loss) is only really sensible in the limit of multiple outputs (so that $\textbf{o}$ and $\textbf{l}$ become vectors)
 
 Just out of curiosity, the hyperbolic tangent is plotted to visualize its nonlinearity:
-
 
 ```python
 plt.plot( np.arange(-5,5,0.2), np.tanh(np.arange(-5,5,0.2)) ); plt.grid()
 ```
 
 
-    
-<!-- ![png](experimenting_files/experimenting_11_0.png) -->
 <figure style="text-align: center; width:100%;">
     <img src="{{site.baseurl}}/images/experimenting_files/experimenting_11_0.png" alt="tanh plot" style="width:70%; margin:3% auto; display:block;">
     <figcaption>tanh plot</figcaption>
 </figure>
     
-
-
 In what follows, a simple two-input neuron is initialized via the value class:
-
 
 ```python
 x1 = Value(2.0,label='x1')
@@ -200,32 +182,22 @@ o = nn.tanh(); o.label = 'o'; print(o)
     Value(data=0.88137358)
     Value(data=0.707106777676776)
 
-
 and then the gradients are backpropogated using the $\texttt{backward()}$ function in value class, and visualized using the $\texttt{draw\_dot()}$ function defined in the graphviz section earlier:
-
 
 ```python
 o.backward()
 draw_dot(o)
 ```
 
-
-
-
-    
 <!-- ![svg](experimenting_files/experimenting_15_0.svg) -->
 <figure style="text-align: center; width:100%;">
     <img src="{{site.baseurl}}/images/experimenting_files/experimenting_15_0.svg" alt="computational graphs" style="width:70%; margin:3% auto; display:block;">
     <figcaption>computational graph for a single two-input neuron with tanh activation</figcaption>
 </figure>
     
-
-
-
 Now, just as an extra exercise in object oriented programming, the tanh function is further broken down as $\tanh(x) = \frac{e^{2x} + 1}{e^{2x} - 1}$ and we implement it as a composite function of exponentiation, addition (subtraction), division. Division in the value class is implemented more generally as a composite of multiplication and monomials: $\frac{a}{b} = a*b^{-1}$, so implement $\texttt{pow()}$ in value class so that we can more generally produce monomials $x^n$ of arbitrary degree in our arithmetic system.
 
 Once the above steps are implemented in the value class, we can now produce a longer computational graph and verify that we still get the same gradients:
-
 
 ```python
 #after implementing pow, truediv, exp
@@ -253,30 +225,17 @@ draw_dot(o)
     Value(data=-6.0)
     Value(data=0.88137358)
     Value(data=5.828427042920401)
-
-
-
-
-
-    
-<!-- ![svg]()
-<figure style="margin: auto auto; text-align: center; width:100%" vertical-align='middle'>
-    <img src='{{site.baseurl}}/images/experimenting_files/experimenting_18_1.svg' alt='graphviz' width='60%' style='margin:3% 3%; display:inline-block' text-align='center' vertical-align='middle'/>
-    <figcaption>----</figcaption>
-</figure> -->
     
 <figure style="text-align: center; width:100%;">
     <img src="{{site.baseurl}}/images/experimenting_files/experimenting_18_1.svg" alt="computational graphs" style="width:70%; margin:3% auto; display:block;">
     <figcaption>bigger computational graph for the same neuron</figcaption>
 </figure>
 
-
 We now shift focus to being able to achieve the same with Pytorch: the most popular deep learning library. In the process, we can verify the functional equivalence of micrograd's and Pytorch's $\texttt{backward()}$ functions:
 
-
 ```python
-# single two-param neuron backprop in pytorch
 
+# single two-param neuron backprop in pytorch
 import torch
 x1 = torch.Tensor([2.0]).double()   ;   x1.requires_grad = True
 x2 = torch.Tensor([0.0]).double()   ;   x2.requires_grad = True
@@ -309,7 +268,6 @@ That's it from me! I'm skipping the part where Andrej discusses the $\texttt{nn.
 
 Roughwork:
 
-
 ```python
 a = Value(2.0)
 b = Value(4.0)
@@ -321,9 +279,6 @@ a / b
 
     Value(data=0.5)
 
-
-
-
 ```python
 a = Value(3.0, label='a')
 b=a+a; b.label = 'b'
@@ -331,20 +286,11 @@ b.backward()
 draw_dot(b)
 ```
 
-
-
-
-    
 <!-- ![svg](experimenting_files/experimenting_24_0.svg) -->
 <figure style="text-align: center; width:100%;">
     <img src="{{site.baseurl}}/images/experimenting_files/experimenting_24_0.svg" alt="chain rule error fixed" style="width:70%; margin:3% auto; display:block;">
     <figcaption>accounting for variable reuse in chain rule</figcaption>
 </figure>
-
-    
-
-
-
 
 ```python
 a = Value(-2.0, label='a')
@@ -356,20 +302,12 @@ f.backward()
 draw_dot(f)
 ```
 
-
-
-
-    
 <!-- ![svg](experimenting_files/experimenting_25_0.svg) -->
 <figure style="text-align: center; width:100%;">
     <img src="{{site.baseurl}}/images/experimenting_files/experimenting_25_0.svg" alt="chain rule error fixed" style="width:70%; margin:3% auto; display:block;">
     <figcaption>another example of variable reuse in chain rule</figcaption>
 </figure>
     
-
-
-
-
 ```python
 a = Value(2.0)
 2 * a
