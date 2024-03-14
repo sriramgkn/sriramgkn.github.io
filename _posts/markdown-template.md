@@ -1,6 +1,6 @@
 ---
 layout: post
-title: blogpost 
+title: Blog Post 
 ---
 
 
