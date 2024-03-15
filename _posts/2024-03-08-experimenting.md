@@ -147,7 +147,9 @@ def draw_dot(root, format='svg', rankdir='LR'):
     return dot
 ```
 
-The code above can basically draw the entire graph, and indicate label, data, & gradient information at each node. The gradient at each node $j$ (as computed in value class) is the partial derivative of its weight $w_j$ w.r.t. the output loss function $L(o)$, so that's ${\frac{\partial w_j}{\partial L}}$.
+The code above can basically draw the entire graph, and indicate label, data, & gradient information at each node. The gradient at each node $j$ (as computed in value class) is the partial derivative of the loss function $L(o)$ w.r.t. the weight $w_j$ at that node. $o$ represents the output just before computing the loss function.
+
+<!-- of its weight $w_j$ w.r.t. the output loss function $L(o)$, so that's ${\frac{\partial w_j}{\partial L}}$. -->
 
 As such, the neural network output is simply $o(\boldsymbol x_{in},\boldsymbol w)$. The loss function is an additional step computing a metric function on the output and supervised output labels of the training data. The mean-squared loss (2-norm) is a simple example: $\lVert o(\boldsymbol x_{in},\boldsymbol w) - \boldsymbol l \rVert_{2}$, where weight vector $\boldsymbol w$ is known to produce a scalar output $l$, and the 2-norm (mean squared loss) is only really sensible in the limit of multiple outputs (so that $\boldsymbol o$ and $\boldsymbol l$ become vectors)
 
