@@ -147,7 +147,7 @@ def draw_dot(root, format='svg', rankdir='LR'):
     return dot
 ```
 
-The code above can basically draw the entire graph, and indicate label, data, & gradient information at each node. The gradient at each node $j$ (as computed in value class) is the partial derivative of the loss function $L(o)$ w.r.t. the weight $w_j$ at that node. $o$ represents the output just before computing the loss function.
+The code above can basically draw the entire graph, and indicate label, data, & gradient information at each node. The gradient at each node $j$ (as computed in value class) is the partial derivative of the loss function $L(o)$ w.r.t. the weight $w_j$ at that node, so that's $\frac{\partial L(o)}{\partial w_j}$ [$o$ represents the output just before computing the loss function].
 
 <!-- of its weight $w_j$ w.r.t. the output loss function $L(o)$, so that's ${\frac{\partial w_j}{\partial L}}$. -->
 
