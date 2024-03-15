@@ -3,7 +3,7 @@ layout: post
 title: Understanding backpropogation
 ---
 
-In this post, we will implement backpropogation using elementary arithmetic operations following [[1](#ref-1)]. We recommend visiting micrograd on github [[2](#ref-2)]. Our notebook is also available on github [[3](#ref-3)].
+In this post, we will implement backpropogation using elementary arithmetic operations following [[1](#ref-1)]. We recommend visiting micrograd on github [[2](#ref-2)]. Our notebook is also available on github [[3](#ref-3)]. The approach is modeled after the dynamic computational graph of Pytorch, with the mindset of getting to a operationally minimal implementation of backprop. This post is not a guide on training neural nets and the numerous associated subtleties. It is meant to be short intro to automatic differentiation.
 
 We start with a few basic imports:
 
