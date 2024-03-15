@@ -106,7 +106,7 @@ for i, ax in enumerate(axes.flat):
 plt.show()
 ```
 
-![png](notebook-ml_files/notebook-ml_2_0.png)
+![png]({{site.baseurl}}/_posts/notebook-ml_files/notebook-ml_2_0.png)
 <!-- <figure style="text-align: center; width:100%;">
     <img src="{{site.baseurl}}/images/notebook-ml_files/notebook-ml_2_0.png" alt="grayscale" style="max-width:90%; height: auto; margin:3% auto; display:block;">
     <figcaption></figcaption>
@@ -131,7 +131,7 @@ graph.render('network_graph', format='png')  # This will save the graph as a PNG
 graph
 ```
 
-![svg](notebook-ml_files/notebook-ml_4_0.svg)
+![svg]({{site.baseurl}}/_posts/notebook-ml_files/notebook-ml_4_0.svg)
 <!-- <figure style="text-align: center; width:100%;">
     <img src="{{site.baseurl}}/images/notebook-ml_files/notebook-ml_4_0.svg" alt="torchviz" style="max-width:90%; height: auto; margin:3% auto; display:block;">
     <figcaption></figcaption>
