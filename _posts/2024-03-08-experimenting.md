@@ -3,10 +3,9 @@ layout: post
 title: Understanding backpropogation
 ---
 
-In this post, we will implement backpropogation using elementary arithmetic operations following [[1](#ref-1)]. 
-<!-- Tinker along on colab. -->
+In this post, we will implement backpropogation using elementary arithmetic operations following [[1](#ref-1)]. Tinker along on [colab](https://colab.research.google.com/drive/1go5G3Tx3mCh_jOqm5ES7YxIFDQ2Xwts2?usp=sharing) or download our [notebook](https://github.com/sriramgkn/micrograd-sri).
 
-We recommend visiting micrograd on github [[2](#ref-2)], and if interested download our notebook also on github [[3](#ref-3)]. The approach here is modeled after the dynamic computational graph [[4](#ref-4)] of Pytorch, with the mindset of getting to a operationally minimal implementation of backprop. This post is not a guide on training neural nets and the numerous associated subtleties. It is meant to be short intro to automatic differentiation.
+We also recommend cloning the original micrograd repository by Andrej Karpathy [[2](#ref-2)]. The approach in micrograd is modeled after the dynamic computational graph of Pytorch [[3](#ref-3)], with the mindset of getting to a operationally minimal implementation of backpropogation. This post is not a guide on training neural networks or the numerous subtleties associated with training. It is meant to be short introduction to automatic differentiation.
 
 We start with a few basic imports:
 
@@ -329,5 +328,4 @@ a = Value(2.0)
 <!-- use two extra spaces at end of each line for line break -->
 [1] <a id="ref-1"></a> [Andrej Karpathy Lecture](https://www.youtube.com/watch?v=VMj-3S1tku0)  
 [2] <a id="ref-2"></a> [Micrograd Repository](https://github.com/karpathy/micrograd)  
-[3] <a id="ref-3"></a> [Our Jupyter notebook in this post](https://github.com/sriramgkn/micrograd-sri)  
-[4] <a id="ref-4"></a> [https://www.geeksforgeeks.org/computational-graphs-in-deep-learning/](https://www.geeksforgeeks.org/computational-graphs-in-deep-learning/)
+[3] <a id="ref-4"></a> [https://www.geeksforgeeks.org/computational-graphs-in-deep-learning/](https://www.geeksforgeeks.org/computational-graphs-in-deep-learning/)
