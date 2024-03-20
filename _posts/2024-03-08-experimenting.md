@@ -4,8 +4,9 @@ title: Understanding backpropogation
 ---
 
 In this post, we will implement backpropogation using elementary arithmetic operations following [[1](#ref-1)]. 
+<!-- Tinker along on colab. -->
 
-We recommend visiting micrograd on github [[2](#ref-2)]. Our notebook is also available on github [[3](#ref-3)]. The approach is modeled after the dynamic computational graph [[4](#ref-4)] of Pytorch, with the mindset of getting to a operationally minimal implementation of backprop. This post is not a guide on training neural nets and the numerous associated subtleties. It is meant to be short intro to automatic differentiation.
+We recommend visiting micrograd on github [[2](#ref-2)], and if interested download our notebook also on github [[3](#ref-3)]. The approach here is modeled after the dynamic computational graph [[4](#ref-4)] of Pytorch, with the mindset of getting to a operationally minimal implementation of backprop. This post is not a guide on training neural nets and the numerous associated subtleties. It is meant to be short intro to automatic differentiation.
 
 We start with a few basic imports:
 
@@ -163,7 +164,7 @@ plt.plot( np.arange(-5,5,0.2), np.tanh(np.arange(-5,5,0.2)) ); plt.grid()
 
 
 <figure style="text-align: center; width:100%;">
-    <img src="{{site.baseurl}}/images/experimenting_files/experimenting_11_0.png" alt="tanh plot" style="width:70%; height: auto; margin:3% auto; display:block;">
+    <img src="{{site.baseurl}}/images/2024-03-08-experimenting_files/experimenting_11_0.png" alt="tanh plot" style="width:70%; height: auto; margin:3% auto; display:block;">
     <figcaption>tanh plot</figcaption>
 </figure>
     
@@ -197,7 +198,7 @@ draw_dot(o)
 
 <!-- ![svg](experimenting_files/experimenting_15_0.svg) -->
 <figure style="text-align: center; width:100%;">
-    <img src="{{site.baseurl}}/images/experimenting_files/experimenting_15_0.svg" alt="computational graphs" style="max-width:70%; height: auto; margin:3% auto; display:block;">
+    <img src="{{site.baseurl}}/images/2024-03-08-experimenting_files/experimenting_15_0.svg" alt="computational graphs" style="max-width:70%; height: auto; margin:3% auto; display:block;">
     <figcaption>computational graph for a single two-input neuron with tanh activation</figcaption>
 </figure>
     
@@ -233,7 +234,7 @@ draw_dot(o)
     Value(data=5.828427042920401)
     
 <figure style="text-align: center; width:100%;">
-    <img src="{{site.baseurl}}/images/experimenting_files/experimenting_18_1.svg" alt="computational graphs" style="max-width:90%; height: auto; margin:3% auto; display:block;">
+    <img src="{{site.baseurl}}/images/2024-03-08-experimenting_files/experimenting_18_1.svg" alt="computational graphs" style="max-width:90%; height: auto; margin:3% auto; display:block;">
     <figcaption>bigger computational graph for the same neuron</figcaption>
 </figure>
 
@@ -294,7 +295,7 @@ draw_dot(b)
 
 <!-- ![svg](experimenting_files/experimenting_24_0.svg) -->
 <figure style="text-align: center; width:100%;">
-    <img src="{{site.baseurl}}/images/experimenting_files/experimenting_24_0.svg" alt="chain rule error fixed" style="width:70%; height: auto; margin:3% auto; display:block;">
+    <img src="{{site.baseurl}}/images/2024-03-08-experimenting_files/experimenting_24_0.svg" alt="chain rule error fixed" style="width:70%; height: auto; margin:3% auto; display:block;">
     <figcaption>accounting for variable reuse in chain rule</figcaption>
 </figure>
 
@@ -310,7 +311,7 @@ draw_dot(f)
 
 <!-- ![svg](experimenting_files/experimenting_25_0.svg) -->
 <figure style="text-align: center; width:100%;">
-    <img src="{{site.baseurl}}/images/experimenting_files/experimenting_25_0.svg" alt="chain rule error fixed" style="width:70%; height: auto; margin:3% auto; display:block;">
+    <img src="{{site.baseurl}}/images/2024-03-08-experimenting_files/experimenting_25_0.svg" alt="chain rule error fixed" style="width:70%; height: auto; margin:3% auto; display:block;">
     <figcaption>another example of variable reuse in chain rule</figcaption>
 </figure>
     
