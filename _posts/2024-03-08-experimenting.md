@@ -3,7 +3,7 @@ layout: post
 title: Understanding backpropogation
 ---
 
-In this post, we will implement backpropogation using elementary arithmetic operations following [[1](#ref-1)]. Tinker along on [colab](https://colab.research.google.com/drive/1go5G3Tx3mCh_jOqm5ES7YxIFDQ2Xwts2?usp=sharing) or clone our [repo](https://github.com/sriramgkn/micrograd-sri).
+In this post, we will implement backpropogation using elementary arithmetic operations following [[1](#ref-1)]. Play along on [colab](https://colab.research.google.com/drive/1go5G3Tx3mCh_jOqm5ES7YxIFDQ2Xwts2?usp=sharing) or clone our [repo](https://github.com/sriramgkn/micrograd-sri).
 
 We also recommend cloning the original micrograd repository by Andrej Karpathy [[2](#ref-2)]. The approach in micrograd is modeled after the dynamic computational graph of Pytorch [[3](#ref-3)], with the mindset of getting to a operationally minimal implementation of backpropogation. This post is not a guide on training neural networks or the numerous subtleties associated with training. It is meant to be short introduction to automatic differentiation.
 
