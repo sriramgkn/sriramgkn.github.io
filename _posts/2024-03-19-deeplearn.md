@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Exploring pytorch and JAX
+title: Exploring Pytorch and JAX
 ---
 
 In this post, we hope to concisely introduce two prominent frameworks for deep learning: Pytorch and JAX. Play along on [colab](https://colab.research.google.com/drive/1poCvFUmnn8lcbUU7IEAExMAbbFqOUzI5?usp=sharing).
