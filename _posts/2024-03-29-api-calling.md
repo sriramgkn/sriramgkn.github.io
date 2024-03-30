@@ -7,18 +7,18 @@ In this post, we will see how APIs work. Specifically we'll learn about the REST
 
 ## What is an API?
 
-An API (Application Programming Interface) is a set of rules, protocols, and tools that allow different software applications to communicate and exchange data with each other[[1](#ref-1)][[3](#ref-3)]. APIs define the types of requests that can be made between applications, how to make those requests, the data formats that should be used, and the conventions to follow[[1](#ref-1)].
+An API (Application Programming Interface) is a set of rules, protocols, and tools that allow different software applications to communicate and exchange data with each other [[1](#ref-1)] [[3](#ref-3)]. APIs define the types of requests that can be made between applications, how to make those requests, the data formats that should be used, and the conventions to follow [[1](#ref-1)].
 
 Some key points about APIs:
 
-- APIs act as an interface or middleman between different applications[[3](#ref-3)]
-- They allow applications to access specific functionality and data from other applications[[3](#ref-3)] 
-- APIs simplify application development by enabling integration of existing services and data[[5](#ref-5)]
-- They provide a secure way for application owners to share data and functionality with others[[5](#ref-5)]
+- APIs act as an interface or middleman between different applications [[3](#ref-3)]
+- They allow applications to access specific functionality and data from other applications [[3](#ref-3)] 
+- APIs simplify application development by enabling integration of existing services and data [[5](#ref-5)]
+- They provide a secure way for application owners to share data and functionality with others [[5](#ref-5)]
 
 ## Types of APIs
 
-APIs can be categorized in a few different ways[[1](#ref-1)][[3](#ref-3)]:
+APIs can be categorized in a few different ways [[1](#ref-1)] [[3](#ref-3)]:
 
 1. By intended audience:
 - Open/Public APIs: Publicly available with minimal restrictions 
@@ -39,7 +39,7 @@ APIs can be categorized in a few different ways[[1](#ref-1)][[3](#ref-3)]:
 
 ## How APIs Work
 
-The basic flow of an API call looks like this[[1](#ref-1)][[5](#ref-5)]:
+The basic flow of an API call looks like this [[1](#ref-1)] [[5](#ref-5)]:
 
 1. An application makes an API request to retrieve data or perform an action
 2. The request is processed through the API's endpoint (URI), headers, and body
@@ -51,18 +51,18 @@ This all happens in the background without any visibility on the user interface.
 
 ## API Authentication and Security
 
-Since APIs can expose sensitive data and functionality, authentication is critical to ensure only authorized users can access them[[2](#ref-2)][[4](#ref-4)]. Common API authentication methods include:
+Since APIs can expose sensitive data and functionality, authentication is critical to ensure only authorized users can access them [[2](#ref-2)] [[4](#ref-4)]. Common API authentication methods include:
 
 - HTTP Basic Authentication: Sends credentials as user/password pairs
 - API Keys: Unique keys issued to each user to track and control usage
 - OAuth: Token-based authentication for secure delegated access
 - JWT: JSON Web Tokens for stateless authentication
 
-It's important to follow best practices like using HTTPS, access tokens, rate limiting, and input validation to keep APIs secure[[2](#ref-2)][[4](#ref-4)].
+It's important to follow best practices like using HTTPS, access tokens, rate limiting, and input validation to keep APIs secure [[2](#ref-2)] [[4](#ref-4)].
 
 ## Benefits of APIs
 
-APIs provide many benefits to developers and organizations[[1](#ref-1)][[3](#ref-3)][[5](#ref-5)]:
+APIs provide many benefits to developers and organizations [[1](#ref-1)] [[3](#ref-3)] [[5](#ref-5)]:
 
 - Simplify application development through code reuse and integration 
 - Enable automation of workflows and processes
