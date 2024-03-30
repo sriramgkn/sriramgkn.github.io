@@ -255,6 +255,5 @@ Interesting. While there isn't too much we learn at this low a resolution, if we
 ### References  
 [1] <a id="ref-1"></a> [NeurIPS: Pytorch paper by FAIR](https://proceedings.neurips.cc/paper_files/paper/2019/file/bdbca288fee7f92f2bfa9f7012727740-Paper.pdf)  
 [2] <a id="ref-2"></a> [MLSys: JAX paper by Google Brain](https://mlsys.org/Conferences/doc/2018/146.pdf)  
-<!-- use two extra spaces at end of each line for line break -->
 
 _Assisted by [perplexity.ai](https://www.perplexity.ai/)_

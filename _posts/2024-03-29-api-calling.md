@@ -81,32 +81,49 @@ In summary, APIs are an essential part of modern software development, enabling 
 [4] <a id="ref-4"></a> [hubspot.com: API Authentication: What It Is, How It Works, Methods, and More](https://blog.hubspot.com/website/api-authentication)  
 [5] <a id="ref-5"></a> [ibm.com: Application Programming Interface (API)](https://www.ibm.com/topics/api)  
 
-_Assisted by [perplexity.ai](https://www.perplexity.ai/)_
+_Assisted by Claude 3 Opus on [perplexity.ai](https://perplexity.ai)_
 
-<!-- --------------------------------------------------------------------------------------------------------------------------------------- -->
-<!-- Include citations like this [[1](#ref-1)], and this [[2](#ref-2)]. Use two extra spaces at end of each line for line break
+<!-- -------------------------------------------------------------- -->
+<!-- 
+regex...
+\[(\d)\]
+to
+ [[$1](#ref-$1)]
+
+\[(\d)\] (.*)
+to
+[$1] <a id="ref-$1"></a> [display text]($2)  
+
+\[(\d\d)\] (.*)
+to
+[$1] <a id="ref-$1"></a> [display text]($2)  
+
+Citations:
+to
+---
+### References  
+-->
+<!-- 
+Include images like this:  
+<figure style="text-align: center; width:100%;">
+    <img src="{{site.baseurl}}/images/experimenting_files/experimenting_18_1.svg" alt="___" style="max-width:90%; 
+    height: auto; margin:3% auto; display:block;">
+    <figcaption>___</figcaption>
+</figure> 
+-->
+<!-- 
+Include code snippets like this:  
+```python 
+def square(x):
+    return x**2
+``` 
+-->
+<!-- 
+Cite like this [[1](#ref-1)], and this [[2](#ref-2)]. Use two extra spaces at end of each line for line break
 ---
 ### References  
 [1] <a id="ref-1"></a> [display text](hyperlink)  
 [2] <a id="ref-2"></a> [display text](hyperlink) 
-[3] <a id="ref-3"></a> [display text](hyperlink)   -->
-
-<!-- Include images like this:  
-<figure style="text-align: center; width:100%;">
-    <img src="{{site.baseurl}}/images/experimenting_files/experimenting_18_1.svg" alt="___" style="max-width:90%; height: auto; margin:3% auto; display:block;">
-    <figcaption>___</figcaption>
-</figure> -->
-
-<!-- Include code snippets like this:  
-```python 
-def square(x):
-    return x**2
-``` -->
-
-<!-- 
-[ : [[
-] : ](#ref-)]
-] : ] <a id="ref-"></a> 
-https : [display text](https
+[3] <a id="ref-3"></a> [display text](hyperlink)   
 -->
-<!-- --------------------------------------------------------------------------------------------------------------------------------------- -->
+<!-- -------------------------------------------------------------- -->
