@@ -81,7 +81,7 @@ In summary, APIs are an essential part of modern software development, enabling 
 [4] <a id="ref-4"></a> [hubspot.com: API Authentication: What It Is, How It Works, Methods, and More](https://blog.hubspot.com/website/api-authentication)  
 [5] <a id="ref-5"></a> [ibm.com: Application Programming Interface (API)](https://www.ibm.com/topics/api)  
 
-
+_Assisted by [perplexity.ai](https://www.perplexity.ai/)_
 
 <!-- --------------------------------------------------------------------------------------------------------------------------------------- -->
 <!-- Include citations like this [[1](#ref-1)], and this [[2](#ref-2)]. Use two extra spaces at end of each line for line break
@@ -90,8 +90,6 @@ In summary, APIs are an essential part of modern software development, enabling 
 [1] <a id="ref-1"></a> [display text](hyperlink)  
 [2] <a id="ref-2"></a> [display text](hyperlink) 
 [3] <a id="ref-3"></a> [display text](hyperlink)   -->
-
-<!-- _Assisted by [perplexity.ai](https://www.perplexity.ai/)_ -->
 
 <!-- Include images like this:  
 <figure style="text-align: center; width:100%;">
