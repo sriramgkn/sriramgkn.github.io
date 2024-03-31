@@ -202,21 +202,21 @@ _Assisted by claude-3-opus on [perplexity.ai](https://perplexity.ai)_
 
 <!-- -------------------------------------------------------------- -->
 <!-- 
+sequence: renumber, accumulate, format
+
+to increment numbers, use multiple cursors then emmet shortcuts
+
 regex...
 \[(\d+)\]
 to
  [[$1](#ref-$1)]
 
-\[(\d+)\] (.*)
+regex...
+ \[(\d+)\] (.*)
 to
-[$1] <a id="ref-$1"></a> [display text]($2)   
+[$1] <a id="ref-$1"></a> [display text]($2)  
 
-to increment numbers, use multiple cursors then emmet shortcuts
-
-Citations:
-to
----
-### References  
+change "citations:" to "### "
 -->
 <!-- 
 Include images like this:  
