@@ -322,27 +322,29 @@ a = Value(2.0)
 
 ---
 ## References
+
 [1] <a id="ref-1"></a> [Youtube: Lecture by Andrej Karpathy](https://www.youtube.com/watch?v=VMj-3S1tku0)  
 [2] <a id="ref-2"></a> [Github: Micrograd by Andrej Karpathy](https://github.com/karpathy/micrograd)  
 [3] <a id="ref-4"></a> [GeeksforGeeks: Computational Graphs](https://www.geeksforgeeks.org/computational-graphs-in-deep-learning/)  
 
+
 <!-- -------------------------------------------------------------- -->
 <!-- 
+sequence: renumber, accumulate, format
+
+to increment numbers, use multiple cursors then emmet shortcuts
+
 regex...
 \[(\d+)\]
 to
  [[$1](#ref-$1)]
 
-\[(\d+)\] (.*)
+regex...
+ \[(\d+)\] (.*)
 to
 [$1] <a id="ref-$1"></a> [display text]($2)  
 
-to increment numbers, use multiple cursors then emmet shortcuts
-
-Citations:
-to
----
-### References  
+change "Citations:" to "## References"
 -->
 <!-- 
 Include images like this:  
@@ -360,7 +362,7 @@ def square(x):
 ``` 
 -->
 <!-- 
-Cite like this [[1](#ref-1)], and this [[2](#ref-2)]. Use two extra spaces at end of each line for line break
+Cite like this [[2](#ref-2)], and this [[3](#ref-3)]. Use two extra spaces at end of each line for line break
 ---
 ### References  
 [1] <a id="ref-1"></a> [display text](hyperlink)  

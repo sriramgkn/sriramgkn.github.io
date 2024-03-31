@@ -252,29 +252,31 @@ plt.show()
 Interesting. While there isn't too much we learn at this low a resolution, if we carefully compare the structure of the Pytorch and JAX weights, we see that JAX has more fine-grained variation in the trained weights, which from a distance looks more random than the pytorch weights. But clearly they've learnt different weights, and JAX's superior accuracy might be stemming from its ability to pick up more fine-grained spatial variations in the input images.
 
 ---
-### References  
+## References
+
 [1] <a id="ref-1"></a> [NeurIPS: Pytorch paper by FAIR](https://proceedings.neurips.cc/paper_files/paper/2019/file/bdbca288fee7f92f2bfa9f7012727740-Paper.pdf)  
 [2] <a id="ref-2"></a> [MLSys: JAX paper by Google Brain](https://mlsys.org/Conferences/doc/2018/146.pdf)  
 
 _Assisted by [perplexity.ai](https://www.perplexity.ai/)_
 
+
 <!-- -------------------------------------------------------------- -->
 <!-- 
+sequence: renumber, accumulate, format
+
+to increment numbers, use multiple cursors then emmet shortcuts
+
 regex...
 \[(\d+)\]
 to
  [[$1](#ref-$1)]
 
-\[(\d+)\] (.*)
+regex...
+ \[(\d+)\] (.*)
 to
 [$1] <a id="ref-$1"></a> [display text]($2)  
 
-to increment numbers, use multiple cursors then emmet shortcuts
-
-Citations:
-to
----
-### References  
+change "Citations:" to "## References"
 -->
 <!-- 
 Include images like this:  
@@ -292,11 +294,12 @@ def square(x):
 ``` 
 -->
 <!-- 
-Cite like this [[1](#ref-1)], and this [[2](#ref-2)]. Use two extra spaces at end of each line for line break
+Cite like this [[2](#ref-2)], and this [[3](#ref-3)]. Use two extra spaces at end of each line for line break
 ---
 ### References  
 [1] <a id="ref-1"></a> [display text](hyperlink)  
 [2] <a id="ref-2"></a> [display text](hyperlink) 
 [3] <a id="ref-3"></a> [display text](hyperlink)   
 -->
+<!-- -------------------------------------------------------------- -->
 <!-- -------------------------------------------------------------- -->

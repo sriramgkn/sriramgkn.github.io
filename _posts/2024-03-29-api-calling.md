@@ -181,7 +181,7 @@ REST is a good choice when:
 In summary, GraphQL provides a different and in many cases more efficient approach to developing APIs than REST. It solves many pain points of REST like over/under-fetching and the need for multiple endpoints. However, REST still has its place and is not going away anytime soon. The choice between GraphQL and REST depends on the specific needs of your application.
 
 ---
-### References
+## References
 [1] <a id="ref-1"></a> [axway.com: Types of APIs Different APIs Explained With Concrete Examples for 2024](https://blog.axway.com/learning-center/apis/basics/different-types-apis)  
 [2] <a id="ref-2"></a> [postman.com: What Is API Authentication? Benefits, Methods & Best Practices](https://www.postman.com/api-platform/api-authentication/)  
 [3] <a id="ref-3"></a> [geeksforgeeks.org: Types of APIs and Applications of API in Real World](https://www.geeksforgeeks.org/application-programming-interfaces-api-and-its-types/)  
@@ -216,7 +216,7 @@ regex...
 to
 [$1] <a id="ref-$1"></a> [display text]($2)  
 
-change "citations:" to "### "
+change "Citations:" to "## References"
 -->
 <!-- 
 Include images like this:  
