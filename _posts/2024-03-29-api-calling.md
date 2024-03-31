@@ -3,9 +3,9 @@ layout: post
 title: Understanding API calling
 ---
 
-In this post, we will see how APIs work. We will learn about two distinct architectural styles: REST and GraphQL. 
+In this post, we will see how APIs work. We will learn about two distinct architectural styles: REST and GraphQL.
 
-We will also discuss code examples of i) how REST APIs are implemented in Python using the Django Resource Framework (DRF), and ii) how GraphQL APIs are implemented in Python with the Graphene framework.
+We will also discuss code examples of i) how REST APIs are implemented in Python using the [Django REST Framework](https://www.django-rest-framework.org/) (DRF), and ii) how GraphQL APIs are implemented in Python with the [Graphene](https://graphene-python.org/) library.
 
 ## What is an API?
 
@@ -73,7 +73,112 @@ APIs provide many benefits to developers and organizations [[1](#ref-1)] [[3](#r
 - Provide flexibility and agility in developing new applications
 - Reduce information silos and disconnected systems
 
-In summary, APIs are an essential part of modern software development, enabling applications to communicate, share data, and extend functionality. Understanding the different types, architectures, authentication methods, and best practices around APIs is key to building robust and secure applications in today's connected world.
+APIs are an essential part of modern software development, enabling applications to communicate, share data, and extend functionality. Understanding the different types, architectures, authentication methods, and best practices around APIs is key to building robust and secure applications in today's connected world.
+
+REST APIs are historically the most common architectural style for designing APIs. In Python, REST APIs are implemented using the [DRF](https://www.django-rest-framework.org/) framework mentioned earlier. Before we look at code examples, let us try to understand the REST architectural style in detail:
+
+## Key Characteristics of REST
+
+1. Uniform Interface
+REST defines a uniform interface between clients and servers. This simplifies and decouples the architecture, allowing both parts to evolve independently  [[6](#ref-6)]  [[8](#ref-8)]. The uniform interface includes:
+
+- Resource identification in requests (e.g. URIs in web-based REST)
+- Resource manipulation through representations (e.g. JSON, XML)
+- Self-descriptive messages with metadata about the resource
+- Hypermedia as the engine of application state (HATEOAS) - having links to related resources
+
+2. Client-Server Architecture  
+REST uses a client-server architecture where clients and servers have clear separation of concerns  [[7](#ref-7)]  [[9](#ref-9)]. Servers expose APIs and resources that clients consume. They evolve independently, with servers not knowing about client implementations and vice versa.
+
+3. Stateless Interactions
+Server-side sessions are not required in REST  [[7](#ref-7)]  [[9](#ref-9)]. Each client request contains all the information needed by the server to process it, like authentication tokens. This improves scalability as servers don't have to store client state between requests.
+
+4. Cacheability
+Responses from the server can be labeled as cacheable or non-cacheable  [[7](#ref-7)]  [[9](#ref-9)]. Caching can eliminate some client-server interactions, improving scalability and performance. Caches can live on the server or client-side.
+
+5. Layered System
+A REST API can be composed of multiple architectural layers  [[8](#ref-8)]  [[9](#ref-9)]. Layers can encapsulate legacy services, enforce security policies, load balance requests, etc. Layers should be invisible to the client.
+
+6. Code on Demand (optional)
+REST allows servers to extend client functionality by transferring executable code, like JavaScript  [[8](#ref-8)]. This is an optional constraint and not commonly used.
+
+## Designing RESTful APIs
+
+When designing APIs to conform to the REST architectural style:
+
+- Use HTTP methods explicitly (GET, POST, PUT, DELETE)  [[6](#ref-6)]  [[10](#ref-10)]
+- Be stateless and send complete, independent requests  [[6](#ref-6)]  [[10](#ref-10)] 
+- Structure the API around resources, which are accessed via URIs  [[6](#ref-6)]  [[10](#ref-10)]
+- Use standard, well-defined data formats like JSON or XML  [[10](#ref-10)]
+- Leverage HTTP status codes to indicate errors  [[10](#ref-10)]
+- Implement authentication via standard means like OAuth or JWT  [[10](#ref-10)]
+
+Some additional design tips:
+
+- Keep base URLs simple and intuitive
+- Use nouns for resources, not verbs 
+- Model resource hierarchy with URI paths
+- Provide filtering, sorting, field selection and paging for collections
+- Version your API if you make breaking changes
+- Provide good documentation and examples
+
+Essentially, REST provides a set of architectural constraints that, when applied to web services, make them scalable, loosely coupled, simple, and easy to modify and extend. The key is to apply the constraints uniformly and leverage the infrastructure of the web, like HTTP, while clearly separating client and server responsibilities.
+
+Since 2015, a newer style known as GraphQL has gained popularity for its speed and performance benefits. In Python, GraphQL is packaged into the [Graphene](https://graphene-python.org/) library. Before we look at code examples, let us try to understand the philosophy of GraphQL in detail:
+
+## What is GraphQL?
+
+GraphQL is both a query language and a runtime for fulfilling those queries (API calls) developed by Facebook [[11](#ref-11)] [[12](#ref-12)]. It provides a more efficient, powerful and flexible alternative to REST.
+
+The key characteristics of GraphQL are:
+
+- It allows the client to specify exactly what data it needs [[11](#ref-11)]
+- It makes it easier to aggregate data from multiple sources [[11](#ref-11)]  
+- It uses a type system to describe data [[12](#ref-12)]
+
+With GraphQL, the client sends a query to the API and gets exactly what it needs, nothing more and nothing less. This solves some common problems with REST like over-fetching and under-fetching of data [[11](#ref-11)].
+
+## GraphQL vs REST
+
+While GraphQL can be used as an alternative to REST, it's not necessarily a replacement for REST. Here are the key differences:
+
+1. Data Fetching
+- In REST, you typically gather the data by accessing multiple endpoints [[11](#ref-11)] [[14](#ref-14)]. In GraphQL, you'd simply send a single query to the GraphQL server that includes the concrete data requirements. The server then responds with a JSON object where these requirements are fulfilled [[11](#ref-11)].
+- GraphQL allows you to retrieve many resources in a single request, while REST requires loading from multiple URLs [[15](#ref-15)].
+
+2. Over/Under Fetching 
+- One of the most common problems with REST is that of over- and under-fetching [[11](#ref-11)]. Over-fetching means that a client downloads more information than is actually required in the app. Under-fetching means a specific endpoint doesn't provide enough of the required information [[11](#ref-11)].
+- GraphQL solves this by allowing the client to specify exactly what data it needs [[11](#ref-11)] [[14](#ref-14)]. No more over- or under-fetching.
+
+3. Versioning
+- With a REST API, you would typically version the API or have multiple endpoints to account for different data needs [[14](#ref-14)]. 
+- With GraphQL, there's no need for versioning, as you can add new fields and types to your GraphQL API without impacting existing queries [[14](#ref-14)].
+
+4. Schema and Type System
+- GraphQL uses a strong type system to define the capabilities of an API [[12](#ref-12)]. All the types exposed in an API are written down in a schema using the GraphQL Schema Definition Language [[12](#ref-12)].
+- REST has no opinion about what format the data should be in [[14](#ref-14)].
+
+5. Architecture
+- GraphQL follows a client-driven architecture [[12](#ref-12)], where the client decides what data it needs and in what format. 
+- REST follows a server-driven architecture [[12](#ref-12)], where the server determines the data returned.
+
+6. Community and Ecosystem
+- REST has a larger community and ecosystem as it has been around for much longer [[12](#ref-12)].
+- GraphQL is a growing community and is being rapidly adopted, especially by companies with complex data fetching requirements [[12](#ref-12)] [[13](#ref-13)].
+
+## When to Use GraphQL vs REST
+
+GraphQL is a good choice when:
+- Your data is highly interconnected and you have complex data requirements [[13](#ref-13)]
+- You want clients to be able to dictate their data requirements [[13](#ref-13)]
+- You need high development velocity and flexibility [[13](#ref-13)]
+
+REST is a good choice when:
+- You have simple data requirements [[13](#ref-13)]
+- You need extensive caching support [[13](#ref-13)]
+- You prioritize simplicity and convention over flexibility [[13](#ref-13)]
+
+In summary, GraphQL provides a different and in many cases more efficient approach to developing APIs than REST. It solves many pain points of REST like over/under-fetching and the need for multiple endpoints. However, REST still has its place and is not going away anytime soon. The choice between GraphQL and REST depends on the specific needs of your application.
 
 ---
 ### References
@@ -82,23 +187,31 @@ In summary, APIs are an essential part of modern software development, enabling 
 [3] <a id="ref-3"></a> [geeksforgeeks.org: Types of APIs and Applications of API in Real World](https://www.geeksforgeeks.org/application-programming-interfaces-api-and-its-types/)  
 [4] <a id="ref-4"></a> [hubspot.com: API Authentication: What It Is, How It Works, Methods, and More](https://blog.hubspot.com/website/api-authentication)  
 [5] <a id="ref-5"></a> [ibm.com: Application Programming Interface (API)](https://www.ibm.com/topics/api)  
+[6] <a id="ref-6"></a> [restfulapi.net: What is REST? REST API Tutorial](https://restfulapi.net)
+[7] <a id="ref-7"></a> [oreilly.com: Building RESTful Web services with Go](https://www.oreilly.com/library/view/building-restful-web/9781788294287/80e6e100-f69f-4b6c-9291-2fe9446b5cf6.xhtml)
+[8] <a id="ref-8"></a> [packtpub.com: Defining REST and its various architectural styles](https://hub.packtpub.com/defining-rest-and-its-various-architectural-styles/)
+[9] <a id="ref-9"></a> [scrapingbee.com: The Six Characteristics of a REST API](https://www.scrapingbee.com/blog/six-characteristics-of-rest-api/)
+[10] <a id="ref-10"></a> [restfulapi.net: REST Architectural Constraints](https://restfulapi.net/rest-architectural-constraints/)
+[11] <a id="ref-11"></a> [kinsta.com: GraphQL vs REST: What's the Difference?](https://kinsta.com/blog/graphql-vs-rest/)
+[12] <a id="ref-12"></a> [guru99.com: GraphQL vs REST: Key Differences](https://www.guru99.com/graphql-vs-rest-apis.html)
+[13] <a id="ref-13"></a> [news.ycombinator.com: GraphQL vs. REST](https://news.ycombinator.com/item?id=37078606)
+[14] <a id="ref-14"></a> [mobilelive.ca: GraphQL vs REST: What You Didn't Know](https://www.mobilelive.ca/blog/graphql-vs-rest-what-you-didnt-know)
+[15] <a id="ref-15"></a> [apollographql.com: GraphQL vs. REST](https://www.apollographql.com/blog/graphql-vs-rest)
 
 _Assisted by claude-3-opus on [perplexity.ai](https://perplexity.ai)_
 
 <!-- -------------------------------------------------------------- -->
 <!-- 
 regex...
-\[(\d)\]
+\[(\d+)\]
 to
  [[$1](#ref-$1)]
 
-\[(\d)\] (.*)
+\[(\d+)\] (.*)
 to
-[$1] <a id="ref-$1"></a> [display text]($2)  
+[$1] <a id="ref-$1"></a> [display text]($2)   
 
-\[(\d\d)\] (.*)
-to
-[$1] <a id="ref-$1"></a> [display text]($2)  
+to increment numbers, use multiple cursors then emmet shortcuts
 
 Citations:
 to
@@ -121,7 +234,7 @@ def square(x):
 ``` 
 -->
 <!-- 
-Cite like this [[1](#ref-1)], and this [[2](#ref-2)]. Use two extra spaces at end of each line for line break
+Cite like this [[2](#ref-2)], and this [[3](#ref-3)]. Use two extra spaces at end of each line for line break
 ---
 ### References  
 [1] <a id="ref-1"></a> [display text](hyperlink)  

@@ -257,3 +257,46 @@ Interesting. While there isn't too much we learn at this low a resolution, if we
 [2] <a id="ref-2"></a> [MLSys: JAX paper by Google Brain](https://mlsys.org/Conferences/doc/2018/146.pdf)  
 
 _Assisted by [perplexity.ai](https://www.perplexity.ai/)_
+
+<!-- -------------------------------------------------------------- -->
+<!-- 
+regex...
+\[(\d+)\]
+to
+ [[$1](#ref-$1)]
+
+\[(\d+)\] (.*)
+to
+[$1] <a id="ref-$1"></a> [display text]($2)  
+
+to increment numbers, use multiple cursors then emmet shortcuts
+
+Citations:
+to
+---
+### References  
+-->
+<!-- 
+Include images like this:  
+<figure style="text-align: center; width:100%;">
+    <img src="{{site.baseurl}}/images/experimenting_files/experimenting_18_1.svg" alt="___" style="max-width:90%; 
+    height: auto; margin:3% auto; display:block;">
+    <figcaption>___</figcaption>
+</figure> 
+-->
+<!-- 
+Include code snippets like this:  
+```python 
+def square(x):
+    return x**2
+``` 
+-->
+<!-- 
+Cite like this [[1](#ref-1)], and this [[2](#ref-2)]. Use two extra spaces at end of each line for line break
+---
+### References  
+[1] <a id="ref-1"></a> [display text](hyperlink)  
+[2] <a id="ref-2"></a> [display text](hyperlink) 
+[3] <a id="ref-3"></a> [display text](hyperlink)   
+-->
+<!-- -------------------------------------------------------------- -->
