@@ -423,10 +423,10 @@ That's it from me! We hope this post serves as a guide to new learners navigatin
 [15] <a id="ref-15"></a> [apollographql.com: GraphQL vs. REST](https://www.apollographql.com/blog/graphql-vs-rest)  
 [16] <a id="ref-16"></a> [radixweb.com: How to Create a REST API with Django REST Framework?](https://radixweb.com/blog/create-rest-api-using-django-rest-framework)  
 [17] <a id="ref-17"></a> [djangostars.com: Using the Django REST Framework to Develop APIs](https://djangostars.com/blog/rest-apis-django-development/)  
-[18] <a id="ref-18"></a> [code.likeagirl.io: Introduction to GraphQL with Python Graphene and GraphQL](https://code.likeagirl.io/introduction-to-graphql-with-python-graphene-and-graphql-a36412250907?gi=6041bd5007f6)
-[19] <a id="ref-19"></a> [jeffersonheard.github.io: GraphQL in Python with Graphene](https://jeffersonheard.github.io/python/graphql/2018/12/08/graphene-python.html)
-[20] <a id="ref-20"></a> [activestate.com: How to Build a GraphQL Server in Python with Graphene](https://www.activestate.com/blog/how-to-build-a-graphql-server-in-python-with-graphene/)
-[21] <a id="ref-21"></a> [apollographql.com: The Complete API Guide](https://www.apollographql.com/blog/complete-api-guide)
+[18] <a id="ref-18"></a> [code.likeagirl.io: Introduction to GraphQL with Python Graphene and GraphQL](https://code.likeagirl.io/introduction-to-graphql-with-python-graphene-and-graphql-a36412250907?gi=6041bd5007f6)  
+[19] <a id="ref-19"></a> [jeffersonheard.github.io: GraphQL in Python with Graphene](https://jeffersonheard.github.io/python/graphql/2018/12/08/graphene-python.html)  
+[20] <a id="ref-20"></a> [activestate.com: How to Build a GraphQL Server in Python with Graphene](https://www.activestate.com/blog/how-to-build-a-graphql-server-in-python-with-graphene/)  
+[21] <a id="ref-21"></a> [apollographql.com: The Complete API Guide](https://www.apollographql.com/blog/complete-api-guide)  
 
 _Assisted by claude-3-opus on [perplexity.ai](https://perplexity.ai)_
 
