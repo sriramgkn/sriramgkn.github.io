@@ -180,7 +180,7 @@ REST is a good choice when:
 
 In summary, GraphQL provides a different and in many cases more efficient approach to developing APIs than REST. It solves many pain points of REST like over/under-fetching and the need for multiple endpoints. However, REST still has its place and is not going away anytime soon. The choice between GraphQL and REST depends on the specific needs of your application.
 
-Let us now look at code examples (with explanations) of how to implement REST APIs using the Django REST Framework (DRF).
+Let us now look at code examples (with explanations) of how to implement REST APIs using the Django REST Framework (DRF):
 
 ## DRF: Setting up a Model
 
@@ -259,10 +259,150 @@ We can also interact with the API programmatically. For example, to get a list o
 
 This is just a basic example, but it demonstrates the key components involved in creating a REST API with Django REST Framework: models, serializers, views, and URL configuration. DRF provides many more features and customization options for more advanced use cases.
 
+Let us now look at code examples (with explanations) of how GraphQL APIs are implemented in Python using the Graphene library:
 
+## Graphene: Defining a Schema
 
+The first step is to define a schema for your GraphQL API using Graphene  [[18](#ref-18)]  [[19](#ref-19)]  [[20](#ref-20)]. The schema describes the data types, fields, and relationships in your API. Here's an example:
 
+```python
+import graphene
 
+class Book(graphene.ObjectType):
+    title = graphene.String()
+    author = graphene.String()
+    pages = graphene.Int()
+
+class Query(graphene.ObjectType):
+    books = graphene.List(Book)
+
+    def resolve_books(self, info):
+        return [
+            Book(title="To Kill a Mockingbird", author="Harper Lee", pages=281),
+            Book(title="1984", author="George Orwell", pages=328),
+        ]
+
+schema = graphene.Schema(query=Query)
+```
+
+In this example:
+
+- We define a `Book` type with `title`, `author`, and `pages` fields using Graphene's scalar types (`String`, `Int`)  [[18](#ref-1)]  [[20](#ref-3)].
+- We define a `Query` type that has a `books` field which returns a list of `Book` objects  [[18](#ref-18)]  [[20](#ref-20)].
+- The `resolve_books` method is a resolver that returns the actual data for the `books` field  [[18](#ref-18)]  [[20](#ref-20)].
+- Finally, we create a `Schema` instance with our `Query` type  [[18](#ref-18)]  [[20](#ref-20)].
+
+## Graphene: Executing Queries
+
+Once you have a schema, you can execute queries against it  [[18](#ref-18)]  [[19](#ref-19)]  [[20](#ref-20)]. Here's an example:
+
+```python
+query = '''
+    query {
+        books {
+            title
+            author
+        }
+    }
+'''
+result = schema.execute(query)
+print(result.data)
+```
+
+This will execute the query and print the result:
+
+```json
+{
+    "books": [
+        {
+            "title": "To Kill a Mockingbird",
+            "author": "Harper Lee"
+        },
+        {
+            "title": "1984", 
+            "author": "George Orwell"
+        }
+    ]
+}
+```
+
+Note that the query only requests the `title` and `author` fields, so `pages` is not returned.
+
+## Graphene: Mutations
+
+In addition to querying data, you can also modify data through mutations  [[19](#ref-19)]  [[20](#ref-20)]. Here's an example of defining a mutation to create a new book:
+
+```python
+class CreateBook(graphene.Mutation):
+    class Arguments:
+        title = graphene.String()
+        author = graphene.String()
+        pages = graphene.Int()
+
+    book = graphene.Field(Book)
+
+    def mutate(self, info, title, author, pages):
+        book = Book(title=title, author=author, pages=pages)
+        return CreateBook(book=book)
+
+class Mutation(graphene.ObjectType):
+    create_book = CreateBook.Field()
+
+schema = graphene.Schema(query=Query, mutation=Mutation)
+```
+
+And here's how you would execute this mutation:
+
+```python
+mutation = '''
+    mutation {
+        createBook(title: "The Great Gatsby", author: "F. Scott Fitzgerald", pages: 180) {
+            book {
+                title
+                author
+                pages
+            }
+        }
+    }
+'''
+result = schema.execute(mutation)
+print(result.data)
+```
+
+This will create a new book and return it in the result:
+
+```json
+{
+    "createBook": {
+        "book": {
+            "title": "The Great Gatsby",
+            "author": "F. Scott Fitzgerald",
+            "pages": 180
+        }
+    }
+}
+```
+
+## Graphene: Integrating with Flask
+
+To expose your GraphQL API over HTTP, you can integrate it with a web framework like Flask  [[18](#ref-18)]  [[21](#ref-21)]. Here's an example:
+
+```python
+from flask import Flask
+from graphene_flask import GraphQLView
+
+app = Flask(__name__)
+app.add_url_rule('/graphql', view_func=GraphQLView.as_view('graphql', schema=schema, graphiql=True))
+
+if __name__ == '__main__':
+    app.run()
+```
+
+This will create a `/graphql` endpoint that accepts GraphQL queries and mutations, and also provides the GraphiQL interactive IDE at the same URL  [[18](#ref-18)]  [[21](#ref-21)].
+
+These are just basic examples, but they demonstrate the core concepts of defining schemas, executing queries and mutations, and integrating with a web framework using Graphene and Python. Graphene provides many more features and integrations for building sophisticated GraphQL APIs.
+
+That's it from me! We hope this post serves as a guide to new learners navigating API design.
 
 ---
 ## References
@@ -283,6 +423,10 @@ This is just a basic example, but it demonstrates the key components involved in
 [15] <a id="ref-15"></a> [apollographql.com: GraphQL vs. REST](https://www.apollographql.com/blog/graphql-vs-rest)  
 [16] <a id="ref-16"></a> [radixweb.com: How to Create a REST API with Django REST Framework?](https://radixweb.com/blog/create-rest-api-using-django-rest-framework)  
 [17] <a id="ref-17"></a> [djangostars.com: Using the Django REST Framework to Develop APIs](https://djangostars.com/blog/rest-apis-django-development/)  
+[18] <a id="ref-18"></a> [code.likeagirl.io: Introduction to GraphQL with Python Graphene and GraphQL](https://code.likeagirl.io/introduction-to-graphql-with-python-graphene-and-graphql-a36412250907?gi=6041bd5007f6)
+[19] <a id="ref-19"></a> [jeffersonheard.github.io: GraphQL in Python with Graphene](https://jeffersonheard.github.io/python/graphql/2018/12/08/graphene-python.html)
+[20] <a id="ref-20"></a> [activestate.com: How to Build a GraphQL Server in Python with Graphene](https://www.activestate.com/blog/how-to-build-a-graphql-server-in-python-with-graphene/)
+[21] <a id="ref-21"></a> [apollographql.com: The Complete API Guide](https://www.apollographql.com/blog/complete-api-guide)
 
 _Assisted by claude-3-opus on [perplexity.ai](https://perplexity.ai)_
 
