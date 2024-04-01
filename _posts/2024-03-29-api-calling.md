@@ -281,8 +281,8 @@ This is just a basic example, but it demonstrates the key components involved in
 [13] <a id="ref-13"></a> [news.ycombinator.com: GraphQL vs. REST](https://news.ycombinator.com/item?id=37078606)  
 [14] <a id="ref-14"></a> [mobilelive.ca: GraphQL vs REST: What You Didn't Know](https://www.mobilelive.ca/blog/graphql-vs-rest-what-you-didnt-know)  
 [15] <a id="ref-15"></a> [apollographql.com: GraphQL vs. REST](https://www.apollographql.com/blog/graphql-vs-rest)  
-[16] <a id="ref-16"></a> [display text](https://radixweb.com/blog/create-rest-api-using-django-rest-framework)  
-[17] <a id="ref-17"></a> [display text](https://djangostars.com/blog/rest-apis-django-development/)  
+[16] <a id="ref-16"></a> [radixweb.com: How to Create a REST API with Django REST Framework?](https://radixweb.com/blog/create-rest-api-using-django-rest-framework)  
+[17] <a id="ref-17"></a> [djangostars.com: Using the Django REST Framework to Develop APIs](https://djangostars.com/blog/rest-apis-django-development/)  
 
 _Assisted by claude-3-opus on [perplexity.ai](https://perplexity.ai)_
 
