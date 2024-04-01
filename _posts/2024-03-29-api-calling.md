@@ -75,7 +75,7 @@ APIs provide many benefits to developers and organizations [[1](#ref-1)] [[3](#r
 
 APIs are an essential part of modern software development, enabling applications to communicate, share data, and extend functionality. Understanding the different types, architectures, authentication methods, and best practices around APIs is key to building robust and secure applications in today's connected world.
 
-REST APIs are historically the most common architectural style for designing APIs. In Python, REST APIs are implemented using the [DRF](https://www.django-rest-framework.org/) framework mentioned earlier. Before we look at code examples, let us try to understand the REST architectural style in detail:
+REST APIs are the most common architectural style for designing APIs. In Python, REST APIs are implemented using the [DRF](https://www.django-rest-framework.org/) framework mentioned earlier. Before we look at code examples, let us try to understand the REST architectural style in detail:
 
 ## Key Characteristics of REST
 
@@ -180,6 +180,90 @@ REST is a good choice when:
 
 In summary, GraphQL provides a different and in many cases more efficient approach to developing APIs than REST. It solves many pain points of REST like over/under-fetching and the need for multiple endpoints. However, REST still has its place and is not going away anytime soon. The choice between GraphQL and REST depends on the specific needs of your application.
 
+Let us now look at code examples (with explanations) of how to implement REST APIs using the Django REST Framework (DRF).
+
+## DRF: Setting up a Model
+
+First, let's define a simple model in Django that we want to expose through our API [[16](#ref-16)] [[17](#ref-17)]. In the `models.py` file of your Django app:
+
+```python
+from django.db import models
+
+class Student(models.Model):
+    first_name = models.CharField(max_length=50)
+    last_name = models.CharField(max_length=50)
+    student_id = models.IntegerField()
+
+    def __str__(self):
+        return self.first_name
+```
+
+This defines a `Student` model with fields for first name, last name, and student ID.
+
+## DRF: Creating a Serializer
+
+Next, we need to create a serializer for our model [[16](#ref-16)] [[17](#ref-17)]. Serializers allow complex data such as querysets and model instances to be converted to native Python datatypes that can then be easily rendered into JSON or other content types [[16](#ref-16)]. In a new file `serializers.py`:
+
+```python
+from rest_framework import serializers
+from .models import Student
+
+class StudentSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Student
+        fields = ['id', 'first_name', 'last_name', 'student_id']
+```
+
+This serializer class defines the fields from the `Student` model that should be included in the serialized representation.
+
+## DRF: Creating Views
+
+Now we can write the views that will handle the API requests [[16](#ref-16)] [[17](#ref-17)]. In your `views.py`:
+
+```python
+from rest_framework import viewsets
+from .serializers import StudentSerializer
+from .models import Student
+
+class StudentViewSet(viewsets.ModelViewSet):
+    queryset = Student.objects.all()
+    serializer_class = StudentSerializer
+```
+
+This view uses DRF's `ModelViewSet` which provides default `create()`, `retrieve()`, `update()`, `partial_update()`, `destroy()` and `list()` actions [[16](#ref-16)]. We specify the `queryset` that should be used (all `Student` objects) and the `serializer_class` to use for serialization.
+
+## DRF: Configuring URLs
+
+Finally, we need to configure the URLs to map to our viewset [[16](#ref-16)] [[17](#ref-17)]. In your `urls.py`:
+
+```python
+from django.urls import include, path
+from rest_framework import routers
+from .views import StudentViewSet
+
+router = routers.DefaultRouter()
+router.register(r'students', StudentViewSet)
+
+urlpatterns = [
+    path('', include(router.urls)),
+]
+```
+
+This sets up the `StudentViewSet` to be accessible at the `/students/` endpoint.
+
+## DRF: Testing the API
+
+With this setup, we now have a fully functional API [[17](#ref-17)]. We can test it by starting the Django development server and navigating to `http://localhost:8000/students/` in a web browser. We should see a browsable API interface provided by DRF where we can view existing `Student` objects and create new ones.
+
+We can also interact with the API programmatically. For example, to get a list of all students, we can send a GET request to `http://localhost:8000/students/`. To create a new student, we can send a POST request to the same URL with the student data in JSON format in the request body.
+
+This is just a basic example, but it demonstrates the key components involved in creating a REST API with Django REST Framework: models, serializers, views, and URL configuration. DRF provides many more features and customization options for more advanced use cases.
+
+
+
+
+
+
 ---
 ## References
 [1] <a id="ref-1"></a> [axway.com: Types of APIs Different APIs Explained With Concrete Examples for 2024](https://blog.axway.com/learning-center/apis/basics/different-types-apis)  
@@ -197,6 +281,8 @@ In summary, GraphQL provides a different and in many cases more efficient approa
 [13] <a id="ref-13"></a> [news.ycombinator.com: GraphQL vs. REST](https://news.ycombinator.com/item?id=37078606)  
 [14] <a id="ref-14"></a> [mobilelive.ca: GraphQL vs REST: What You Didn't Know](https://www.mobilelive.ca/blog/graphql-vs-rest-what-you-didnt-know)  
 [15] <a id="ref-15"></a> [apollographql.com: GraphQL vs. REST](https://www.apollographql.com/blog/graphql-vs-rest)  
+[16] <a id="ref-16"></a> [display text](https://radixweb.com/blog/create-rest-api-using-django-rest-framework)  
+[17] <a id="ref-17"></a> [display text](https://djangostars.com/blog/rest-apis-django-development/)  
 
 _Assisted by claude-3-opus on [perplexity.ai](https://perplexity.ai)_
 
@@ -212,7 +298,7 @@ to
  [[$1](#ref-$1)]
 
 regex...
- \[(\d+)\] (.*)
+\[(\d+)\] (.*)
 to
 [$1] <a id="ref-$1"></a> [display text]($2)  
 
