@@ -45,26 +45,22 @@ In summary, Kafka enables real-time data streaming, Terraform allows infrastruct
 ---
 ## References
 
-[1] <a id="ref-1"></a> [display text](https://k21academy.com/terraform-iac/terraform-beginners-guide/)  
-[2] <a id="ref-2"></a> [display text](https://developer.confluent.io/what-is-apache-kafka/)  
-[3] <a id="ref-3"></a> [display text](https://www.inrhythm.com/apache-kafka-overview/)  
-[4] <a id="ref-4"></a> [display text](https://spacelift.io/blog/what-is-terraform)  
-[5] <a id="ref-5"></a> [display text](https://kafka.apache.org/intro)  
-[6] <a id="ref-6"></a> [display text](https://codefresh.io/learn/jenkins/)  
-[7] <a id="ref-7"></a> [display text](https://www.jenkins.io/2.0/)  
-[8] <a id="ref-8"></a> [display text](https://www.varonis.com/blog/what-is-terraform)  
-[9] <a id="ref-9"></a> [display text](https://www.tutorialspoint.com/apache_kafka/apache_kafka_introduction.htm)  
-[10] <a id="ref-10"></a> [display text](https://www.jenkins.io/doc/book/getting-started/)  
-[11] <a id="ref-11"></a> [display text](https://docs.confluent.io/kafka/introduction.html)  
-[12] <a id="ref-12"></a> [display text](https://www.simplilearn.com/tutorials/jenkins-tutorial/what-is-jenkins)  
-[13] <a id="ref-13"></a> [display text](https://aws.amazon.com/what-is/apache-kafka/)  
-[14] <a id="ref-14"></a> [display text](https://cloud.google.com/docs/terraform/terraform-overview)  
-[15] <a id="ref-15"></a> [display text](https://www.jenkins.io/doc/tutorials/)  
-[16] <a id="ref-16"></a> [display text](https://blog.gruntwork.io/an-introduction-to-terraform-f17df9c6d180)  
-<!-- [20] https://www.tutorialspoint.com/jenkins/jenkins_overview.htm -->
-<!-- [9] https://www.cprime.com/resources/blog/an-introduction-to-apache-kafka/
-[10] https://developer.hashicorp.com/terraform/intro -->
-<!-- [17] https://www.baeldung.com/apache-kafka -->
+[1] <a id="ref-1"></a> [k21academy.com: Terraform Tutorial for Beginners: Everything You Should Know](https://k21academy.com/terraform-iac/terraform-beginners-guide/)  
+[2] <a id="ref-2"></a> [confluent.io: What is Kafka, and How Does it Work? A Tutorial for Beginners](https://developer.confluent.io/what-is-apache-kafka/)  
+[3] <a id="ref-3"></a> [inrhythm.com: A Comprehensive Overview Of Apache Kafka](https://www.inrhythm.com/apache-kafka-overview/)  
+[4] <a id="ref-4"></a> [spacelift.io: What is Terraform?](https://spacelift.io/blog/what-is-terraform)  
+[5] <a id="ref-5"></a> [kafka.apache.org: Introduction to Apache Kafka](https://kafka.apache.org/intro)  
+[6] <a id="ref-6"></a> [codefresh.io: What is Jenkins? A Beginner's Guide](https://codefresh.io/learn/jenkins/)  
+[7] <a id="ref-7"></a> [jenkins.io: Jenkins 2.0 Overview](https://www.jenkins.io/2.0/)  
+[8] <a id="ref-8"></a> [varonis.com: What is Terraform? A Beginner's Guide](https://www.varonis.com/blog/what-is-terraform)  
+[9] <a id="ref-9"></a> [tutorialspoint.com: Apache Kafka - Introduction](https://www.tutorialspoint.com/apache_kafka/apache_kafka_introduction.htm)  
+[10] <a id="ref-10"></a> [jenkins.io: Getting Started with Jenkins](https://www.jenkins.io/doc/book/getting-started/)  
+[11] <a id="ref-11"></a> [docs.confluent.io: Introduction to Apache Kafka](https://docs.confluent.io/kafka/introduction.html)  
+[12] <a id="ref-12"></a> [simplilearn.com: What is Jenkins? A Comprehensive Guide](https://www.simplilearn.com/tutorials/jenkins-tutorial/what-is-jenkins)  
+[13] <a id="ref-13"></a> [aws.amazon.com: What is Apache Kafka?](https://aws.amazon.com/what-is/apache-kafka/)  
+[14] <a id="ref-14"></a> [cloud.google.com: Terraform Overview](https://cloud.google.com/docs/terraform/terraform-overview)  
+[15] <a id="ref-15"></a> [jenkins.io: Jenkins Tutorials](https://www.jenkins.io/doc/tutorials/)  
+[16] <a id="ref-16"></a> [gruntwork.io: An Introduction to Terraform](https://blog.gruntwork.io/an-introduction-to-terraform-f17df9c6d180)  
 
 _Assisted by claude-3-opus on [perplexity.ai](https://perplexity.ai)_
 
