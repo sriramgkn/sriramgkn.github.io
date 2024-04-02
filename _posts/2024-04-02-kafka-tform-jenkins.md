@@ -3,7 +3,7 @@ layout: post
 title: Exploring Kafka, Terraform, and Jenkins
 ---
 
-In this post, we will explore Kafka, Terraform, and Jenkins - three popular open source tools used in modern software development and data processing.
+In this post, we will explore [Kafka](https://kafka.apache.org/intro), [Terraform](https://www.terraform.io/), and [Jenkins](https://www.jenkins.io/) - three well-recognized tools used to automate software deployment pipelines.
 
 ## Apache Kafka
 
@@ -17,7 +17,7 @@ Kafka has numerous use cases including real-time data pipelines, streaming analy
 
 ## Terraform
 
-Terraform is an open source "Infrastructure as Code" tool created by HashiCorp. It lets you define cloud and on-prem resources in human-readable configuration files that you can version, reuse, and share. [[1](#ref-1)] [[4](#ref-4)] 
+Terraform is an open source "Infrastructure as Code" tool created by HashiCorp. It lets you define cloud and on-premesis resources in human-readable configuration files that you can version, reuse, and share. [[1](#ref-1)] [[4](#ref-4)] 
 
 Some key features of Terraform:
 
