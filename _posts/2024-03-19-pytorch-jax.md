@@ -3,7 +3,7 @@ layout: post
 title: Exploring Pytorch and JAX
 ---
 
-In this post, we hope to concisely introduce two prominent frameworks for deep learning: Pytorch and JAX. Play along on [colab](https://colab.research.google.com/drive/1poCvFUmnn8lcbUU7IEAExMAbbFqOUzI5?usp=sharing).
+In this post, we hope to concisely introduce two prominent frameworks for deep learning: [Pytorch](https://pytorch.org/) and [JAX](https://jax.readthedocs.io/en/latest/notebooks/quickstart.html). Play along on [colab](https://colab.research.google.com/drive/1poCvFUmnn8lcbUU7IEAExMAbbFqOUzI5?usp=sharing).
 
 We also hoped to cover Tensorflow. But for reasons unclear to us, we were unable to install Tensorflow both with Python 3.12 and Python 3.11. Given the simultaneous development of Tensorflow and JAX within Google, and the recent popularity of JAX, I wouldn't be surprised if Tensorflow is heading towards deprecation in the future. For completeness, it is worth noting that Tensorflow is the oldest among the three, being first introduced in 2011.
 
