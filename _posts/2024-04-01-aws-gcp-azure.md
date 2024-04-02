@@ -11,7 +11,7 @@ Let us start with an overview of key compute, storage, machine learning, and dat
 
 ## Compute
 
-AWS offers [EC2](https://aws.amazon.com/ec2/) for secure, resizable compute capacity in the cloud with a wide selection of instance types. EC2 provides granular control over the underlying infrastructure. They also offer containerization services [ECS](https://aws.amazon.com/ecs/) and [EKS](https://aws.amazon.com/eks/). Serverless computing is offered with [AWS Lambda](https://aws.amazon.com/lambda/).
+AWS offers [EC2](https://aws.amazon.com/ec2/) for secure and resizable compute capacity in the cloud with a wide selection of instance types. EC2 provides granular control over the underlying infrastructure. They also offer containerization services [ECS](https://aws.amazon.com/ecs/) and [EKS](https://aws.amazon.com/eks/). Serverless computing is offered with [AWS Lambda](https://aws.amazon.com/lambda/).
 
 GCP's primary compute service is [GCE](https://cloud.google.com/products/compute?hl=en) which allows creating VMs with custom CPU and memory configurations. It provides automatic scaling and OS-level changes. They also offer [GKE](https://cloud.google.com/kubernetes-engine?hl=en) for containerization services.
 
