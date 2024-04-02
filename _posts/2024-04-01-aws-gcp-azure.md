@@ -3,7 +3,7 @@ layout: post
 title: Map of AWS, GCP, and Azure
 ---
 
-In this post, we will explore three popular cloud service platforms: Amazon Web Services ([AWS](https://aws.amazon.com/)), Google Cloud Platform ([GCP](https://cloud.google.com/products?hl=en)), and Microsoft [Azure](https://azure.microsoft.com/en-ca). We hope to build up this post asynchronously as we scratch more bits of a grand ecosystem.
+In this post, we will learn about three popular cloud service platforms: Amazon Web Services ([AWS](https://aws.amazon.com/)), Google Cloud Platform ([GCP](https://cloud.google.com/products?hl=en)), and Microsoft [Azure](https://azure.microsoft.com/en-ca). We hope to build up this post asynchronously as we scratch more bits of a grand ecosystem.
 
 Cloud computing has revolutionized the way applications are built, deployed, and scaled. AWS, GCP, and Azure offer a wide array of services and tools to cater to various computing needs. Each of the three have unique strengths and differentiators. Our primary interests with using cloud service providers span four domains - i) Compute, ii) Storage, iii) Machine Learning, and iv) Databases. Eventually, we hope to understand all the components involved in a "full" end-to-end ML deployment pipeline used in modern times.
 
