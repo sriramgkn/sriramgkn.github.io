@@ -3,7 +3,7 @@ layout: post
 title: Exploring Kafka, Terraform, and Jenkins
 ---
 
-In this post, we will explore [Kafka](https://kafka.apache.org/intro), [Terraform](https://www.terraform.io/), and [Jenkins](https://www.jenkins.io/) - three well-recognized tools used to automate software deployment pipelines.
+In this post, we will explore [Kafka](https://kafka.apache.org/intro), [Terraform](https://www.terraform.io/), and [Jenkins](https://www.jenkins.io/) - three well-recognized tools used to automate and accelerate software deployment pipelines.
 
 ## Apache Kafka
 
