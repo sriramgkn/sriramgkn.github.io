@@ -27,11 +27,11 @@ Azure offers [Blob Storage](https://azure.microsoft.com/en-gb/products/storage/b
 
 ## Machine Learning
 
-AWS offers [Amazon SageMaker](https://aws.amazon.com/sagemaker/), a fully managed machine learning platform that enables developers to build, train, and deploy ML models. AWS also has purpose-built AI services like Amazon Rekognition for image and video analysis, and Amazon Polly for text-to-speech.
+AWS offers [Amazon SageMaker](https://aws.amazon.com/sagemaker/), a fully managed machine learning platform that enables developers to build, train, and deploy ML models. AWS also has purpose-built AI services like [Amazon Rekognition](https://aws.amazon.com/rekognition/) for image and video analysis, and [Amazon Polly](https://aws.amazon.com/polly/) for text-to-speech.
 
 GCP provides [Vertex AI Platform](https://cloud.google.com/vertex-ai?hl=en), a managed service for training and deploying ML models. It has pre-trained APIs for vision, speech, natural language, and translation.
 
-[Azure Machine Learning](https://azure.microsoft.com/en-gb/products/machine-learning) allows data scientists to build, deploy, and manage ML models. Azure Cognitive Services are pre-built AI capabilities for vision, speech, language, and decision.
+[Azure Machine Learning](https://azure.microsoft.com/en-gb/products/machine-learning) allows data scientists to build, deploy, and manage ML models. [Azure AI Services](https://azure.microsoft.com/en-us/products/ai-services) are pre-built AI capabilities for vision, speech, language, and more.
 
 ## Databases
 
@@ -42,8 +42,6 @@ GCP offers [Cloud SQL](https://cloud.google.com/sql?hl=en), a fully managed rela
 Azure provides [Azure SQL Database](https://azure.microsoft.com/en-gb/products/azure-sql/database), a managed relational database based on SQL Server. [Azure Cosmos DB](https://learn.microsoft.com/en-us/azure/cosmos-db/introduction) is a globally distributed multi-model AI database. [Azure Database for PostgreSQL](https://azure.microsoft.com/en-gb/products/postgresql) and [Azure Database for MySQL](https://azure.microsoft.com/en-gb/products/mysql) are managed PostgreSQL and MySQL offerings.
 
 Overall, the core offerings are comparable across all three providers. AWS tends to have the broadest and most mature set of services, while GCP emphasizes its strength in data analytics and machine learning. Azure provides tight integration with Microsoft's on-premises technologies. The choice often depends on an organization's specific requirements.
-
-
 
 ---
 _Assisted by claude-3-opus on [perplexity.ai](https://perplexity.ai)_
