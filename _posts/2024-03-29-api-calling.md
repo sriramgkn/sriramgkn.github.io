@@ -404,6 +404,7 @@ That's it from me! We hope this post serves as a guide to new learners navigatin
 
 ---
 ## References
+
 [1] <a id="ref-1"></a> [axway.com: Types of APIs Different APIs Explained With Concrete Examples for 2024](https://blog.axway.com/learning-center/apis/basics/different-types-apis)  
 [2] <a id="ref-2"></a> [postman.com: What Is API Authentication? Benefits, Methods & Best Practices](https://www.postman.com/api-platform/api-authentication/)  
 [3] <a id="ref-3"></a> [geeksforgeeks.org: Types of APIs and Applications of API in Real World](https://www.geeksforgeeks.org/application-programming-interfaces-api-and-its-types/)  
