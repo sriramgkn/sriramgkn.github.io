@@ -106,7 +106,7 @@ Qdrant is optimized for applications that require vector similarity search, such
 
 Overall, MongoDB excels at handling unstructured data with flexible schemas, Elasticsearch provides powerful search and analytics capabilities, and Qdrant is specialized for efficient vector similarity search. The choice depends on the specific requirements around data structure, search needs, scalability, and performance.
 
-## Summarize the technical similarities and differences between MongoDB and Elasticsearch
+## Summary of technical similarities and differences between MongoDB and Elasticsearch
 
 **Similarities:**
 
