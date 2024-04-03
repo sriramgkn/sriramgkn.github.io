@@ -309,7 +309,7 @@ The key is understanding the core retrieval and similarity mechanisms of the dat
 [55] <a id="ref-55"></a> [ssrn.com: NoSQL Databases and Scalable Cloud Storage](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3436631)  
 [56] <a id="ref-56"></a> [datacamp.com: NoSQL Databases: What Every Data Scientist Needs to Know](https://www.datacamp.com/blog/nosql-databases-what-every-data-scientist-needs-to-know)  
 [57] <a id="ref-57"></a> [mongodb.com: What is NoSQL?](https://www.mongodb.com/nosql-explained)  
-[58] <a id="ref-58"></a> [youtube.com: NoSQL Explained in 100 Seconds](https://www.youtube.com/watch?v=nyHUKfTMKDQ)  
+[58] <a id="ref-58"></a> [youtube.com: Machine Learning meets NoSQL](https://www.youtube.com/watch?v=nyHUKfTMKDQ)  
 
 _Assisted by claude-3-opus on [perplexity.ai](https://perplexity.ai)_
 
