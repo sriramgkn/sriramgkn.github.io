@@ -227,7 +227,7 @@ Each librarian (database) has its strengths, and the best choice depends on spec
 
 We had a basic yet conceptually important doubt at this point, and probed Claude on it. To our pleasant surprise, Claude gave a pretty interesting and nuanced response. Let's check it out.
 
-## Can vector databases be considered the only "truly" schema-less databases? or maybe there is some structure built into the embedding, but post embedding and storage, the retrieval is entirely nonrelational. As a side note, when you say "query by example" for nosql, is the motivation to train a machine learning model? if so, wouldn't it make NoSQL databases essentially vector databases since ML needs vector embeddings?
+**Can vector databases be considered the only "truly" schema-less databases? or maybe there is some structure built into the embedding, but post embedding and storage, the retrieval is entirely nonrelational. As a side note, when you say "query by example" for nosql, is the motivation to train a machine learning model? if so, wouldn't it make NoSQL databases essentially vector databases since ML needs vector embeddings?**
 
 You raise some great points about the relationship between vector databases and the concept of being "schemaless". Let me share my perspective on this.
 
