@@ -13,7 +13,7 @@ Key features of torch.cuda:
 - Keeps track of the currently selected GPU device
 - All CUDA tensors allocated will be created on the currently selected device by default
 - Allows changing the selected device with `torch.cuda.set_device(device)`
-- Provides functions like `torch.cuda.device_count()` to get the number of GPUs available and torch.cuda.is_available() to check if CUDA is supported on the system
+- Provides functions like `torch.cuda.device_count()` to get the number of GPUs available and `torch.cuda.is_available()` to check if CUDA is supported on the system
 
 Example of using `torch.cuda`:
 
