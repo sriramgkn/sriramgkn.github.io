@@ -519,8 +519,6 @@ By leveraging Triton Inference Server's distributed inference capabilities, you 
 ---
 ## References
 
-Here are the citations with intelligent display text:
-
 [1] <a id="ref-1"></a> [pytorch.org: CUDA Semantics - PyTorch Documentation](https://pytorch.org/docs/stable/cuda.html)  
 [2] <a id="ref-2"></a> [nvidia.com: Accelerating Inference Up to 6x Faster in PyTorch with Torch-TensorRT](https://developer.nvidia.com/blog/accelerating-inference-up-to-6x-faster-in-pytorch-with-torch-tensorrt/)  
 [3] <a id="ref-3"></a> [youtube.com: Getting Started with NVIDIA Torch-TensorRT](https://www.youtube.com/watch?v=TU5BMU6iYZ0)  
