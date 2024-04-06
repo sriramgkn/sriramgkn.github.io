@@ -48,7 +48,7 @@ By default, PyTorch operations are performed on the currently selected device. Y
 
 ## `torch.distributed` introduction
 
-`torch.distributed` is PyTorch's package for distributed training across multiple machines or GPUs. It provides primitives for multi-GPU communication and synchronization. 
+`torch.distributed` is PyTorch's package for distributed training across multiple machines or GPUs. It provides primitives for multi-GPU communication and synchronization.
 
 Key features of `torch.distributed`:
 - Supports multiple backends like NCCL, Gloo, and MPI for communication
@@ -558,7 +558,7 @@ By leveraging Triton Inference Server's distributed inference capabilities, you 
 [37] <a id="ref-37"></a> [github.com: PyTorch FSDP Wrapping Utilities](https://github.com/pytorch/pytorch/blob/main/torch/distributed/fsdp/wrap.py)  
 [38] <a id="ref-38"></a> [towardsdatascience.com: Creating ONNX Models from Scratch](https://towardsdatascience.com/creating-onnx-from-scratch-4063eab80fcd)  
 [39] <a id="ref-39"></a> [github.com: ONNX Tutorials](https://github.com/onnx/tutorials)  
-[40] <a id="ref-40"></a> [nvidia.com: TensorRT Quick Start Guide](https://docs.nvidia.com/deeplearning/tensorrt/quick-start-guide/index.html)
+[40] <a id="ref-40"></a> [nvidia.com: TensorRT Quick Start Guide](https://docs.nvidia.com/deeplearning/tensorrt/quick-start-guide/index.html)  
 [41] <a id="ref-41"></a> [pytorch.org: torch.onnx - PyTorch Documentation](https://pytorch.org/docs/stable/onnx.html)  
 [42] <a id="ref-42"></a> [deci.ai: How to Convert a PyTorch Model to ONNX in 5 Minutes](https://deci.ai/blog/how-to-convert-a-pytorch-model-to-onnx/)  
 [43] <a id="ref-43"></a> [roboflow.com: What is TensorRT?](https://blog.roboflow.com/what-is-tensorrt/)  
