@@ -38,13 +38,13 @@ y = y.to(device)
 print(y)
 ```
 
-In this example, we first check if CUDA is available using torch.cuda.is_available(). If CUDA is supported, we set the device to "cuda" and print the number of available GPUs using torch.cuda.device_count(). If CUDA is not available, we set the device to "cpu".
+In this example, we first check if CUDA is available using `torch.cuda.is_available()`. If CUDA is supported, we set the device to "cuda" and print the number of available GPUs using `torch.cuda.device_count()`. If CUDA is not available, we set the device to "cpu".
 
 We then demonstrate two ways to create tensors on the GPU:
-1. Directly creating a tensor on the GPU by specifying device=device when calling torch.randn().
-2. Creating a tensor on the CPU and then moving it to the GPU using the .to() method.
+1. Directly creating a tensor on the GPU by specifying `device=device` when calling `torch.randn()`.
+2. Creating a tensor on the CPU and then moving it to the GPU using the `.to()` method.
 
-By default, PyTorch operations are performed on the currently selected device. You can switch devices using torch.cuda.set_device(device_index) [[1](#ref-1)] [[2](#ref-2)].
+By default, PyTorch operations are performed on the currently selected device. You can switch devices using `torch.cuda.set_device(device_index)` [[1](#ref-1)] [[2](#ref-2)].
 
 ## `torch.distributed` introduction
 
@@ -52,8 +52,8 @@ By default, PyTorch operations are performed on the currently selected device. Y
 
 Key features of `torch.distributed`:
 - Supports multiple backends like NCCL, Gloo, and MPI for communication
-- Provides collective communication operations like all_reduce, broadcast, and gather
-- Supports point-to-point communication with send and recv
+- Provides collective communication operations like `all_reduce`, `broadcast`, and `gather`
+- Supports point-to-point communication with `send` and `recv`
 - Integrates with higher-level APIs like DistributedDataParallel and FSDP for easy distributed training
 
 **More about FSDP**
@@ -519,73 +519,77 @@ By leveraging Triton Inference Server's distributed inference capabilities, you 
 ---
 ## References
 
-[1] <a id="ref-1"></a> [display text](https://pytorch.org/docs/stable/cuda.html)  
-[2] <a id="ref-2"></a> [display text](https://developer.nvidia.com/blog/accelerating-inference-up-to-6x-faster-in-pytorch-with-torch-tensorrt/)  
-[3] <a id="ref-3"></a> [display text](https://www.youtube.com/watch?v=TU5BMU6iYZ0)  
-[4] <a id="ref-4"></a> [display text](https://github.com/pytorch/TensorRT)  
-[5] <a id="ref-5"></a> [display text](https://pytorch.org/TensorRT/tutorials/use_from_pytorch.html)  
-[6] <a id="ref-6"></a> [display text](https://towardsai.net/p/l/how-to-set-up-and-run-cuda-operations-in-pytorch)  
-[7] <a id="ref-7"></a> [display text](https://www.geeksforgeeks.org/how-to-set-up-and-run-cuda-operations-in-pytorch/)  
-[8] <a id="ref-8"></a> [display text](https://learnopencv.com/how-to-convert-a-model-from-pytorch-to-tensorrt-and-speed-up-inference/)  
-[9] <a id="ref-9"></a> [display text](https://pytorch.org/TensorRT/_notebooks/Resnet50-example.html)  
-[10] <a id="ref-10"></a> [display text](https://blog.roboflow.com/what-is-tensorrt/)  
-[11] <a id="ref-11"></a> [display text](https://pytorch.org/TensorRT/_notebooks/EfficientNet-example.html)  
-[12] <a id="ref-12"></a> [display text](https://docs.nvidia.com/deeplearning/tensorrt/quick-start-guide/index.html)  
-[13] <a id="ref-13"></a> [display text](https://pytorch.org/TensorRT/tutorials/notebooks.html)  
-[14] <a id="ref-14"></a> [display text](https://pytorch.org/docs/stable/distributed.html)  
-[15] <a id="ref-15"></a> [display text](https://stackoverflow.com/questions/50954479/using-cuda-with-pytorch)  
-[16] <a id="ref-16"></a> [display text](https://cnvrg.io/pytorch-cuda/)  
-[17] <a id="ref-17"></a> [display text](https://www.edge-ai-vision.com/2020/04/speeding-up-deep-learning-inference-using-tensorrt/)  
-[18] <a id="ref-18"></a> [display text](https://pytorch.org/docs/stable/notes/cuda.html)  
-[19] <a id="ref-19"></a> [display text](https://www.run.ai/guides/gpu-deep-learning/pytorch-gpu)  
-[20] <a id="ref-20"></a> [display text](https://pytorch.org/tutorials/beginner/dist_overview.html)  
-[21] <a id="ref-21"></a> [display text](https://discuss.pytorch.org/t/torch-dist-distributedparallel-vs-horovod/123217)  
-[22] <a id="ref-22"></a> [display text](https://arxiv.org/pdf/2304.11277.pdf)  
-[23] <a id="ref-23"></a> [display text](https://pytorch.org/tutorials/intermediate/FSDP_adavnced_tutorial.html)  
-[24] <a id="ref-24"></a> [display text](https://discuss.pytorch.org/t/dataparallel-vs-distributeddataparallel/77891)  
-[25] <a id="ref-25"></a> [display text](https://pytorch.org/docs/stable/fsdp.html)  
-[26] <a id="ref-26"></a> [display text](https://huggingface.co/blog/pytorch-fsdp)  
-[27] <a id="ref-27"></a> [display text](https://pytorch.org/tutorials/intermediate/ddp_tutorial.html)  
-[28] <a id="ref-28"></a> [display text](https://pytorch.org/tutorials/intermediate/FSDP_tutorial.html)  
-[29] <a id="ref-29"></a> [display text](https://www.youtube.com/watch?v=PjEwLgyzuzQ)  
-[30] <a id="ref-30"></a> [display text](https://pytorch.org/tutorials/beginner/dist_overview.html)  
-[31] <a id="ref-31"></a> [display text](https://pytorch.org/blog/introducing-pytorch-fully-sharded-data-parallel-api/)  
-[32] <a id="ref-32"></a> [display text](https://github.com/pytorch/examples/blob/main/distributed/FSDP/configs/training.py)  
-[33] <a id="ref-33"></a> [display text](https://engineering.fb.com/2021/07/15/open-source/fsdp/)  
-[34] <a id="ref-34"></a> [display text](https://discuss.pytorch.org/t/how-does-fsdp-algorithm-work/173277)  
-[35] <a id="ref-35"></a> [display text](https://lightning.ai/docs/pytorch/stable/advanced/model_parallel/fsdp.html)  
-[36] <a id="ref-36"></a> [display text](https://github.com/pytorch/pytorch/blob/main/torch/distributed/fsdp/_runtime_utils.py)  
-[37] <a id="ref-37"></a> [display text](https://github.com/pytorch/pytorch/blob/main/torch/distributed/fsdp/wrap.py)  
-[38] <a id="ref-38"></a> [display text](https://towardsdatascience.com/creating-onnx-from-scratch-4063eab80fcd)  
-[39] <a id="ref-39"></a> [display text](https://github.com/onnx/tutorials)  
-[40] <a id="ref-40"></a> [display text](https://docs.nvidia.com/deeplearning/tensorrt/quick-start-guide/index.html)  
-[41] <a id="ref-41"></a> [display text](https://pytorch.org/docs/stable/onnx.html)  
-[42] <a id="ref-42"></a> [display text](https://deci.ai/blog/how-to-convert-a-pytorch-model-to-onnx/)  
-[43] <a id="ref-43"></a> [display text](https://blog.roboflow.com/what-is-tensorrt/)  
-[44] <a id="ref-44"></a> [display text](https://mmcv.readthedocs.io/en/v1.4.3/deployment/tensorrt_plugin.html)  
-[45] <a id="ref-45"></a> [display text](https://pytorch.org/tutorials/beginner/onnx/export_simple_model_to_onnx_tutorial.html)  
-[46] <a id="ref-46"></a> [display text](https://pytorch.org/tutorials/advanced/super_resolution_with_onnxruntime.html)  
-[47] <a id="ref-47"></a> [display text](https://developer.nvidia.com/blog/speed-up-inference-tensorrt/)  
-[48] <a id="ref-48"></a> [display text](https://github.com/NVIDIA/TensorRT)  
-[49] <a id="ref-49"></a> [display text](https://blog.genesiscloud.com/2022/deployment-of-deep-learning-models-on-genesis-cloud-tensorrt)  
-[50] <a id="ref-50"></a> [display text](https://cloudblogs.microsoft.com/opensource/2022/05/02/optimizing-and-deploying-transformer-int8-inference-with-onnx-runtime-tensorrt-on-nvidia-gpus/)  
-[51] <a id="ref-51"></a> [display text](https://learn.microsoft.com/en-us/windows/ai/windows-ml/tutorials/pytorch-convert-model)  
-[52] <a id="ref-52"></a> [display text](https://huggingface.co/blog/pytorch-fsdp)  
-[53] <a id="ref-53"></a> [display text](https://lightning.ai/docs/pytorch/stable/advanced/model_parallel/fsdp.html)  
-[54] <a id="ref-54"></a> [display text](https://onnxruntime.ai/docs/tutorials/export-pytorch-model.html)  
-[55] <a id="ref-55"></a> [display text](https://pytorch.org/tutorials/beginner/ddp_series_multigpu.html)  
-[56] <a id="ref-56"></a> [display text](https://www.edge-ai-vision.com/2020/04/speeding-up-deep-learning-inference-using-tensorrt/)  
-[57] <a id="ref-57"></a> [display text](https://pytorch-geometric.readthedocs.io/en/latest/tutorial/multi_gpu_vanilla.html)  
-[58] <a id="ref-58"></a> [display text](https://huggingface.co/docs/transformers/main/en/serialization)  
-[59] <a id="ref-59"></a> [display text](https://userweb.cs.txstate.edu/~k_y47/webpage/pubs/icess22.pdf)  
-[60] <a id="ref-60"></a> [display text](https://live.paloaltonetworks.com/t5/community-blogs/ml-inference-workloads-on-the-triton-inference-server/ba-p/545039)  
-[61] <a id="ref-61"></a> [display text](https://docs.bentoml.org/en/v1.1.11/integrations/triton.html)  
-[62] <a id="ref-62"></a> [display text](https://www.run.ai/guides/machine-learning-engineering/triton-inference-server)  
-[63] <a id="ref-63"></a> [display text](https://pub.towardsai.net/build-a-triton-inference-server-with-mnist-example-part-1-4-1233445ab56f?gi=75f20d3bc7b9)  
-[64] <a id="ref-64"></a> [display text](https://blog.marvik.ai/2023/10/16/deploying-llama2-with-nvidia-triton-inference-server/)  
-[65] <a id="ref-65"></a> [display text](https://forums.developer.nvidia.com/t/triton-infererence-server-example-simple-grpc-infer-client-py/204947)  
-[66] <a id="ref-66"></a> [display text](https://github.com/triton-inference-server/server/blob/main/docs/user_guide/faq.md)  
-[67] <a id="ref-67"></a> [display text](https://github.com/triton-inference-server/server/blob/main/docs/README.md)  
+Here are the citations with intelligent display text:
+
+[1] <a id="ref-1"></a> [pytorch.org: CUDA Semantics - PyTorch Documentation](https://pytorch.org/docs/stable/cuda.html)  
+[2] <a id="ref-2"></a> [nvidia.com: Accelerating Inference Up to 6x Faster in PyTorch with Torch-TensorRT](https://developer.nvidia.com/blog/accelerating-inference-up-to-6x-faster-in-pytorch-with-torch-tensorrt/)  
+[3] <a id="ref-3"></a> [youtube.com: Getting Started with NVIDIA Torch-TensorRT](https://www.youtube.com/watch?v=TU5BMU6iYZ0)  
+[4] <a id="ref-4"></a> [github.com: PyTorch TensorRT Repository](https://github.com/pytorch/TensorRT)  
+[5] <a id="ref-5"></a> [pytorch.org: Using Torch-TensorRT in PyTorch](https://pytorch.org/TensorRT/tutorials/use_from_pytorch.html)  
+[6] <a id="ref-6"></a> [towardsai.net: How to Set Up and Run CUDA Operations in PyTorch](https://towardsai.net/p/l/how-to-set-up-and-run-cuda-operations-in-pytorch)  
+[7] <a id="ref-7"></a> [geeksforgeeks.org: How to Set Up and Run CUDA Operations in PyTorch](https://www.geeksforgeeks.org/how-to-set-up-and-run-cuda-operations-in-pytorch/)  
+[8] <a id="ref-8"></a> [learnopencv.com: How to Convert a Model from PyTorch to TensorRT and Speed Up Inference](https://learnopencv.com/how-to-convert-a-model-from-pytorch-to-tensorrt-and-speed-up-inference/)  
+[9] <a id="ref-9"></a> [pytorch.org: Torch-TensorRT Getting Started - ResNet50 Example](https://pytorch.org/TensorRT/_notebooks/Resnet50-example.html)  
+[10] <a id="ref-10"></a> [roboflow.com: What is TensorRT?](https://blog.roboflow.com/what-is-tensorrt/)  
+[11] <a id="ref-11"></a> [pytorch.org: Torch-TensorRT Getting Started - EfficientNet Example](https://pytorch.org/TensorRT/_notebooks/EfficientNet-example.html)  
+[12] <a id="ref-12"></a> [nvidia.com: TensorRT Quick Start Guide](https://docs.nvidia.com/deeplearning/tensorrt/quick-start-guide/index.html)  
+[13] <a id="ref-13"></a> [pytorch.org: Torch-TensorRT Tutorials and Notebooks](https://pytorch.org/TensorRT/tutorials/notebooks.html)  
+[14] <a id="ref-14"></a> [pytorch.org: Distributed Communication Package - torch.distributed](https://pytorch.org/docs/stable/distributed.html)  
+[15] <a id="ref-15"></a> [stackoverflow.com: Using CUDA with PyTorch](https://stackoverflow.com/questions/50954479/using-cuda-with-pytorch)  
+[16] <a id="ref-16"></a> [cnvrg.io: PyTorch CUDA: The Ultimate Guide](https://cnvrg.io/pytorch-cuda/)  
+[17] <a id="ref-17"></a> [edge-ai-vision.com: Speeding Up Deep Learning Inference Using TensorRT](https://www.edge-ai-vision.com/2020/04/speeding-up-deep-learning-inference-using-tensorrt/)  
+[18] <a id="ref-18"></a> [pytorch.org: CUDA Semantics - PyTorch Documentation](https://pytorch.org/docs/stable/notes/cuda.html)  
+[19] <a id="ref-19"></a> [run.ai: How to Run PyTorch on GPUs](https://www.run.ai/guides/gpu-deep-learning/pytorch-gpu)  
+[20] <a id="ref-20"></a> [pytorch.org: Distributed Data Parallel - PyTorch Tutorials](https://pytorch.org/tutorials/beginner/dist_overview.html)  
+[21] <a id="ref-21"></a> [discuss.pytorch.org: torch.dist.DistributedParallel vs Horovod](https://discuss.pytorch.org/t/torch-dist-distributedparallel-vs-horovod/123217)  
+[22] <a id="ref-22"></a> [arxiv.org: Fully Sharded Data Parallel: Fast Training on 1024 GPUs](https://arxiv.org/pdf/2304.11277.pdf)  
+[23] <a id="ref-23"></a> [pytorch.org: Fully Sharded Data Parallel (FSDP) Advanced Tutorial](https://pytorch.org/tutorials/intermediate/FSDP_adavnced_tutorial.html)  
+[24] <a id="ref-24"></a> [discuss.pytorch.org: DataParallel vs DistributedDataParallel](https://discuss.pytorch.org/t/dataparallel-vs-distributeddataparallel/77891)  
+[25] <a id="ref-25"></a> [pytorch.org: Fully Sharded Data Parallel (FSDP) - PyTorch Documentation](https://pytorch.org/docs/stable/fsdp.html)  
+[26] <a id="ref-26"></a> [huggingface.co: Introducing Fully Sharded Data Parallel in PyTorch](https://huggingface.co/blog/pytorch-fsdp)  
+[27] <a id="ref-27"></a> [pytorch.org: Getting Started with Distributed Data Parallel](https://pytorch.org/tutorials/intermediate/ddp_tutorial.html)  
+[28] <a id="ref-28"></a> [pytorch.org: Fully Sharded Data Parallel (FSDP) Tutorial](https://pytorch.org/tutorials/intermediate/FSDP_tutorial.html)  
+[29] <a id="ref-29"></a> [youtube.com: Fully Sharded Data Parallel (FSDP) in PyTorch](https://www.youtube.com/watch?v=PjEwLgyzuzQ)  
+[30] <a id="ref-30"></a> [pytorch.org: Distributed Data Parallel - PyTorch Tutorials](https://pytorch.org/tutorials/beginner/dist_overview.html)  
+[36] <a id="ref-31"></a> [pytorch.org: Introducing PyTorch Fully Sharded Data Parallel API](https://pytorch.org/blog/introducing-pytorch-fully-sharded-data-parallel-api/)  
+[35] <a id="ref-32"></a> [github.com: PyTorch FSDP Training Configuration Example](https://github.com/pytorch/examples/blob/main/distributed/FSDP/configs/training.py)  
+[34] <a id="ref-33"></a> [engineering.fb.com: Introducing Fully Sharded Data Parallel in PyTorch](https://engineering.fb.com/2021/07/15/open-source/fsdp/)  
+[33] <a id="ref-34"></a> [discuss.pytorch.org: How Does FSDP Algorithm Work?](https://discuss.pytorch.org/t/how-does-fsdp-algorithm-work/173277)  
+[32] <a id="ref-35"></a> [lightning.ai: Fully Sharded Data Parallel (FSDP) - PyTorch Lightning](https://lightning.ai/docs/pytorch/stable/advanced/model_parallel/fsdp.html)  
+[31] <a id="ref-36"></a> [github.com: PyTorch FSDP Runtime Utilities](https://github.com/pytorch/pytorch/blob/main/torch/distributed/fsdp/_runtime_utils.py)  
+[37] <a id="ref-37"></a> [github.com: PyTorch FSDP Wrapping Utilities](https://github.com/pytorch/pytorch/blob/main/torch/distributed/fsdp/wrap.py)  
+[38] <a id="ref-38"></a> [towardsdatascience.com: Creating ONNX Models from Scratch](https://towardsdatascience.com/creating-onnx-from-scratch-4063eab80fcd)  
+[39] <a id="ref-39"></a> [github.com: ONNX Tutorials](https://github.com/onnx/tutorials)  
+[40] <a id="ref-40"></a> [nvidia.com: TensorRT Quick Start Guide](https://docs.nvidia.com/deeplearning/tensorrt/quick-start-guide/index.html)
+Here are the citations with intelligent display text:
+
+[41] <a id="ref-41"></a> [pytorch.org: torch.onnx - PyTorch Documentation](https://pytorch.org/docs/stable/onnx.html)  
+[42] <a id="ref-42"></a> [deci.ai: How to Convert a PyTorch Model to ONNX in 5 Minutes](https://deci.ai/blog/how-to-convert-a-pytorch-model-to-onnx/)  
+[43] <a id="ref-43"></a> [roboflow.com: What is TensorRT?](https://blog.roboflow.com/what-is-tensorrt/)  
+[44] <a id="ref-44"></a> [mmcv.readthedocs.io: TensorRT Plugin](https://mmcv.readthedocs.io/en/v1.4.3/deployment/tensorrt_plugin.html)  
+[45] <a id="ref-45"></a> [pytorch.org: Exporting a Simple Model to ONNX](https://pytorch.org/tutorials/beginner/onnx/export_simple_model_to_onnx_tutorial.html)  
+[46] <a id="ref-46"></a> [pytorch.org: Deploying a Super Resolution Model in C++ using ONNX Runtime](https://pytorch.org/tutorials/advanced/super_resolution_with_onnxruntime.html)  
+[47] <a id="ref-47"></a> [nvidia.com: Speed Up Inference with TensorRT](https://developer.nvidia.com/blog/speed-up-inference-tensorrt/)  
+[48] <a id="ref-48"></a> [github.com: NVIDIA TensorRT Repository](https://github.com/NVIDIA/TensorRT)  
+[49] <a id="ref-49"></a> [genesiscloud.com: Deployment of Deep Learning Models on Genesis Cloud - TensorRT](https://blog.genesiscloud.com/2022/deployment-of-deep-learning-models-on-genesis-cloud-tensorrt)  
+[50] <a id="ref-50"></a> [microsoft.com: Optimizing and Deploying Transformer INT8 Inference with ONNX Runtime & TensorRT on NVIDIA GPUs](https://cloudblogs.microsoft.com/opensource/2022/05/02/optimizing-and-deploying-transformer-int8-inference-with-onnx-runtime-tensorrt-on-nvidia-gpus/)  
+[51] <a id="ref-51"></a> [microsoft.com: Convert a PyTorch Model to ONNX](https://learn.microsoft.com/en-us/windows/ai/windows-ml/tutorials/pytorch-convert-model)  
+[52] <a id="ref-52"></a> [huggingface.co: Introducing Fully Sharded Data Parallel in PyTorch](https://huggingface.co/blog/pytorch-fsdp)  
+[53] <a id="ref-53"></a> [lightning.ai: Fully Sharded Data Parallel (FSDP) - PyTorch Lightning](https://lightning.ai/docs/pytorch/stable/advanced/model_parallel/fsdp.html)  
+[54] <a id="ref-54"></a> [onnxruntime.ai: Export PyTorch Model to ONNX](https://onnxruntime.ai/docs/tutorials/export-pytorch-model.html)  
+[55] <a id="ref-55"></a> [pytorch.org: Getting Started with Distributed Data Parallel](https://pytorch.org/tutorials/beginner/ddp_series_multigpu.html)  
+[56] <a id="ref-56"></a> [edge-ai-vision.com: Speeding Up Deep Learning Inference Using TensorRT](https://www.edge-ai-vision.com/2020/04/speeding-up-deep-learning-inference-using-tensorrt/)  
+[57] <a id="ref-57"></a> [pytorch-geometric.readthedocs.io: Multi-GPU Training (Vanilla PyTorch)](https://pytorch-geometric.readthedocs.io/en/latest/tutorial/multi_gpu_vanilla.html)  
+[58] <a id="ref-58"></a> [huggingface.co: Exporting Transformers Models](https://huggingface.co/docs/transformers/main/en/serialization)  
+[59] <a id="ref-59"></a> [txstate.edu: Accelerating Deep Learning Inference with TensorRT](https://userweb.cs.txstate.edu/~k_y47/webpage/pubs/icess22.pdf)  
+[60] <a id="ref-60"></a> [paloaltonetworks.com: ML Inference Workloads on the NVIDIA Triton Inference Server](https://live.paloaltonetworks.com/t5/community-blogs/ml-inference-workloads-on-the-triton-inference-server/ba-p/545039)  
+[61] <a id="ref-61"></a> [bentoml.org: Deploying to NVIDIA Triton Inference Server](https://docs.bentoml.org/en/v1.1.11/integrations/triton.html)  
+[62] <a id="ref-62"></a> [run.ai: NVIDIA Triton Inference Server: The Complete Guide](https://www.run.ai/guides/machine-learning-engineering/triton-inference-server)  
+[63] <a id="ref-63"></a> [towardsai.net: Build a Triton Inference Server with MNIST Example](https://pub.towardsai.net/build-a-triton-inference-server-with-mnist-example-part-1-4-1233445ab56f?gi=75f20d3bc7b9)  
+[64] <a id="ref-64"></a> [marvik.ai: Deploying LLaMA2 with NVIDIA Triton Inference Server](https://blog.marvik.ai/2023/10/16/deploying-llama2-with-nvidia-triton-inference-server/)  
+[65] <a id="ref-65"></a> [forums.developer.nvidia.com: Triton Inference Server Example - Simple gRPC Infer Client](https://forums.developer.nvidia.com/t/triton-infererence-server-example-simple-grpc-infer-client-py/204947)  
+[66] <a id="ref-66"></a> [github.com: NVIDIA Triton Inference Server - FAQ](https://github.com/triton-inference-server/server/blob/main/docs/user_guide/faq.md)  
+[67] <a id="ref-67"></a> [github.com: NVIDIA Triton Inference Server - Documentation](https://github.com/triton-inference-server/server/blob/main/docs/README.md)
 
 _Assisted by claude-3-opus on [perplexity.ai](https://perplexity.ai)_
 
