@@ -12,8 +12,8 @@ In this post, we will explore: i) Distributed training on GPUs based on [torch.c
 Key features of torch.cuda:
 - Keeps track of the currently selected GPU device
 - All CUDA tensors allocated will be created on the currently selected device by default
-- Allows changing the selected device with torch.cuda.set_device(device)
-- Provides functions like torch.cuda.device_count() to get the number of GPUs available and torch.cuda.is_available() to check if CUDA is supported on the system
+- Allows changing the selected device with `torch.cuda.set_device(device)`
+- Provides functions like `torch.cuda.device_count()` to get the number of GPUs available and torch.cuda.is_available() to check if CUDA is supported on the system
 
 Example of using `torch.cuda`:
 
@@ -48,25 +48,21 @@ By default, PyTorch operations are performed on the currently selected device. Y
 
 ## `torch.distributed` introduction
 
-`torch.distributed` is PyTorch's package for distributed training across multiple machines or GPUs. It provides primitives for multi-GPU communication and synchronization.
-
-Key features of `torch.distributed`:
+`torch.distributed` is PyTorch's package for distributed training across multiple machines or GPUs. It provides primitives for multi-GPU communication and synchronization. Key features of `torch.distributed`:
 - Supports multiple backends like NCCL, Gloo, and MPI for communication
 - Provides collective communication operations like `all_reduce`, `broadcast`, and `gather`
 - Supports point-to-point communication with `send` and `recv`
-- Integrates with higher-level APIs like DistributedDataParallel and FSDP for easy distributed training
+- Integrates with higher-level APIs like `FSDP` and `DDP` for easy distributed training
 
 **More about FSDP**
 
-Fully Sharded Data Parallel (FSDP) is a distributed training API introduced in PyTorch v1.11. FSDP shards model parameters, gradients and optimizer states across data parallel workers, reducing memory usage while still performing synchronous distributed training [[21](#ref-21)] [[22](#ref-22)].
-
-Key features of FSDP:
+FullyShardedDataParallel (FSDP) is a distributed training API introduced in PyTorch v1.11. FSDP shards model parameters, gradients and optimizer states across data parallel workers, reducing memory usage while still performing synchronous distributed training [[21](#ref-21)] [[22](#ref-22)]. Key features of FSDP:
 - Shards model parameters across multiple GPUs, with each GPU only holding a portion of the full model
 - Shards optimizer states and gradients in addition to model parameters
 - Supports CPU offloading of parameters and gradients to further reduce GPU memory usage
 - Performs communication and computation in an optimized manner to achieve good training efficiency
 
-**FSDP vs DistributedDataParallel**
+**FSDP vs DDP**
 
 DistributedDataParallel (DDP) is another widely used distributed training paradigm in PyTorch. Here are the key differences between FSDP and DDP [[24](#ref-24)] [[26](#ref-26)] [[27](#ref-27)]:
 
@@ -79,8 +75,8 @@ DistributedDataParallel (DDP) is another widely used distributed training paradi
   - FSDP reduces memory usage by sharding the model across GPUs. It can further reduce memory by CPU offloading.
 
 - Communication:
-  - DDP performs an all-reduce operation to synchronize gradients across GPUs.
-  - FSDP performs reduce-scatter to shard gradients and all-gather to collect parameters before computation.
+  - DDP performs an `all-reduce` operation to synchronize gradients across GPUs.
+  - FSDP performs `reduce-scatter` to shard gradients and `all-gather` to collect parameters before computation.
 
 - Computation:
   - DDP performs computation on the full model on each GPU.
@@ -161,7 +157,7 @@ Overall, FSDP is a powerful tool for training large models that cannot fit into 
 
 ## ONNX introduction
 
-ONNX (Open Neural Network Exchange) is an open format to represent machine learning models. It defines a common set of operators and a common file format to enable AI developers to use models with a variety of frameworks, tools, runtimes, and compilers [[39](#ref-39)]. ONNX is available both as a [python library](https://pypi.org/project/onnx/) and natively in pytorch as `torch.onnx`.
+ONNX (Open Neural Network Exchange) is an open format to represent machine learning models. It defines a common set of operators and a common file format to enable AI developers to use models with a variety of frameworks, tools, runtimes, and compilers [[39](#ref-39)]. ONNX is available both as a [python library](https://pypi.org/project/onnx/) and natively in pytorch as [`torch.onnx`](https://pytorch.org/docs/stable/onnx.html).
 
 Key features of ONNX include:
 
@@ -213,8 +209,8 @@ This creates a simple ONNX model that performs a matrix multiplication using the
 
 `torch_tensorrt` is a compiler that optimizes PyTorch and TorchScript models using NVIDIA's TensorRT (TRT) deep learning optimizer and runtime. It accelerates inference by optimizing the model graph and generating efficient CUDA kernels.
 
-Key features of Torch-TensorRT:
-- Compiles PyTorch models to optimized TensorRT engines
+Key features of `torch_tensorrt`:
+- Compiles PyTorch models to optimized TRT engines
 - Supports reduced precision inference (FP16 and INT8) for faster execution
 - Performs layer fusion, kernel auto-tuning, and memory optimization
 - Provides easy-to-use APIs for converting and deploying models
@@ -249,7 +245,7 @@ In this example:
 1. We load a pretrained ResNet-50 model using torchvision.models.
 2. We create an example input tensor to specify the input shape for compilation.
 3. We compile the model using torch_tensorrt.compile, specifying the input shape, enabled precisions (FP32 and FP16), and workspace size.
-4. We run inference with the optimized TRT model (also goes by "TRT engine") passing in the input data.
+4. We run inference with the optimized TRT model (the "TRT engine") passing in the input data.
 
 `torch_tensorrt` applies various optimizations like layer fusion, kernel tuning, and precision calibration to generate an efficient TRT engine. This can significantly speed up inference compared to the original PyTorch model [[5](#ref-5)] [[11](#ref-11)].
 
