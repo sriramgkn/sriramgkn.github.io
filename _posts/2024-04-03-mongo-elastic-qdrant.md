@@ -352,6 +352,7 @@ Cite like this [[2](#ref-2)], and this [[3](#ref-3)]. Use two extra spaces at en
 ### References  
 [1] <a id="ref-1"></a> [display text](hyperlink)  
 [2] <a id="ref-2"></a> [display text](hyperlink) 
-[3] <a id="ref-3"></a> [display text](hyperlink)   
+[3] <a id="ref-3"></a> [display text](hyperlink)  
+_Assisted by claude-3-opus on [perplexity.ai](https://perplexity.ai)_ 
 -->
 <!-- -------------------------------------------------------------- -->
