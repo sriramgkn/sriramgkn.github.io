@@ -561,8 +561,6 @@ Here are the citations with intelligent display text:
 [38] <a id="ref-38"></a> [towardsdatascience.com: Creating ONNX Models from Scratch](https://towardsdatascience.com/creating-onnx-from-scratch-4063eab80fcd)  
 [39] <a id="ref-39"></a> [github.com: ONNX Tutorials](https://github.com/onnx/tutorials)  
 [40] <a id="ref-40"></a> [nvidia.com: TensorRT Quick Start Guide](https://docs.nvidia.com/deeplearning/tensorrt/quick-start-guide/index.html)
-Here are the citations with intelligent display text:
-
 [41] <a id="ref-41"></a> [pytorch.org: torch.onnx - PyTorch Documentation](https://pytorch.org/docs/stable/onnx.html)  
 [42] <a id="ref-42"></a> [deci.ai: How to Convert a PyTorch Model to ONNX in 5 Minutes](https://deci.ai/blog/how-to-convert-a-pytorch-model-to-onnx/)  
 [43] <a id="ref-43"></a> [roboflow.com: What is TensorRT?](https://blog.roboflow.com/what-is-tensorrt/)  
