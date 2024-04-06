@@ -48,7 +48,9 @@ By default, PyTorch operations are performed on the currently selected device. Y
 
 ## `torch.distributed` introduction
 
-`torch.distributed` is PyTorch's package for distributed training across multiple machines or GPUs. It provides primitives for multi-GPU communication and synchronization. Key features of `torch.distributed`:
+`torch.distributed` is PyTorch's package for distributed training across multiple machines or GPUs. It provides primitives for multi-GPU communication and synchronization. 
+
+Key features of `torch.distributed`:
 - Supports multiple backends like NCCL, Gloo, and MPI for communication
 - Provides collective communication operations like `all_reduce`, `broadcast`, and `gather`
 - Supports point-to-point communication with `send` and `recv`
@@ -56,7 +58,9 @@ By default, PyTorch operations are performed on the currently selected device. Y
 
 **More about FSDP**
 
-FullyShardedDataParallel (FSDP) is a distributed training API introduced in PyTorch v1.11. FSDP shards model parameters, gradients and optimizer states across data parallel workers, reducing memory usage while still performing synchronous distributed training [[21](#ref-21)] [[22](#ref-22)]. Key features of FSDP:
+FullyShardedDataParallel (FSDP) is a distributed training API introduced in PyTorch v1.11. FSDP shards model parameters, gradients and optimizer states across data parallel workers, reducing memory usage while still performing synchronous distributed training [[21](#ref-21)] [[22](#ref-22)]. 
+
+Key features of FSDP:
 - Shards model parameters across multiple GPUs, with each GPU only holding a portion of the full model
 - Shards optimizer states and gradients in addition to model parameters
 - Supports CPU offloading of parameters and gradients to further reduce GPU memory usage
