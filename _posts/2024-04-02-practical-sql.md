@@ -246,39 +246,39 @@ That covers the process of loading and analyzing the plant disease dataset in Po
 
 We will now compare MySQL and PostgreSQL for the specific case of the plant disease dataset we loaded:
 
-**Schema Design**
+**Schema Design**  
 The relational schema would be very similar in both databases - a table to store image paths and labels with foreign keys to dimension tables for crops and diseases if needed.
 
 PostgreSQL's ability to create custom types could be useful to create a special 'image' type but not strictly necessary. MySQL's lack of transactional DDL is a drawback during initial schema creation and modifications.
 
-**Data Loading**
+**Data Loading**  
 Both databases can load the data from CSV files or using programming languages. 
 
 PostgreSQL's COPY command is very efficient for bulk inserts. MySQL's LOAD DATA INFILE is also fast.
 
 For loading images or metadata, PostgreSQL's native JSON support is an advantage. You could store image metadata as a JSON column. With MySQL you'd have to use a TEXT column and handle parsing in application code.
 
-**Querying**
+**Querying**  
 Most of the queries needed would be simple filters and aggregations which both can handle well.
 
 For more complex queries that categorize images along multiple dimensions or look for patterns, PostgreSQL's window functions and CTEs would be useful. The query optimizer would also likely generate more efficient execution plans.
 
 Full text search on metadata could be done in PostgreSQL without any additional setup.
 
-**Performance**
+**Performance**  
 For simple read queries like "select all images for crop X", MySQL would likely be faster, especially with indexing.
 
 As queries get more complex with joins, aggregations and analytics, PostgreSQL is likely to perform better, especially with large data volumes.
 
 Write performance is likely to be better with PostgreSQL due to MVCC.
 
-**Geospatial**
+**Geospatial**  
 If there is a geospatial component to the data, like field locations, PostgreSQL with the PostGIS extension would provide advanced capabilities for geospatial indexing and queries that MySQL cannot match.
 
-**Machine Learning**
+**Machine Learning**  
 For advanced analytics and machine learning, the ability to do more in-database with PostgreSQL is an advantage. You can use extensions like MADlib for in-database ML. With MySQL you'd have to extract data to another tool.
 
-**Summary**
+**Summary**  
 In summary, while both databases could be made to work, PostgreSQL is likely the better choice for this use case due to:
 
 - Ability to handle complex queries and analytics as the application grows
