@@ -3,7 +3,7 @@ layout: post
 title: Exploring Transformers and Diffusers
 ---
 
-In this post, we will explore [Transformers](https://huggingface.co/docs/transformers/index) and [Diffusers](https://huggingface.co/docs/diffusers/en/index) - two popular generative AI Python libraries by HuggingFace.
+In this post, we will explore [Transformers](https://huggingface.co/docs/transformers/index) and [Diffusers](https://huggingface.co/docs/diffusers/en/index) - two popular generative AI libraries by HuggingFace, both based on the transformer architecture.
 
 ## HuggingFace Transformers Library
 
