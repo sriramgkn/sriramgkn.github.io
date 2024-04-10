@@ -3,11 +3,11 @@ layout: post
 title: Exploring Transformers and Diffusers
 ---
 
-In this post, we will explore [Transformers](https://huggingface.co/docs/transformers/index) and [Diffusers](https://huggingface.co/docs/diffusers/en/index) - two popular generative AI Python libraries by Huggingface.
+In this post, we will explore [Transformers](https://huggingface.co/docs/transformers/index) and [Diffusers](https://huggingface.co/docs/diffusers/en/index) - two popular generative AI Python libraries by HuggingFace.
 
-## Hugging Face Transformers Library
+## HuggingFace Transformers Library
 
-The Hugging Face Transformers library provides state-of-the-art pre-trained models for natural language processing (NLP), computer vision, and audio tasks. It supports popular transformer architectures like BERT, GPT, RoBERTa, ViT, and more.
+The HuggingFace Transformers library provides state-of-the-art pre-trained models for natural language processing (NLP), computer vision, and audio tasks. It supports popular transformer architectures like BERT, GPT, RoBERTa, ViT, and more.
 
 Key features of the Transformers library include:
 - Thousands of pre-trained models that can be used for transfer learning or fine-tuning on downstream tasks
@@ -65,9 +65,9 @@ Output:
 
 The Transformers library provides a wide range of capabilities for NLP tasks. You can explore more examples and tutorials in the official documentation [[4](#ref-4)].
 
-## Hugging Face Diffusers Library
+## HuggingFace Diffusers Library
 
-The Hugging Face Diffusers library focuses on diffusion models for generative tasks like image generation, audio generation, and even generating 3D structures of molecules. It provides pre-trained diffusion models, interchangeable noise schedulers, and modular components for building custom diffusion systems.
+The HuggingFace Diffusers library focuses on diffusion models for generative tasks like image generation, audio generation, and even generating 3D structures of molecules. It provides pre-trained diffusion models, interchangeable noise schedulers, and modular components for building custom diffusion systems.
 
 Key features of the Diffusers library include:
 - State-of-the-art diffusion pipelines for inference with just a few lines of code
