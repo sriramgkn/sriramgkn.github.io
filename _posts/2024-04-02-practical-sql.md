@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Comparing MySQL and PostgreSQL on an example database
+title: Practical SQL use in relational databases
 ---
 
 In this post, we will learn how to use SQL to query a [plant disease dataset](https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset) loaded both as [MySQL](https://www.mysql.com/) and [PostgreSQL](https://www.postgresql.org/) databases. We will also compare the capabilities of each database in general and specific to our example task.
