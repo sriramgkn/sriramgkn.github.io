@@ -1,27 +1,27 @@
 ---
 layout: post
-title: Exploring Scikit-Learn, XGBoost, and Pandas
+title: Exploring scikit-learn, XGBoost, and pandas
 ---
 
-In this post, we will explore [Scikit-Learn](https://scikit-learn.org/stable/), [XGBoost](https://xgboost.readthedocs.io/en/stable/), and [Pandas](https://pandas.pydata.org/) - three traditional machine learning libraries in Python.
+In this post, we will explore [scikit-learn](https://scikit-learn.org/stable/), [XGBoost](https://xgboost.readthedocs.io/en/stable/), and [pandas](https://pandas.pydata.org/) - three traditional machine learning libraries in Python.
 
-Scikit-learn, XGBoost, and Pandas are three essential open-source libraries in the Python data science and machine learning ecosystem. Scikit-learn provides a wide range of supervised and unsupervised learning algorithms, making it a go-to tool for many data scientists. XGBoost is an optimized gradient boosting library known for its speed and performance, often used to achieve state-of-the-art results on structured datasets. Pandas is a powerful data manipulation library that provides easy-to-use data structures and analysis tools. Together, these libraries form a robust toolkit for data loading, preprocessing, modeling, and analysis.
+scikit-learn, XGBoost, and pandas are three essential open-source libraries in the Python data science and machine learning ecosystem. scikit-learn provides a wide range of supervised and unsupervised learning algorithms, making it a go-to tool for many data scientists. XGBoost is an optimized gradient boosting library known for its speed and performance, often used to achieve state-of-the-art results on structured datasets. pandas is a powerful data manipulation library that provides easy-to-use data structures and analysis tools. Together, these libraries form a robust toolkit for data loading, preprocessing, modeling, and analysis.
 
-## Scikit-learn
+## scikit-learn
 
-Scikit-learn is a versatile machine learning library that provides tools for data preprocessing, model selection, evaluation metrics, and a variety of learning algorithms [[1](#ref-1)] [[6](#ref-6)] [[8](#ref-8)] [[13](#ref-13)] [[20](#ref-20)].
+scikit-learn is a versatile machine learning library that provides tools for data preprocessing, model selection, evaluation metrics, and a variety of learning algorithms [[1](#ref-1)] [[6](#ref-6)] [[8](#ref-8)] [[13](#ref-13)] [[20](#ref-20)].
 
 Key capabilities of scikit-learn include:
 
-- Supervised learning algorithms: Scikit-learn offers a wide range of classification and regression algorithms, such as linear models, support vector machines (SVM), decision trees, random forests, and neural networks [[1](#ref-1)] [[8](#ref-8)] [[13](#ref-13)] [[20](#ref-20)].
+- Supervised learning algorithms: scikit-learn offers a wide range of classification and regression algorithms, such as linear models, support vector machines (SVM), decision trees, random forests, and neural networks [[1](#ref-1)] [[8](#ref-8)] [[13](#ref-13)] [[20](#ref-20)].
 
 - Unsupervised learning algorithms: The library provides tools for clustering, dimensionality reduction, and anomaly detection, including k-means, DBSCAN, principal component analysis (PCA), and more [[1](#ref-1)] [[8](#ref-8)] [[13](#ref-13)] [[20](#ref-20)].
 
-- Model selection and evaluation: Scikit-learn includes tools for hyperparameter tuning, cross-validation, and various evaluation metrics for assessing model performance [[1](#ref-1)] [[6](#ref-6)] [[8](#ref-8)] [[13](#ref-13)] [[20](#ref-20)].
+- Model selection and evaluation: scikit-learn includes tools for hyperparameter tuning, cross-validation, and various evaluation metrics for assessing model performance [[1](#ref-1)] [[6](#ref-6)] [[8](#ref-8)] [[13](#ref-13)] [[20](#ref-20)].
 
 - Feature extraction and preprocessing: The library offers functions for feature scaling, normalization, encoding categorical variables, handling missing data, and text feature extraction [[1](#ref-1)] [[6](#ref-6)] [[8](#ref-8)] [[13](#ref-13)] [[20](#ref-20)].
 
-- Integration with other libraries: Scikit-learn integrates well with NumPy for numerical computing, SciPy for scientific computing, and Matplotlib for data visualization [[1](#ref-1)] [[6](#ref-6)] [[8](#ref-8)] [[13](#ref-13)] [[20](#ref-20)].
+- Integration with other libraries: scikit-learn integrates well with NumPy for numerical computing, SciPy for scientific computing, and Matplotlib for data visualization [[1](#ref-1)] [[6](#ref-6)] [[8](#ref-8)] [[13](#ref-13)] [[20](#ref-20)].
 
 ## XGBoost 
 
@@ -39,31 +39,31 @@ Key features and capabilities of XGBoost include:
 
 - Flexibility and customization: The library provides a wide range of hyperparameters for fine-tuning the model and supports custom objective functions and evaluation metrics [[2](#ref-2)] [[3](#ref-3)] [[4](#ref-4)] [[8](#ref-8)] [[18](#ref-18)] [[19](#ref-19)].
 
-## Pandas
+## pandas
 
-Pandas is a powerful data manipulation and analysis library that provides easy-to-use data structures and tools for working with structured data [[7](#ref-7)] [[9](#ref-9)] [[11](#ref-11)] [[12](#ref-12)] [[16](#ref-16)].
+pandas is a powerful data manipulation and analysis library that provides easy-to-use data structures and tools for working with structured data [[7](#ref-7)] [[9](#ref-9)] [[11](#ref-11)] [[12](#ref-12)] [[16](#ref-16)].
 
-Key features and capabilities of Pandas include:
+Key features and capabilities of pandas include:
 
-- Data structures: Pandas introduces two main data structures - Series (1-dimensional) and DataFrame (2-dimensional), which allow for efficient data manipulation and analysis [[7](#ref-7)] [[9](#ref-9)] [[11](#ref-11)] [[12](#ref-12)] [[16](#ref-16)].
+- Data structures: pandas introduces two main data structures - Series (1-dimensional) and DataFrame (2-dimensional), which allow for efficient data manipulation and analysis [[7](#ref-7)] [[9](#ref-9)] [[11](#ref-11)] [[12](#ref-12)] [[16](#ref-16)].
 
 - Data loading and writing: The library supports reading and writing data from various file formats, such as CSV, Excel, SQL databases, and JSON [[7](#ref-7)] [[9](#ref-9)] [[11](#ref-11)] [[12](#ref-12)] [[16](#ref-16)].
 
-- Data cleaning and preprocessing: Pandas provides functions for handling missing data, filtering, sorting, merging, reshaping, and transforming datasets [[7](#ref-7)] [[9](#ref-9)] [[11](#ref-11)] [[12](#ref-12)] [[16](#ref-16)].
+- Data cleaning and preprocessing: pandas provides functions for handling missing data, filtering, sorting, merging, reshaping, and transforming datasets [[7](#ref-7)] [[9](#ref-9)] [[11](#ref-11)] [[12](#ref-12)] [[16](#ref-16)].
 
 - Merging and joining data: The library offers tools for combining multiple datasets based on common columns or indexes [[7](#ref-7)] [[9](#ref-9)] [[11](#ref-11)] [[12](#ref-12)] [[16](#ref-16)].
 
-- Time series functionality: Pandas has extensive support for working with time series data, including date range generation, frequency conversion, and rolling window calculations [[7](#ref-7)] [[9](#ref-9)] [[11](#ref-11)] [[12](#ref-12)] [[16](#ref-16)].
+- Time series functionality: pandas has extensive support for working with time series data, including date range generation, frequency conversion, and rolling window calculations [[7](#ref-7)] [[9](#ref-9)] [[11](#ref-11)] [[12](#ref-12)] [[16](#ref-16)].
 
-- Integration with other libraries: Pandas integrates well with other data science and visualization libraries, such as NumPy, Matplotlib, and Seaborn [[7](#ref-7)] [[9](#ref-9)] [[11](#ref-11)] [[12](#ref-12)] [[16](#ref-16)].
+- Integration with other libraries: pandas integrates well with other data science and visualization libraries, such as NumPy, Matplotlib, and Seaborn [[7](#ref-7)] [[9](#ref-9)] [[11](#ref-11)] [[12](#ref-12)] [[16](#ref-16)].
 
 In the next section, we will explore code examples demonstrating the usage of these libraries for various data science and machine learning tasks.
 
 ## Code examples
 
-Let us now look at code examples of learning algorithms with scikit-learn and XGBoost, and dataframe creation and manipulation with Pandas.
+Let us now look at code examples of learning algorithms with scikit-learn and XGBoost, and dataframe creation and manipulation with pandas.
 
-**Scikit-learn Example: Classification with Random Forest**
+**scikit-learn Example: Classification with Random Forest**
 
 ```python
 from sklearn.datasets import load_iris
@@ -136,7 +136,7 @@ plt.show()
 
 This loads the Boston housing dataset, splits it into train/test sets, trains an XGBoost regressor, makes predictions, calculates mean squared error, plots the feature importances using XGBoost's `plot_importance` function, and visualizes one of the trees in the model using XGBoost's `plot_tree` function [[21](#ref-21)] [[22](#ref-22)] [[23](#ref-23)] [[24](#ref-24)] [[28](#ref-28)] [[38](#ref-38)] [[39](#ref-39)].
 
-**Pandas Example: Data Manipulation and Analysis**
+**pandas Example: Data Manipulation and Analysis**
 
 ```python
 import pandas as pd
@@ -168,9 +168,9 @@ print("\nFiltered DataFrame (Age > 30):")
 print(filtered_df)
 ```
 
-This creates a sample DataFrame, groups by the 'Name' column and calculates mean salary, prints the result, visualizes the mean salary by name using Pandas' built-in plotting with a bar chart, and then filters the DataFrame to only include rows where 'Age' is greater than 30 [[27](#ref-27)] [[29](#ref-29)] [[31](#ref-31)] [[32](#ref-32)] [[36](#ref-36)].
+This creates a sample DataFrame, groups by the 'Name' column and calculates mean salary, prints the result, visualizes the mean salary by name using pandas' built-in plotting with a bar chart, and then filters the DataFrame to only include rows where 'Age' is greater than 30 [[27](#ref-27)] [[29](#ref-29)] [[31](#ref-31)] [[32](#ref-32)] [[36](#ref-36)].
 
-These examples demonstrate loading data, training models, making predictions, evaluating performance, and visualizing the learned models and results using scikit-learn, XGBoost, Pandas, and Matplotlib.
+These examples demonstrate loading data, training models, making predictions, evaluating performance, and visualizing the learned models and results using scikit-learn, XGBoost, pandas, and Matplotlib.
 
 ---
 ## References
@@ -180,33 +180,33 @@ These examples demonstrate loading data, training models, making predictions, ev
 [3] <a id="ref-3"></a> [nvidia.com: What is XGBoost?](https://www.nvidia.com/en-us/glossary/xgboost/)  
 [4] <a id="ref-4"></a> [machinelearningmastery.com: A Gentle Introduction to XGBoost for Applied Machine Learning](https://machinelearningmastery.com/gentle-introduction-xgboost-applied-machine-learning/)  
 [5] <a id="ref-5"></a> [geeksforgeeks.org: XGBoost Algorithm: Long May She Reign!](https://www.geeksforgeeks.org/xgboost/)  
-[6] <a id="ref-6"></a> [machinelearningmastery.com: A Gentle Introduction to Scikit-Learn: A Python Machine Learning Library](https://machinelearningmastery.com/a-gentle-introduction-to-scikit-learn-a-python-machine-learning-library/)  
-[7] <a id="ref-7"></a> [tutorialspoint.com: Python Pandas - Introduction](https://www.tutorialspoint.com/python_pandas/python_pandas_introduction.htm)  
+[6] <a id="ref-6"></a> [machinelearningmastery.com: A Gentle Introduction to scikit-learn: A Python Machine Learning Library](https://machinelearningmastery.com/a-gentle-introduction-to-scikit-learn-a-python-machine-learning-library/)  
+[7] <a id="ref-7"></a> [tutorialspoint.com: Python pandas - Introduction](https://www.tutorialspoint.com/python_pandas/python_pandas_introduction.htm)  
 [8] <a id="ref-8"></a> [simplilearn.com: What is the XGBoost Algorithm in Machine Learning?](https://www.simplilearn.com/what-is-xgboost-algorithm-in-machine-learning-article)  
-[9] <a id="ref-9"></a> [thedatascientist.com: Scikit-Learn 101: Exploring Important Functions](https://thedatascientist.com/scikit-learn-101-exploring-important-functions/)  
-[10] <a id="ref-10"></a> [zerotomastery.io: How to Use Scikit-Learn in Python](https://zerotomastery.io/blog/how-to-use-scikit-learn/)  
-[11] <a id="ref-11"></a> [geeksforgeeks.org: Learning Model Building in Scikit-learn : A Python Machine Learning Library](https://www.geeksforgeeks.org/learning-model-building-scikit-learn-python-machine-learning-library/)  
-[12] <a id="ref-12"></a> [datacamp.com: Pandas Tutorial: DataFrames in Python](https://www.datacamp.com/tutorial/pandas)  
-[13] <a id="ref-13"></a> [upgrad.com: Scikit-Learn in Python: A Complete Guide](https://www.upgrad.com/blog/scikit-learn-in-python/)  
+[9] <a id="ref-9"></a> [thedatascientist.com: scikit-learn 101: Exploring Important Functions](https://thedatascientist.com/scikit-learn-101-exploring-important-functions/)  
+[10] <a id="ref-10"></a> [zerotomastery.io: How to Use scikit-learn in Python](https://zerotomastery.io/blog/how-to-use-scikit-learn/)  
+[11] <a id="ref-11"></a> [geeksforgeeks.org: Learning Model Building in scikit-learn : A Python Machine Learning Library](https://www.geeksforgeeks.org/learning-model-building-scikit-learn-python-machine-learning-library/)  
+[12] <a id="ref-12"></a> [datacamp.com: pandas Tutorial: DataFrames in Python](https://www.datacamp.com/tutorial/pandas)  
+[13] <a id="ref-13"></a> [upgrad.com: scikit-learn in Python: A Complete Guide](https://www.upgrad.com/blog/scikit-learn-in-python/)  
 [14] <a id="ref-14"></a> [wikipedia.org: XGBoost](https://en.wikipedia.org/wiki/XGBoost)  
-[15] <a id="ref-15"></a> [activestate.com: What is Scikit-Learn in Python?](https://www.activestate.com/resources/quick-reads/what-is-scikit-learn-in-python/)  
-[16] <a id="ref-16"></a> [geeksforgeeks.org: Introduction to Pandas in Python](https://www.geeksforgeeks.org/introduction-to-pandas-in-python/)  
+[15] <a id="ref-15"></a> [activestate.com: What is scikit-learn in Python?](https://www.activestate.com/resources/quick-reads/what-is-scikit-learn-in-python/)  
+[16] <a id="ref-16"></a> [geeksforgeeks.org: Introduction to pandas in Python](https://www.geeksforgeeks.org/introduction-to-pandas-in-python/)  
 [17] <a id="ref-17"></a> [kdnuggets.com: XGBoost: A Concise Technical Overview](https://www.kdnuggets.com/2017/10/xgboost-concise-technical-overview.html)  
-[18] <a id="ref-18"></a> [wikipedia.org: Scikit-learn](https://en.wikipedia.org/wiki/Scikit-learn)  
+[18] <a id="ref-18"></a> [wikipedia.org: scikit-learn](https://en.wikipedia.org/wiki/scikit-learn)  
 [19] <a id="ref-19"></a> [neptune.ai: XGBoost: Everything You Need to Know](https://neptune.ai/blog/xgboost-everything-you-need-to-know)  
-[20] <a id="ref-20"></a> [simplilearn.com: Scikit-Learn Tutorial: Machine Learning in Python](https://www.simplilearn.com/tutorials/python-tutorial/scikit-learn)  
-[21] <a id="ref-21"></a> [dataquest.io: How to Plot a DataFrame Using Pandas](https://www.dataquest.io/blog/plot-dataframe-pandas/)  
-[22] <a id="ref-22"></a> [towardsdatascience.com: 3 Quick and Easy Ways to Visualize Your Data Using Pandas](https://towardsdatascience.com/3-quick-and-easy-ways-to-visualize-your-data-using-pandas-4cac57fb4c82)  
-[23] <a id="ref-23"></a> [tryolabs.com: Pandas & Seaborn: A guide to handle & visualize data elegantly](https://tryolabs.com/blog/2017/03/16/pandas-seaborn-a-guide-to-handle-visualize-data-elegantly)  
-[24] <a id="ref-24"></a> [realpython.com: Python Plotting With Pandas and Matplotlib](https://realpython.com/pandas-plot-python/)  
+[20] <a id="ref-20"></a> [simplilearn.com: scikit-learn Tutorial: Machine Learning in Python](https://www.simplilearn.com/tutorials/python-tutorial/scikit-learn)  
+[21] <a id="ref-21"></a> [dataquest.io: How to Plot a DataFrame Using pandas](https://www.dataquest.io/blog/plot-dataframe-pandas/)  
+[22] <a id="ref-22"></a> [towardsdatascience.com: 3 Quick and Easy Ways to Visualize Your Data Using pandas](https://towardsdatascience.com/3-quick-and-easy-ways-to-visualize-your-data-using-pandas-4cac57fb4c82)  
+[23] <a id="ref-23"></a> [tryolabs.com: pandas & Seaborn: A guide to handle & visualize data elegantly](https://tryolabs.com/blog/2017/03/16/pandas-seaborn-a-guide-to-handle-visualize-data-elegantly)  
+[24] <a id="ref-24"></a> [realpython.com: Python Plotting With pandas and Matplotlib](https://realpython.com/pandas-plot-python/)  
 [25] <a id="ref-25"></a> [towardsdatascience.com: Visualize Machine Learning Metrics Like a Pro](https://towardsdatascience.com/visualize-machine-learning-metrics-like-a-pro-b0d5d7815065)  
-[26] <a id="ref-26"></a> [docs.wandb.ai: Scikit-Learn Integration](https://docs.wandb.ai/guides/integrations/scikit)  
+[26] <a id="ref-26"></a> [docs.wandb.ai: scikit-learn Integration](https://docs.wandb.ai/guides/integrations/scikit)  
 [27] <a id="ref-27"></a> [stackoverflow.com: How to Determine and Visualize a Representative XGBoost Decision Tree](https://stackoverflow.com/questions/73660299/how-to-determine-and-visualize-a-representative-xgboost-decision-tree)  
-[28] <a id="ref-28"></a> [kdnuggets.com: 7 Pandas Plotting Functions for Quick Data Visualization](https://www.kdnuggets.com/7-pandas-plotting-functions-for-quick-data-visualization)  
+[28] <a id="ref-28"></a> [kdnuggets.com: 7 pandas Plotting Functions for Quick Data Visualization](https://www.kdnuggets.com/7-pandas-plotting-functions-for-quick-data-visualization)  
 [29] <a id="ref-29"></a> [codementor.io: Visualizing Decision Trees with Python, scikit-learn, Graphviz, and matplotlib](https://www.codementor.io/%40mgalarny/visualizing-decision-trees-with-python-scikit-learn-graphviz-matplotlib-154mszcto7)  
 [30] <a id="ref-30"></a> [neptune.ai: Visualization in Machine Learning: How to Visualize Models and Metrics](https://neptune.ai/blog/visualization-in-machine-learning)  
 [31] <a id="ref-31"></a> [machinelearningmastery.com: How to Visualize Gradient Boosting Decision Trees With XGBoost in Python](https://machinelearningmastery.com/visualize-gradient-boosting-decision-trees-xgboost-python/)  
-[32] <a id="ref-32"></a> [geeksforgeeks.org: Pandas Built-in Data Visualization](https://www.geeksforgeeks.org/pandas-built-in-data-visualization-ml/)  
+[32] <a id="ref-32"></a> [geeksforgeeks.org: pandas Built-in Data Visualization](https://www.geeksforgeeks.org/pandas-built-in-data-visualization-ml/)  
 [33] <a id="ref-33"></a> [projectpro.io: Visualise XGBoost Tree in Python](https://www.projectpro.io/recipes/visualise-xgboost-tree-in-python)  
 [34] <a id="ref-34"></a> [pandas.pydata.org: Visualization](https://pandas.pydata.org/pandas-docs/version/0.23.4/visualization.html)  
 [35] <a id="ref-35"></a> [scikit-learn.org: Visualizations](https://scikit-learn.org/stable/visualizations.html)  
