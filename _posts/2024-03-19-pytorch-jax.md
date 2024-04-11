@@ -1,17 +1,17 @@
 ---
 layout: post
-title: Exploring Pytorch and JAX
+title: Exploring PyTorch and JAX
 ---
 
-In this post, we hope to concisely introduce [Pytorch](https://pytorch.org/) and [JAX](https://jax.readthedocs.io/en/latest/notebooks/quickstart.html) - two prominent frameworks for deep learning. Play along on [colab](https://colab.research.google.com/drive/1poCvFUmnn8lcbUU7IEAExMAbbFqOUzI5?usp=sharing).
+In this post, we hope to concisely introduce [PyTorch](https://pytorch.org/) and [JAX](https://jax.readthedocs.io/en/latest/notebooks/quickstart.html) - two prominent frameworks for deep learning. Play along on [colab](https://colab.research.google.com/drive/1poCvFUmnn8lcbUU7IEAExMAbbFqOUzI5?usp=sharing).
 
 We also hoped to cover Tensorflow. But for reasons unclear to us, we were unable to install Tensorflow both with Python 3.12 and Python 3.11. Given the simultaneous development of Tensorflow and JAX within Google, and the recent popularity of JAX, I wouldn't be surprised if Tensorflow is heading towards deprecation in the future. For completeness, it is worth noting that Tensorflow is the oldest among the three, being first introduced in 2011.
 
-Pytorch was first introduced in 2016 by Adam Paszke and Soumith Chintala along with others at FAIR [[1](#ref-1)]. Some features that made Pytorch stand out over Tensorflow when it was introduced are: dynamic computational graph, pythonic nature, and extensive ecosystem - notably torchvision, torchaudio, and torchtext.
+PyTorch was first introduced in 2016 by Adam Paszke and Soumith Chintala along with others at FAIR [[1](#ref-1)]. Some features that made PyTorch stand out over Tensorflow when it was introduced are: dynamic computational graph, pythonic nature, and extensive ecosystem - notably torchvision, torchaudio, and torchtext.
 
 JAX ("just after execution") was first introduced in 2018 by Roy Frostig, Matthew James Johnson, and Chris Leary at Google Brain [[2](#ref-2)]. Some unique features of JAX include: jit compilation ("just in time compilation"), XLA ("accelerated linear algebra"), autovectorization & large data parallelism (via `vmap` and `pmap` respectively). JAX is known for its computational efficiency on hardware accelerators like GPUs and TPUs.
 
-What both Pytorch and JAX have in common is automatic differentiation (`autograd` in pytorch, and just `grad` in JAX). The execution speed however is faster in JAX since it benefits from autovectorization and jit compilation abilities mentioned earlier. On the other hand, what makes Pytorch and JAX fundamentally different as frameworks is the programming paradigm they use: Pytorch is object-oriented, while JAX is functional.
+What both PyTorch and JAX have in common is automatic differentiation (`autograd` in pytorch, and just `grad` in JAX). The execution speed however is faster in JAX since it benefits from autovectorization and jit compilation abilities mentioned earlier. On the other hand, what makes PyTorch and JAX fundamentally different as frameworks is the programming paradigm they use: PyTorch is object-oriented, while JAX is functional.
 
 Let us look at some examples. 
 
@@ -223,7 +223,7 @@ print('Test set accuracy:', np.mean(accuracies))
 
     Test set accuracy: 0.79677546
 
-Interestingly, while Pytorch trained with a poor 57.6 percent test accuracy, JAX got 79.7 percent test accuracy. This is despite using the same optimizer (SGD with learning rate 0.001 and momentum 0.9) and the same loss function (cross-entropy). So either the test dataset is created somewhat differently (or) JAX is superior in accuracy to Pytorch. I don't know if the latter is true in general, but I guess we'll learn more as I continue experimenting in the future.
+Interestingly, while PyTorch trained with a poor 57.6 percent test accuracy, JAX got 79.7 percent test accuracy. This is despite using the same optimizer (SGD with learning rate 0.001 and momentum 0.9) and the same loss function (cross-entropy). So either the test dataset is created somewhat differently (or) JAX is superior in accuracy to PyTorch. I don't know if the latter is true in general, but I guess we'll learn more as I continue experimenting in the future.
 
 Let's go ahead and visualize like before. This time we can do exactly what we did with matplotlib earlier, however we cannot use torchviz. In my exploration, I didn't come across a simple equivialent of torchviz in JAX. Leaving that aside, let's go ahead and visualize the weights.
 
@@ -249,12 +249,12 @@ plt.show()
     <figcaption>___</figcaption>
 </figure>
     
-Interesting. While there isn't too much we learn at this low a resolution, if we carefully compare the structure of the Pytorch and JAX weights, we see that JAX has more fine-grained variation in the trained weights, which from a distance looks more random than the pytorch weights. But clearly they've learnt different weights, and JAX's superior accuracy might be stemming from its ability to pick up more fine-grained spatial variations in the input images.
+Interesting. While there isn't too much we learn at this low a resolution, if we carefully compare the structure of the PyTorch and JAX weights, we see that JAX has more fine-grained variation in the trained weights, which from a distance looks more random than the pytorch weights. But clearly they've learnt different weights, and JAX's superior accuracy might be stemming from its ability to pick up more fine-grained spatial variations in the input images.
 
 ---
 ## References
 
-[1] <a id="ref-1"></a> [NeurIPS: Pytorch paper by FAIR](https://proceedings.neurips.cc/paper_files/paper/2019/file/bdbca288fee7f92f2bfa9f7012727740-Paper.pdf)  
+[1] <a id="ref-1"></a> [NeurIPS: PyTorch paper by FAIR](https://proceedings.neurips.cc/paper_files/paper/2019/file/bdbca288fee7f92f2bfa9f7012727740-Paper.pdf)  
 [2] <a id="ref-2"></a> [MLSys: JAX paper by Google Brain](https://mlsys.org/Conferences/doc/2018/146.pdf)  
 
 _Assisted by [perplexity.ai](https://www.perplexity.ai/)_

@@ -137,8 +137,6 @@ In summary, the Hugging Face Transformers and Diffusers libraries are invaluable
 ---
 ## References
 
-Here are the citations with intelligent display text:
-
 [1] <a id="ref-1"></a> [towardsdatascience.com: Hugging Face Just Released the Diffusers Library](https://towardsdatascience.com/hugging-face-just-released-the-diffusers-library-846f32845e65)  
 [2] <a id="ref-2"></a> [microsoft.com: What are Hugging Face Transformers? - Azure Databricks](https://learn.microsoft.com/en-us/azure/databricks/machine-learning/train-model/huggingface/)  
 [3] <a id="ref-3"></a> [learnopencv.com: Introduction to Hugging Face Diffusers](https://learnopencv.com/hugging-face-diffusers/)  
