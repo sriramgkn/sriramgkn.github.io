@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Timeline
-permalink: /timeline/
+title: General
+permalink: /general/
 ---
 
 ## Papers
