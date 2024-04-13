@@ -9,10 +9,6 @@ title: Blog Post
 
 
 
-
-
-
-
 <!-- -------------------------------------------------------------- -->
 <!-- 
 sequence: renumber, accumulate, format
