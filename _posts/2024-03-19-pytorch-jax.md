@@ -259,7 +259,6 @@ Interesting. While there isn't too much we learn at this low a resolution, if we
 
 _Assisted by [perplexity.ai](https://www.perplexity.ai/)_
 
-
 <!-- -------------------------------------------------------------- -->
 <!-- 
 sequence: renumber, accumulate, format

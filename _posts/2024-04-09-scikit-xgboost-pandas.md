@@ -216,6 +216,8 @@ These examples demonstrate loading data, training models, making predictions, ev
 [39] <a id="ref-39"></a> [mljar.com: How to Visualize a Decision Tree in 4 Ways](https://mljar.com/blog/visualize-decision-tree/)  
 [40] <a id="ref-40"></a> [youtube.com: Visualizing XGBoost Models](https://www.youtube.com/watch?v=gKMNwS7na9A&t=0)  
 
+_Assisted by claude-3-opus on [perplexity.ai](https://perplexity.ai)_
+
 <!-- -------------------------------------------------------------- -->
 <!-- 
 sequence: renumber, accumulate, format

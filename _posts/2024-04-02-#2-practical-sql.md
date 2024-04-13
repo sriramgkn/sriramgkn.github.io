@@ -57,24 +57,20 @@ Let us start with MySQL.
 
 **Step 2: Examine the Dataset Structure**
 
-1. The dataset has 38 classes of plant diseases across 14 crop species.
-
-2. The directories are structured as `<crop>___<disease>`. For example, `Tomato___Bacterial_spot`.
-
-3. Inside each directory are the individual leaf images for that crop-disease combination.
+- The dataset has 38 classes of plant diseases across 14 crop species.
+- The directories are structured as `<crop>___<disease>`. For example, `Tomato___Bacterial_spot`.
+- Inside each directory are the individual leaf images for that crop-disease combination.
 
 **Step 3: Set up MySQL Database**
 
-1. Install the MySQL Server if not already done.
-
-2. Create a new database to store the plant disease data:
+1. Install the MySQL Server if not already done. Create a new database to store the plant disease data:
 
    ```sql
    CREATE DATABASE plant_diseases;
    USE plant_diseases;
    ```
 
-3. Create a table to store the image paths and labels:
+2. Create a table to store the image paths and labels:
 
    ```sql
    CREATE TABLE images (
@@ -87,9 +83,7 @@ Let us start with MySQL.
 
 **Step 4: Load the Dataset into MySQL**
 
-1. Write a Python script to traverse the unzipped dataset directories and insert the image paths and labels into the MySQL table.
-
-2. Use the `os` module to walk through the directories and the `mysql.connector` library to connect to MySQL and execute insert statements.
+1. Write a Python script to traverse the unzipped dataset directories and insert the image paths and labels into the MySQL table. Use the `os` module to walk through the directories and the `mysql.connector` library to connect to MySQL and execute insert statements.
 
    ```python
    import os
@@ -119,7 +113,7 @@ Let us start with MySQL.
     mydb.commit()
     ```
 
-3. Run this script to populate the `images` table with the dataset.
+2. Run this script to populate the `images` table with the dataset.
 
 **Step 5: Analyze the Data**
 
@@ -148,16 +142,14 @@ Let us now learn how to query using PostgreSQL. The dataset download and analysi
 
 **Step 1: Set up PostgreSQL Database**
 
-1. Install PostgreSQL if not already done.
-
-2. Create a new database to store the plant disease data:
+1. Install PostgreSQL if not already done. Create a new database to store the plant disease data:
 
    ```sql
    CREATE DATABASE plant_diseases;
    \c plant_diseases;
    ```
 
-3. Create a table to store the image paths and labels:
+2. Create a table to store the image paths and labels:
 
    ```sql
    CREATE TABLE images (
@@ -323,7 +315,6 @@ The main advantage of MySQL would be faster performance for simple read queries,
 [29] <a id="ref-29"></a> [kaggle.com: New Plant Diseases Dataset - Code](https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset/code)  
 [30] <a id="ref-30"></a> [github.com: Plant Diseases Training Notebook - Greenathon Plant AI](https://github.com/Rishit-dagli/Greenathon-Plant-AI/blob/main/notebooks/plant-diseases-training.ipynb)  
 [31] <a id="ref-31"></a> [toolbox.google.com: Diseases Datasets Search (Excluding Kaggle)](https://toolbox.google.com/datasetsearch/search?query=diseases+-site%3Akaggle.com)  
-
 
 _Assisted by claude-3-opus on [perplexity.ai](https://perplexity.ai)_
 
