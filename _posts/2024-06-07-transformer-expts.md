@@ -7,7 +7,7 @@ In this post, we collect our experiments with tranformer based models [[repo](ht
 
 ## DistilBERT
 
-Our first such experiment is with [DistilBERT](https://huggingface.co/docs/transformers/en/model_doc/distilbert) - a transformer based language model available on HuggingFace. DistilBERT is an efficient version of the larger [BERT](https://huggingface.co/docs/transformers/en/model_doc/bert) model.
+Our first experiment is with [DistilBERT](https://huggingface.co/docs/transformers/en/model_doc/distilbert) - a transformer based language model available on HuggingFace. DistilBERT is an efficient version of the larger [BERT](https://huggingface.co/docs/transformers/en/model_doc/bert) model.
 
 We start by installing the libraries recommended on HuggingFace's [quick tour](https://huggingface.co/docs/transformers/en/quicktour).
 
