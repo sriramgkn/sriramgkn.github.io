@@ -1,9 +1,13 @@
 ---
 layout: post
-title: Transformer experiments - DistilBERT
+title: Transformer experiments
 ---
 
-In this post, we will experiment with DistilBERT - a transformer based language model available on HuggingFace.
+In this post, we collect our experiments with tranformer based models [[repo](https://github.com/sriramgkn/transformer-expts)]
+
+## DistilBERT
+
+Our first such experiment is with [DistilBERT](https://huggingface.co/docs/transformers/en/model_doc/distilbert) - a transformer based language model available on HuggingFace. DistilBERT is an efficient version of the larger [BERT](https://huggingface.co/docs/transformers/en/model_doc/bert) model.
 
 We start by installing the libraries recommended on HuggingFace's [quick tour](https://huggingface.co/docs/transformers/en/quicktour).
 
@@ -17,7 +21,7 @@ We start by installing the libraries recommended on HuggingFace's [quick tour](h
 !pip install torch
 ```
 
-DistilBERT is an efficient version of the larger BERT model. Let us start by testing DistilBERT for masked language modeling (needs `DistilBertForMaskedLM`).
+Let us test DistilBERT for masked language modeling (needs `DistilBertForMaskedLM`).
 
 
 ```python
