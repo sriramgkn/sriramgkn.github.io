@@ -6,7 +6,20 @@ layout: default
   <h1>{{ page.title }}</h1>
 
   <div class="entry">
-    {{ content }}
+    {% if content contains '```' %}
+      {% assign content_blocks = content | split: '```' %}
+      {% for block in content_blocks %}
+        {% if block contains '\n' %}
+          {% assign lang = block | strip | slice: 0 %}
+          {% assign code = block | replace_first: lang, '' | strip %}
+          {% include code.html language=lang code=code %}
+        {% else %}
+          {{ block }}
+        {% endif %}
+      {% endfor %}
+    {% else %}
+      {{ content }}
+    {% endif %}
   </div>
 
   <div class="date">
