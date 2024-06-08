@@ -3,7 +3,7 @@ layout: post
 title: Exploring distributed training and inference - CUDA, DDP vs FSDP, ONNX, TensorRT, Triton
 ---
 
-In this post, we will explore: i) Distributed training on GPUs based on [torch.cuda](https://pytorch.org/docs/stable/cuda.html) and [torch.distributed](https://pytorch.org/docs/stable/distributed.html), ii) Model optimization based on [onnx](https://onnx.ai/get-started.html) and [torch_tensorrt](https://pytorch.org/TensorRT/tutorials/use_from_pytorch.html), and iii) Distributed inference with the [nvidia triton inference server](https://developer.nvidia.com/triton-inference-server)
+In this post, we will explore: i) Distributed training on GPUs based on [torch.cuda](https://pytorch.org/docs/stable/cuda.html) and [torch.distributed](https://pytorch.org/docs/stable/distributed.html), ii) Model optimization based on [onnx](https://onnx.ai/get-started.html) and [torch_tensorrt](https://pytorch.org/TensorRT/tutorials/use_from_pytorch.html), and iii) Distributed inference with the [nvidia triton inference server](https://developer.nvidia.com/triton-inference-server) [[repo](https://github.com/sriramgkn/blog-cuda-onnx-tensorrt-triton)]
 
 ## `torch.cuda` introduction
 

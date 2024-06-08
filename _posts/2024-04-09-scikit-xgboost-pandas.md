@@ -3,7 +3,7 @@ layout: post
 title: Exploring scikit-learn, XGBoost, and pandas
 ---
 
-In this post, we will explore [scikit-learn](https://scikit-learn.org/stable/), [XGBoost](https://xgboost.readthedocs.io/en/stable/), and [pandas](https://pandas.pydata.org/) - three traditional machine learning libraries in Python.
+In this post, we will explore [scikit-learn](https://scikit-learn.org/stable/), [XGBoost](https://xgboost.readthedocs.io/en/stable/), and [pandas](https://pandas.pydata.org/) - three traditional machine learning libraries in Python [[repo](https://github.com/sriramgkn/blog-scikit-xgboost-pandas)]
 
 scikit-learn, XGBoost, and pandas are three essential open-source libraries in the Python data science and machine learning ecosystem. scikit-learn provides a wide range of supervised and unsupervised learning algorithms, making it a go-to tool for many data scientists. XGBoost is an optimized gradient boosting library known for its speed and performance, often used to achieve state-of-the-art results on structured datasets. pandas is a powerful data manipulation library that provides easy-to-use data structures and analysis tools. Together, these libraries form a robust toolkit for data loading, preprocessing, modeling, and analysis.
 

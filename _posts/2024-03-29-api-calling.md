@@ -3,7 +3,7 @@ layout: post
 title: Understanding API calling
 ---
 
-In this post, we will see how APIs work. We will learn about two distinct architectural styles: REST and GraphQL. We will also see code examples of i) how REST APIs are implemented in Python using the Django REST Framework ([DRF]((https://www.django-rest-framework.org/))), and ii) how GraphQL APIs are implemented in Python with the [Graphene](https://graphene-python.org/) library.
+In this post, we will see how APIs work. We will learn about two distinct architectural styles: REST and GraphQL. We will also see code examples of i) how REST APIs are implemented in Python using the Django REST Framework ([DRF]((https://www.django-rest-framework.org/))), and ii) how GraphQL APIs are implemented in Python with the [Graphene](https://graphene-python.org/) library [[repo](https://github.com/sriramgkn/blog-api-calling)]
 
 ## What is an API?
 

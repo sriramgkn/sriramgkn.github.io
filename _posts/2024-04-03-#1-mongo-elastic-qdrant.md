@@ -3,7 +3,7 @@ layout: post
 title: Understanding non-relational and vector databases
 ---
 
-In this post, we will try to gain an intuitive understanding of [MongoDB](https://www.mongodb.com/), [Elasticsearch](https://www.elastic.co/), and [Qdrant](https://qdrant.tech/) with examples.
+In this post, we will try to gain an intuitive understanding of [MongoDB](https://www.mongodb.com/), [Elasticsearch](https://www.elastic.co/), and [Qdrant](https://qdrant.tech/) with examples [[repo](https://github.com/sriramgkn/blog-mongo-elastic-qdrant)]
 
 We will start with a technical overview of each database, then differentiate MongoDB and Elasticsearch technically. Finally, we will build an intuition around all three databases simultaneously with a librarian analogy.
 
