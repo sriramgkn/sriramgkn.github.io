@@ -3,9 +3,9 @@ layout: post
 title: Understanding backpropogation
 ---
 
-In this post, we will implement backpropogation using elementary arithmetic operations following [[1](#ref-1)]. [[colab](https://colab.research.google.com/drive/1go5G3Tx3mCh_jOqm5ES7YxIFDQ2Xwts2?usp=sharing)] [[repo](https://github.com/sriramgkn/micrograd-sri)]
+In this post, we will implement backpropogation using elementary arithmetic operations [[colab](https://colab.research.google.com/drive/1go5G3Tx3mCh_jOqm5ES7YxIFDQ2Xwts2?usp=sharing)] [[repo](https://github.com/sriramgkn/micrograd-sri)]
 
-We also recommend cloning the original micrograd repository by Andrej Karpathy [[2](#ref-2)]. The approach in micrograd is modeled after the dynamic computational graph of Pytorch [[3](#ref-3)], with the mindset of getting to a operationally minimal implementation of backpropogation. This post is not a guide on training neural networks or the numerous subtleties associated with training. It is meant to be short introduction to automatic differentiation.
+We also recommend cloning the original micrograd repository by Andrej Karpathy [[1](#ref-1)] [[2](#ref-2)]. The approach in micrograd is modeled after the dynamic computational graph of Pytorch [[3](#ref-3)], with the mindset of getting to a operationally minimal implementation of backpropogation. This post is not a guide on training neural networks or the numerous subtleties associated with training. It is meant to be short introduction to automatic differentiation.
 
 We start with a few basic imports:
 
@@ -323,8 +323,8 @@ a = Value(2.0)
 ---
 ## References
 
-[1] <a id="ref-1"></a> [Youtube: Lecture by Andrej Karpathy](https://www.youtube.com/watch?v=VMj-3S1tku0)  
-[2] <a id="ref-2"></a> [Github: Micrograd by Andrej Karpathy](https://github.com/karpathy/micrograd)  
+[1] <a id="ref-1"></a> [Github: Micrograd by Andrej Karpathy](https://github.com/karpathy/micrograd)  
+[2] <a id="ref-2"></a> [Youtube: Lecture by Andrej Karpathy](https://www.youtube.com/watch?v=VMj-3S1tku0)  
 [3] <a id="ref-3"></a> [GeeksforGeeks: Computational Graphs](https://www.geeksforgeeks.org/computational-graphs-in-deep-learning/)  
 
 
