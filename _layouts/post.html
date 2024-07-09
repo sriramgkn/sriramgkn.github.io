@@ -6,7 +6,8 @@ layout: default
   <h1>{{ page.title }}</h1>
 
   <div class="entry">
-    {% if content contains '```' %}
+    {{ content }}
+    <!-- {% if content contains '```' %}
       {% assign content_blocks = content | split: '```' %}
       {% for block in content_blocks %}
         {% if block contains '\n' %}
@@ -19,7 +20,7 @@ layout: default
       {% endfor %}
     {% else %}
       {{ content }}
-    {% endif %}
+    {% endif %} -->
   </div>
 
   <div class="date">
