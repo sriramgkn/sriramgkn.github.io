@@ -22,13 +22,13 @@ Links to: [resume](https://sriramgkn.github.io/docs/resume-sri-latest.pdf), [goo
 
 ## Other experience
 
-- Marginal thermal trajectory reconstruction as an initial value problem \[[pdf](https://sriramgkn.github.io/reports/Report_ram_revision1.pdf)\]
+- Marginal thermal trajectory reconstruction as an initial value problem \[[report](https://sriramgkn.github.io/reports/Report_ram_revision1.pdf)\]
 
 - Quantum algorithm for gibbs sampling (05-08-2021 @ IQC, virtual) \[[slides](https://sriramgkn.github.io/reports/Gibbs_pres.pdf)\]
 
 - The 2D Hidden Linear Function problem (17-12-2020 @ IQC, virtual) \[[slides](https://sriramgkn.github.io/reports/2D_HLF.pdf)\]
 
-- Vector 3D FEM for electromagnetic scattering: \[[documentation](https://sriramgkn.github.io/reports/FEM_3D_docum.pdf)\], \[[pdf](https://sriramgkn.github.io/reports/Sriram_thesis_final.pdf)\]
+- Vector 3D FEM for electromagnetic scattering: \[[documentation](https://sriramgkn.github.io/reports/FEM_3D_docum.pdf)\], \[[thesis](https://sriramgkn.github.io/reports/Sriram_thesis_final.pdf)\]
 
 - International economics (Spring 2020, IITM): east asian miracle \[[pdf](https://sriramgkn.github.io/reports/East_Asian_Miracle.pdf)\], exchange rates \[[pdf](https://sriramgkn.github.io/reports/International_Economics.pdf)\]
 
