@@ -28,7 +28,7 @@ Links to: [resume](https://sriramgkn.github.io/docs/resume-sri-latest.pdf), [goo
 
 - The 2D Hidden Linear Function problem (17-12-2020 @ IQC, virtual) \[[slides](https://sriramgkn.github.io/reports/2D_HLF.pdf)\]
 
-- Vector FEM for electromagnetic scattering \[[pdf](https://sriramgkn.github.io/reports/Sriram_thesis_final.pdf)\]
+- Vector 3D FEM for electromagnetic scattering: \[[documentation](https://sriramgkn.github.io/reports/FEM_3D_docum.pdf)\], \[[pdf](https://sriramgkn.github.io/reports/Sriram_thesis_final.pdf)\]
 
 - International economics (Spring 2020, IITM): east asian miracle \[[pdf](https://sriramgkn.github.io/reports/East_Asian_Miracle.pdf)\], exchange rates \[[pdf](https://sriramgkn.github.io/reports/International_Economics.pdf)\]
 
