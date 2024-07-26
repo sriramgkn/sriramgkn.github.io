@@ -6,7 +6,7 @@ permalink: /about/
 
 Hi, my name is Sriram. I recently completed my M.Sc. in Physics at [University of Waterloo](https://uwaterloo.ca) and [Perimeter Institute](https://perimeterinstitute.ca), and earlier completed my B.Tech. in Engineering Physics at [IIT Madras](https://www.iitm.ac.in).
 
-My education has given me a strong foundation in Fundamental Physics, Electromagnetics, and Numerical Methods in C++ and Python. In addition, I have upskilled in Generative AI with LLMs, CUDA for image processing, and blogged about Machine Learning, Distributed Computing, and Databases. I recommend visiting the [blog section](https://sriramgkn.github.io/) to look up these blogs.
+My education has given me a strong foundation in Fundamental Physics, Electromagnetics, and Numerical Methods in C++ and Python. In addition, I have upskilled in Generative AI with LLMs, CUDA for image processing, and blogged about Machine Learning, Distributed Computing, and Databases. I recommend visiting the [Blog](https://sriramgkn.github.io/) section to look up these posts.
 
 I am drawn towards a career at the intersection of Physics Simulation, AI, and Climate Action. Certain areas I am always open to good opportunities include (but are not limited to): Diffusion Modelling, Climate & Geospatial AI, Low Power AI SoCs, Quantum Devices, and Solar Cells.
 
