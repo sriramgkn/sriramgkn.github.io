@@ -11,12 +11,12 @@ Links to: [resume](https://sriramgkn.github.io/docs/resume-sri-latest.pdf), [goo
 
 ## Papers
 
-- **Ring-resonator-based coupling architecture for enhanced connectivity in a superconducting multiqubit network** \[[doi](https://journals.aps.org/prapplied/abstract/10.1103/PhysRevApplied.16.024018?ft=1)\] \[[pdf](https://sriramgkn.github.io/reports/#BDD_published.pdf)\]\\
+- **Ring-resonator-based coupling architecture for enhanced connectivity in a superconducting multiqubit network** \[[doi](https://journals.aps.org/prapplied/abstract/10.1103/PhysRevApplied.16.024018?ft=1)\] \[[pdf](https://sriramgkn.github.io/reports/a_BDD_published.pdf)\]\\
   Sumeru Hazra, Anirban Bhattacharjee, Madhavi Chand, Kishor Salunkhe, Sriram Gopalakrishnan, Meghan Patankar, R. Vijay\\
   *Physical Review Applied* (2021)\\
   Coverage: [Nature in-brief](https://www.nature.com/articles/s41578-021-00373-1)
 
-- **Landau quantization of a circular quantum dot using the BenDaniel-Duke boundary condition** \[[doi](https://doi.org/10.1016/j.spmi.2020.106693)\] \[[pdf](https://sriramgkn.github.io/reports/#SupQubits_published.pdf)\]\\
+- **Landau quantization of a circular quantum dot using the BenDaniel-Duke boundary condition** \[[doi](https://doi.org/10.1016/j.spmi.2020.106693)\] \[[pdf](https://sriramgkn.github.io/reports/a_SupQubits_published.pdf)\]\\
   Sriram Gopalakrishnan, Sayak Biswas, Shivam Handa\\
   *Superlattices and Microstructures* (2020)
 
