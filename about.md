@@ -40,7 +40,7 @@ Links to: [resume](https://sriramgkn.github.io/docs/resume-sri-latest.pdf), [goo
 
 - Circular bus architecture for superconducting qubits (27-06-2019 @ TIFR): \[[slides](https://sriramgkn.github.io/reports/VSRP_presentation_Sriram.pdf)\], \[[report](https://sriramgkn.github.io/reports/VSRP_report_Sriram.pdf)\]
 
-- Quantum capacity of channels with small environment (26-04-2019 @ IITM) \[[slides](https://sriramgkn.github.io/reports/Adv_QCQI_pres.pdf)\]
+- Quantum capacity of channels with small environment (26-04-2019 @ IITM): \[[slides](https://sriramgkn.github.io/reports/Adv_QCQI_pres.pdf)\]
 
 - Tent map (23-04-2019 @ IITM): \[[slides](https://sriramgkn.github.io/reports/Tent_map_pres.pdf)\], \[[report](https://sriramgkn.github.io/reports/Tent_map_report.pdf)\]
 
