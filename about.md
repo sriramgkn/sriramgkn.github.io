@@ -4,19 +4,19 @@ title: About
 permalink: /about/
 ---
 
-My name is Sriram. I recently completed an M.Sc. degree in Physics at [UWaterloo](https://uwaterloo.ca) and [Perimeter Institute](https://perimeterinstitute.ca), and earlier completed a B.Tech. degree in Engineering Physics at [IIT Madras](https://www.iitm.ac.in). Please visit the [blog section](https://sriramgkn.github.io/) of this website to learn more about my current explorations.
+Hi, my name is Sriram. I recently completed my M.Sc. in Physics at [UWaterloo](https://uwaterloo.ca) and [Perimeter Institute](https://perimeterinstitute.ca), and earlier completed my B.Tech. in Engineering Physics at [IIT Madras](https://www.iitm.ac.in). My education has given me a deep understanding of Physics, and I am broadly interested in fundamental and applied physics problems that are of a computational nature. In 2024, I am most proud of having upskilled in generative AI, used CUDA for image processing, and blogged about machine learning fundamentals among other topics. Do visit the [blog section](https://sriramgkn.github.io/) of this website to learn more about what I have been learning most recently.
 
 Contact: [sriramgk98@gmail.com](mailto:sriramgk98@gmail.com)\\
 Links to: [resume](https://sriramgkn.github.io/docs/resume-sri-latest.pdf), [google scholar](https://scholar.google.com/citations?user=d9-T--sAAAAJ&hl=en), [github](https://github.com/sriramgkn), [linkedin](https://www.linkedin.com/in/sriram-gkn)
 
 ## Papers
 
-- **Ring-resonator-based architecture for enhanced connectivity in a superconducting multiqubit network** \[[doi](https://journals.aps.org/prapplied/abstract/10.1103/PhysRevApplied.16.024018?ft=1)\] \[[pdf](https://sriramgkn.github.io/reports/a_BDD_published.pdf)\]\\
+- **Ring-resonator-based architecture for enhanced connectivity in a superconducting multiqubit network** \[[doi](https://journals.aps.org/prapplied/abstract/10.1103/PhysRevApplied.16.024018?ft=1)\] \[[pdf](https://sriramgkn.github.io/reports/a_SupQubits_published.pdf)\]\\
   Sumeru Hazra, Anirban Bhattacharjee, Madhavi Chand, Kishor Salunkhe, Sriram Gopalakrishnan, Meghan Patankar, R. Vijay\\
   *Physical Review Applied* (2021)\\
   Coverage: [Nature in-brief](https://www.nature.com/articles/s41578-021-00373-1)
 
-- **Landau quantization of a circular quantum dot using the BenDaniel-Duke boundary condition** \[[doi](https://doi.org/10.1016/j.spmi.2020.106693)\] \[[pdf](https://sriramgkn.github.io/reports/a_SupQubits_published.pdf)\]\\
+- **Landau quantization of a circular quantum dot using the BenDaniel-Duke boundary condition** \[[doi](https://doi.org/10.1016/j.spmi.2020.106693)\] \[[pdf](https://sriramgkn.github.io/reports/a_BDD_published.pdf)\]\\
   Sriram Gopalakrishnan, Sayak Biswas, Shivam Handa\\
   *Superlattices and Microstructures* (2020)
 
