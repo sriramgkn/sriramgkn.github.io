@@ -11,7 +11,7 @@ My education has given me a strong foundation in Fundamental Physics, Electromag
 I am drawn towards a career at the intersection of Physics Simulation, AI, and Climate Action. Certain areas I am always open to good opportunities include (but are not limited to): Diffusion Modelling, Climate & Geospatial AI, Low Power AI SoCs, Quantum Devices, and Solar Cells.
 
 Contact: [sriramgk98@gmail.com](mailto:sriramgk98@gmail.com)\\
-Links to: [resume](https://sriramgkn.github.io/docs/resume-sri-latest.pdf), [google scholar](https://scholar.google.com/citations?user=d9-T--sAAAAJ&hl=en), [github](https://github.com/sriramgkn), [linkedin](https://www.linkedin.com/in/sriram-gkn)
+Links: [Resume](https://sriramgkn.github.io/docs/resume-sri-latest.pdf) / [Google Scholar](https://scholar.google.com/citations?user=d9-T--sAAAAJ&hl=en) / [GitHub](https://github.com/sriramgkn) / [Linkedin](https://www.linkedin.com/in/sriram-gkn)
 
 ## Papers
 
