@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-My name is Sriram. I recently completed my M.Sc. in Physics at [University of Waterloo](https://uwaterloo.ca) and [Perimeter Institute](https://perimeterinstitute.ca), and earlier completed my B.Tech. in Engineering Physics at [IIT Madras](https://www.iitm.ac.in).
+Hi, my name is Sriram. I recently completed my M.Sc. in Physics at [University of Waterloo](https://uwaterloo.ca) and [Perimeter Institute](https://perimeterinstitute.ca), and earlier completed my B.Tech. in Engineering Physics at [IIT Madras](https://www.iitm.ac.in).
 
 My education has given me a strong foundation in Fundamental Physics, Electromagnetics, and Numerical Methods in C++ and Python. In addition, I have gotten certified in Generative AI with LLMs, gained experience with CUDA for Image Processing, and blogged about Machine Learning, Distributed Computing, and Databases. I recommend visiting the [Blog](https://sriramgkn.github.io/) section to look up these posts.
 
