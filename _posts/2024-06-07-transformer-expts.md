@@ -107,4 +107,4 @@ trainer.train()
 
 ```
 
-Unfortunately, with just 12.67 GB free RAM on Google Colab, the above training job crashes the moment it uses up all the available memory (about a minute or two). This means we cannot progress with the IMDB reviews sentiment classification task at the moment. We hope we can complete this task with better compute access in the future. Nevertheless, we got a decent first exposure to the HuggingFace ecosystem using the DistilBERT model for masked language modelling, and using its tokenizer to tokenize the IMDB movie reviews dataset.
+With just 12.67 GB free RAM on Google Colab, the above training job crashes the moment it uses up all the available memory (about a minute or two). This means we cannot progress with the IMDB reviews sentiment classification task at the moment. Perhaps we should find a smaller dataset to continue this post in the future. Nevertheless, we got a good first exposure to the HuggingFace ecosystem using the DistilBERT model for masked language modelling, and using its tokenizer to tokenize the IMDB movie reviews dataset. Until next time, have a wonderful day!
