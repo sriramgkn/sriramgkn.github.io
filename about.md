@@ -6,12 +6,12 @@ permalink: /about/
 
 Hello! My name is Sriram. I recently completed my M.Sc. in Physics at [University of Waterloo](https://uwaterloo.ca) and [Perimeter Institute](https://perimeterinstitute.ca), and earlier completed my B.Tech. in Engineering Physics at [IIT Madras](https://www.iitm.ac.in).
 
-I have a strong background in Computational Physics, Electromagnetics, and Numerical Methods in C++ and Python. In addition, I have gotten certified in Generative AI with LLMs, learnt and applied CUDA for Image Processing, and blogged about Machine Learning, Distributed Computing, and Databases. I recommend visiting the [blog](https://sriramgkn.github.io/) section to look up these posts.
+I have a strong background in Computational Physics, Electromagnetics, and Numerical Methods in C++ and Python. In addition, I have gotten certified in Generative AI with LLMs, learnt and applied CUDA for Image Processing, and blogged about Machine Learning, Distributed Computing, and Databases. I recommend visiting the [Blog](https://sriramgkn.github.io/) section to look up these posts.
 
 I am drawn towards a career at the intersection of Physics Simulation, AI, and Climate Action. Certain areas I am always open to good opportunities include (but are not limited to): Diffusion Modelling, Climate & Geospatial AI, Low Power AI SoCs, Quantum Devices, and Solar Cells.
 
 Contact: [sriramgk98@gmail.com](mailto:sriramgk98@gmail.com)\\
-Links: [resume](https://sriramgkn.github.io/docs/resume-sri-comp.pdf) / [google scholar](https://scholar.google.com/citations?user=d9-T--sAAAAJ&hl=en) / [github](https://github.com/sriramgkn) / [linkedin](https://www.linkedin.com/in/sriram-gkn)
+Links: [Resume](https://sriramgkn.github.io/docs/resume-sri-comp.pdf) / [Google Scholar](https://scholar.google.com/citations?user=d9-T--sAAAAJ&hl=en) / [GitHub](https://github.com/sriramgkn) / [LinkedIn](https://www.linkedin.com/in/sriram-gkn)
 
 ## Papers
 
