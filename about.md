@@ -9,7 +9,7 @@ Hello! My name is Sriram. I recently completed my M.Sc. in Physics at [Universit
 - Domain Expertise: Quantum Information, Computational Electromagnetics, Numerical Methods in Python and C++
 - Independent Learning: Generative AI with LLMs ([certified](https://www.coursera.org/account/accomplishments/verify/AXL8VEY5QLTJ)), CUDA for Image Processing ([github](https://github.com/sriramgkn/cuda-hands-on)), Transformer Architecture, Automatic Differentiation, AI pre-training, Vector Databases
 
-I recommend visiting the [Blog](https://sriramgkn.github.io/) section to learn more about skills I am interested in.
+I recommend visiting the [blog](https://sriramgkn.github.io/) section to learn more about skills I am interested in.
 
 I am drawn towards a career at the intersection of Physics Simulation, AI, and Climate Action. Certain areas I am always open to good opportunities include (but are not limited to): Diffusion Modelling, Climate & Geospatial AI, Low Power AI SoCs, Quantum Devices, and Solar Cells.
 
