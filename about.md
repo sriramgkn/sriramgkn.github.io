@@ -7,7 +7,7 @@ permalink: /about/
 Hello! My name is Sriram. I recently completed my M.Sc. in Physics at [University of Waterloo](https://uwaterloo.ca) and [Perimeter Institute](https://perimeterinstitute.ca), and earlier completed my B.Tech. in Engineering Physics at [IIT Madras](https://www.iitm.ac.in).
 
 - Domain Expertise: Quantum Information, Computational Electromagnetics, Numerical Methods in Python and C++
-- Independent Learning: Generative AI with LLMs ([certified](https://www.coursera.org/account/accomplishments/verify/AXL8VEY5QLTJ)], CUDA for Image Processing ([github](https://github.com/sriramgkn/cuda-hands-on)), Transformer Architecture, Automatic Differentiation, AI pre-training, Vector Databases
+- Independent Learning: Generative AI with LLMs ([certified](https://www.coursera.org/account/accomplishments/verify/AXL8VEY5QLTJ)), CUDA for Image Processing ([github](https://github.com/sriramgkn/cuda-hands-on)), Transformer Architecture, Automatic Differentiation, AI pre-training, Vector Databases
 
 I recommend visiting the [Blog](https://sriramgkn.github.io/) section to learn more about skills I am interested in.
 
