@@ -11,7 +11,7 @@ Hello! My name is Sriram. I recently completed my M.Sc. in Physics at [Universit
 
 I recommend visiting the [blog](https://sriramgkn.github.io/) section to learn more about skills I am interested in.
 
-I am drawn towards a career at the intersection of Physics Simulation, AI, and Climate Action. Certain areas I am always open to good opportunities include (but are not limited to): Diffusion Modelling, Climate & Geospatial AI, Low Power AI SoCs, Quantum Devices, and Solar Cells.
+I am drawn towards a career at the intersection of Physics Simulation, AI, and Climate Action. Some areas I am open to good opportunities include (but are not limited to): Diffusion Modelling, Climate & Geospatial AI, Low Power AI SoCs, Quantum Devices, and Solar Cells.
 
 Contact: [sriramgk98@gmail.com](mailto:sriramgk98@gmail.com)\\
 Links: [resume](https://sriramgkn.github.io/docs/resume-sri-comp.pdf) / [google scholar](https://scholar.google.com/citations?user=d9-T--sAAAAJ&hl=en) / [github](https://github.com/sriramgkn) / [linkedin](https://www.linkedin.com/in/sriram-gkn)
