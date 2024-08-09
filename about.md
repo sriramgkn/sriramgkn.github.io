@@ -9,7 +9,7 @@ Hello! My name is Sriram. I recently received an M.Sc. in Physics from the [Univ
 - Domain Expertise: Quantum Information, Computational Electromagnetics, Computational Physics, Numerical Methods in Python and C++
 - Independent Learning: Generative AI with LLMs [[certified](https://www.coursera.org/account/accomplishments/verify/AXL8VEY5QLTJ)], CUDA for Image Processing [[github](https://github.com/sriramgkn/cuda-hands-on)], Transformer Architecture, Automatic Differentiation, AI pre-training, Vector Databases
 
-Advanced coursework I consider significant: Theory of Quantum Information [[Prof. John Watrous](https://johnwatrous.com/)], Quantum Algorithms [[Prof. David Gosset](https://uwaterloo.ca/institute-for-quantum-computing/profiles/david-gosset)], Computational Physics [[Prof. Alexandros Gezerlis](https://www.physics.uoguelph.ca/people/alexandros-gezerlis)], Computational Electromagnetics [[Prof. Uday Khankhoje](https://www.ee.iitm.ac.in/uday/uday.html)], Convex Optimization [[Prof. Krishna Jagannathan](https://www.ee.iitm.ac.in/~krishnaj/)], Dynamical Systems [[Prof. Arul Lakshminarayanan](https://physics.iitm.ac.in/~arul/research.html)], and Stochastic Processes [[Prof. Manoj Gopalakrishnan](https://physics.iitm.ac.in/faculty-inner.php?fuid=52)]
+Advanced coursework I consider significant: Theory of Quantum Information by [Prof. John Watrous](https://johnwatrous.com/), Quantum Algorithms by [Prof. David Gosset](https://uwaterloo.ca/institute-for-quantum-computing/profiles/david-gosset), Computational Physics by [Prof. Alexandros Gezerlis](https://www.physics.uoguelph.ca/people/alexandros-gezerlis), Computational Electromagnetics by [Prof. Uday Khankhoje](https://www.ee.iitm.ac.in/uday/uday.html), Convex Optimization by [Prof. Krishna Jagannathan](https://www.ee.iitm.ac.in/~krishnaj/), Dynamical Systems by [Prof. Arul Lakshminarayan](https://physics.iitm.ac.in/~arul/research.html), and Stochastic Processes by [Prof. Manoj Gopalakrishnan](https://physics.iitm.ac.in/faculty-inner.php?fuid=52)
 
 I recommend visiting the [blog section](https://sriramgkn.github.io/) to learn more about software skills I am interested in. I am drawn towards a career at the intersection of Physics Simulation, AI, and Climate Action. Some areas I am open to good opportunities include (but are not limited to): Diffusion Modelling, Climate & Geospatial AI, Low Power AI SoCs, Quantum Devices, and Solar Cells.
 
@@ -31,13 +31,13 @@ Links: [resume](https://sriramgkn.github.io/docs/resume-sri-comp.pdf) / [google 
 
 - Marginal thermal trajectory reconstruction as an initial value problem: \[[report](https://sriramgkn.github.io/reports/Report_ram_revision1.pdf)\]
 
-- Quantum algorithm for gibbs sampling (05-08-2021 @ IQC, virtual): \[[slides](https://sriramgkn.github.io/reports/Gibbs_pres.pdf)\], \[[report](https://sriramgkn.github.io/reports/Gibbs_report.pdf)\]
+- Quantum algorithm for gibbs sampling (05-08-2021 @ IQC, virtual): \[[slides](https://sriramgkn.github.io/reports/Gibbs_pres.pdf)\] \[[report](https://sriramgkn.github.io/reports/Gibbs_report.pdf)\]
 
 - The 2D Hidden Linear Function problem (17-12-2020 @ IQC, virtual): \[[slides](https://sriramgkn.github.io/reports/2D_HLF.pdf)\]
 
-- Vector 3D FEM for electromagnetic scattering: \[[documentation](https://sriramgkn.github.io/reports/FEM_3D_docum.pdf)\], \[[thesis](https://sriramgkn.github.io/reports/Sriram_thesis_final.pdf)\]
+- Vector 3D FEM for electromagnetic scattering: \[[documentation](https://sriramgkn.github.io/reports/FEM_3D_docum.pdf)\] \[[thesis](https://sriramgkn.github.io/reports/Sriram_thesis_final.pdf)\]
 
-- International economics (Spring 2020, IITM): \[[report-1](https://sriramgkn.github.io/reports/East_Asian_Miracle.pdf)\], \[[report-2](https://sriramgkn.github.io/reports/International_Economics.pdf)\]
+- International economics (Spring 2020, IITM): \[[report](https://sriramgkn.github.io/reports/East_Asian_Miracle.pdf)\]
 
 - Postulates of Quantum Mechanics (20-08-2020 @ [NEMO](http://www.ee.iitm.ac.in/~uday/nemo.html)): \[[slides](https://sriramgkn.github.io/reports/Quantum_primer.pdf)\]
 
@@ -45,7 +45,7 @@ Links: [resume](https://sriramgkn.github.io/docs/resume-sri-comp.pdf) / [google 
 
 - Imaging RADAR and ground ice on Ceres (Fall 2019 @ NEMO): \[[slides](https://sriramgkn.github.io/reports/Ceres.pdf)\]
 
-- Circular bus architecture for superconducting qubits (27-06-2019 @ TIFR): \[[slides](https://sriramgkn.github.io/reports/VSRP_presentation_Sriram.pdf)\], \[[report](https://sriramgkn.github.io/reports/VSRP_report_Sriram.pdf)\]
+- Circular bus architecture for superconducting qubits (27-06-2019 @ TIFR): \[[slides](https://sriramgkn.github.io/reports/VSRP_presentation_Sriram.pdf)\] \[[report](https://sriramgkn.github.io/reports/VSRP_report_Sriram.pdf)\]
 
 - Quantum capacity of channels with small environment (26-04-2019 @ IITM): \[[slides](https://sriramgkn.github.io/reports/Adv_QCQI_pres.pdf)\]
 
