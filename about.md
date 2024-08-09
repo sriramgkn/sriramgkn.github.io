@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Hello! My name is Sriram. I recently completed my M.Sc. in Physics at [University of Waterloo](https://uwaterloo.ca) and [Perimeter Institute](https://perimeterinstitute.ca), and earlier completed my B.Tech. in Engineering Physics at [IIT Madras](https://www.iitm.ac.in).
+Hello! My name is Sriram. I completed my M.Sc. in Physics at the [University of Waterloo](https://uwaterloo.ca) and [Perimeter Institute](https://perimeterinstitute.ca), and earlier completed my B.Tech. in Engineering Physics at [IIT Madras](https://www.iitm.ac.in). Over the course of my academic journey, I am fortunate to have been advised by [Dr. Beni Yoshida](https://scholar.google.com/citations?user=28X-dmgAAAAJ), [Dr. Matteo Mariantoni](https://scholar.google.com/citations?user=b01aKZcAAAAJ), [Dr. Uday Khankhoje](https://www.ee.iitm.ac.in/uday/uday.html), [Dr. R Vijay](https://www.tifr.res.in/~quantro/people.html), and [Dr. Praveen Pathak](https://www.hbcse.tifr.res.in/people/scientific/praveen-p-pathak).
 
 - Domain Expertise: Quantum Information, Computational Electromagnetics, Numerical Methods in Python and C++
 - Independent Learning: Generative AI with LLMs ([certified](https://www.coursera.org/account/accomplishments/verify/AXL8VEY5QLTJ)), CUDA for Image Processing ([github](https://github.com/sriramgkn/cuda-hands-on)), Transformer Architecture, Automatic Differentiation, AI pre-training, Vector Databases
 
-I recommend visiting the [blog](https://sriramgkn.github.io/) section to learn more about skills I am interested in.
+I recommend visiting the [blog section](https://sriramgkn.github.io/) to learn more about software skills I am interested in. At UWaterloo, I consider myse
 
 I am drawn towards a career at the intersection of Physics Simulation, AI, and Climate Action. Some areas I am open to good opportunities include (but are not limited to): Diffusion Modelling, Climate & Geospatial AI, Low Power AI SoCs, Quantum Devices, and Solar Cells.
 
