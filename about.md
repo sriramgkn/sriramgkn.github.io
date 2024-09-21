@@ -13,7 +13,7 @@ Advanced coursework I consider significant: Theory of Quantum Information by [Pr
 
 I recommend visiting the [blog section](https://sriramgkn.github.io/) to learn more about software skills I am interested in. I am drawn towards a career at the intersection of Physics Simulation, Multimodal AI, and Climate Action. Some areas I am open to good opportunities include (but are not limited to): Diffusion Modelling, Climate & Geospatial AI, Low Power AI SoCs, Quantum Devices, and Solar Cells.
 
-Contact: [sriramgk98@gmail.com](mailto:sriramgk98@gmail.com)\\
+Contact: [lime.36028@gmail.com](mailto:lime.36028@gmail.com)\\
 Links: [resume](https://sriramgkn.github.io/docs/resume-sri-comp.pdf) / [google scholar](https://scholar.google.com/citations?user=d9-T--sAAAAJ&hl=en) / [github](https://github.com/sriramgkn) / [linkedin](https://www.linkedin.com/in/sriram-gkn)
 
 ## Papers
