@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hello! My name is Sriram. I recently received an M.Sc. in Physics from the [University of Waterloo](https://uwaterloo.ca) and [Perimeter Institute](https://perimeterinstitute.ca), and earlier received a B.Tech. in Engineering Physics from [IIT Madras](https://www.iitm.ac.in). Over the course of my academic journey, I have been fortunate to be advised by: [Dr. Beni Yoshida](https://scholar.google.com/citations?user=28X-dmgAAAAJ), [Dr. Matteo Mariantoni](https://scholar.google.com/citations?user=b01aKZcAAAAJ), [Dr. Uday Khankhoje](https://www.ee.iitm.ac.in/uday/uday.html), [Dr. R Vijay](https://www.tifr.res.in/~quantro/people.html), and [Dr. Praveen Pathak](https://www.hbcse.tifr.res.in/people/scientific/praveen-p-pathak)
+Hello! My name is Sriram. I work as a reactor physicist at [Candu Energy Inc (AtkinsRealis Nuclear)](https://en.wikipedia.org/wiki/Candu_Energy) with 1+ year experience developing supercell neutron transport models and full-core neutron diffusion simulations. Earlier, I received an M.Sc. in Physics from [University of Waterloo](https://uwaterloo.ca) and [Perimeter Institute](https://perimeterinstitute.ca), and even earlier received a B.Tech. in Engineering Physics from [IIT Madras](https://www.iitm.ac.in). Over the course of my academic journey, I have been fortunate to be advised by: [Dr. Beni Yoshida](https://scholar.google.com/citations?user=28X-dmgAAAAJ), [Dr. Matteo Mariantoni](https://scholar.google.com/citations?user=b01aKZcAAAAJ), [Dr. Uday Khankhoje](https://www.ee.iitm.ac.in/uday/uday.html), [Dr. R Vijay](https://www.tifr.res.in/~quantro/people.html), and [Dr. Praveen Pathak](https://www.hbcse.tifr.res.in/people/scientific/praveen-p-pathak)
 
 - Domain Expertise: Quantum Information, Computational Electromagnetics, Computational Physics, Numerical Methods in Python and C++
 - Independent Learning: Generative AI with LLMs, CUDA for Image Processing, Transformer Architecture, Automatic Differentiation, LLM Pre-Training, Vector Databases
@@ -13,8 +13,8 @@ Advanced coursework I consider significant: Theory of Quantum Information by [Pr
 
 I recommend visiting the [blog section](https://sriramgkn.github.io/) to learn more about software skills I am interested in. I am drawn towards a career at the intersection of Physics Simulation, Multimodal AI, and Climate Action. Some areas I am open to good opportunities include (but are not limited to): Diffusion Modelling, Climate & Geospatial AI, Low Power AI SoCs, Quantum Devices, and Solar Cells.
 
-Contact: [lime.36028@gmail.com](mailto:lime.36028@gmail.com)\\
-Links: [resume](https://sriramgkn.github.io/docs/resume-sri-comp.pdf) / [google scholar](https://scholar.google.com/citations?user=d9-T--sAAAAJ&hl=en) / [github](https://github.com/sriramgkn) / [linkedin](https://www.linkedin.com/in/sriram-gkn)
+Contact: [lime.36028@gmail.com](mailto:lime.36028@gmail.com) (alias for security)\\
+Links: [resume](https://sriramgkn.github.io/docs/resume_sri.pdf) / [google scholar](https://scholar.google.com/citations?user=d9-T--sAAAAJ&hl=en) / [github](https://github.com/sriramgkn) / [linkedin](https://www.linkedin.com/in/sriram-gkn)
 
 ## Papers
 
